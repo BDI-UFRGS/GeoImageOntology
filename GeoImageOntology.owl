@@ -57,6 +57,9 @@
         <Class IRI="#UFRGS:GeoImage_geothermal_gradient_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_imaging_log"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_isopach_map"/>
     </Declaration>
     <Declaration>
@@ -162,6 +165,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geothermal_gradient_map"/>
         <Class IRI="#UFRGS:GeoImage_contour_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_imaging_log"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000101"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isopach_map"/>
@@ -319,6 +326,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geothermal_gradient_map</IRI>
         <Literal xml:lang="en">geothermal gradient map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
+        <Literal xml:lang="en">a continuous image taken along of a wellbore using resisitvity,  ultrasonic or other physical record</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
+        <Literal xml:lang="en">Hyne, N.J. Nontechnical guide to petroleum geology, exploration, drilling and production (2nd edition).  PennWell, 2001.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
+        <Literal xml:lang="en">imaging log</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
