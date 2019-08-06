@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/iao/dev/iao-edit.owl</Import>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_Photomicrohraph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_cartogram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_compositional_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_facies_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_flow_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_geological_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_geothermal_gradient_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_isopach_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_lithofacies_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_reference_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_structural_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_ternary_diagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_Photomicrohraph"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
+        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_cartogram"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_compositional_map"/>
+        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_facies_map"/>
+        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_flow_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_geological_map"/>
+        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_geothermal_gradient_map"/>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_isopach_map"/>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_lithofacies_map"/>
+        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_map"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000308"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
+        <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000308"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_reference_map"/>
+        <Class IRI="#UFRGS:GeoImage_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_structural_map"/>
+        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_ternary_diagram"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+        <Class IRI="#UFRGS:GeoImage_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:GeoImage_Photomicrohraph"/>
+        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_Photomicrohraph</IRI>
+        <Literal xml:lang="en">A digital image taken through a microscope or similar device to show a magnified image of an object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_Photomicrohraph</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Micrograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_Photomicrohraph</IRI>
+        <Literal xml:lang="pt">microfotografia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_Photomicrohraph</IRI>
+        <Literal xml:lang="en">photomicrograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_map</IRI>
+        <Literal xml:lang="en">map is a symbolic depiction emphasizing relationships between elements of some space, such as objects, regions, or themes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_map</IRI>
+        <Literal xml:lang="en">map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_map</IRI>
+        <Literal xml:lang="pt">mapa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_satellite_image</IRI>
+        <Literal xml:lang="en">sattelite image</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_ternary_diagram</IRI>
+        <Literal xml:lang="en">ternary diagram</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
