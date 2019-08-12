@@ -471,6 +471,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_cross_section</IRI>
+        <Literal xml:lang="pt">seção transversal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
         <Literal xml:lang="en">dasymetric map</Literal>
     </AnnotationAssertion>
@@ -506,6 +511,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
+        <Literal xml:lang="pt">seção geológica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geological_map</IRI>
         <Literal xml:lang="en">geological map</Literal>
     </AnnotationAssertion>
@@ -516,6 +526,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geophysical_cross_section</IRI>
+        <Literal xml:lang="pt">seção geofísica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geothermal_gradient_map</IRI>
         <Literal xml:lang="en">geothermal gradient map</Literal>
     </AnnotationAssertion>
@@ -523,6 +538,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_gravimetric_cross_section</IRI>
         <Literal xml:lang="en">gravimetric cross section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_gravimetric_cross_section</IRI>
+        <Literal xml:lang="pt">seção gravimétrica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -556,8 +576,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_lithological_cross_section</IRI>
+        <Literal xml:lang="pt">seção litológica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
         <Literal xml:lang="en">lithostratigraphic cross section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
+        <Literal xml:lang="pt">seção litoestratigráfica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -661,6 +691,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_seismic_section</IRI>
+        <Literal xml:lang="pt">seção sísmica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
         <Literal xml:lang="en">sonic profile</Literal>
     </AnnotationAssertion>
@@ -668,6 +703,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
         <Literal xml:lang="en">spontaneous potential profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
+        <Literal xml:lang="pt">seção estratigráfica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
