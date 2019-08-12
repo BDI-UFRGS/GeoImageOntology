@@ -446,6 +446,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_caliper_profile</IRI>
+        <Literal xml:lang="pt">perfil caliper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_cartogram</IRI>
         <Literal xml:lang="en">cartogram</Literal>
     </AnnotationAssertion>
@@ -486,6 +491,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_density_profile</IRI>
+        <Literal xml:lang="pt">perfil de densidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
         <Literal xml:lang="en">dot distribution map</Literal>
     </AnnotationAssertion>
@@ -503,6 +513,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
         <Literal xml:lang="en">gamma ray profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
+        <Literal xml:lang="pt">perfil de raio gama</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -621,6 +636,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
+        <Literal xml:lang="pt">perfil neutron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_outcrop_photograph</IRI>
         <Literal xml:lang="pt">foto de afloramento</Literal>
     </AnnotationAssertion>
@@ -637,6 +657,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_profile</IRI>
+        <Literal xml:lang="pt">perfil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_profile</IRI>
         <Literal xml:lang="en">profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -647,7 +672,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
+        <Literal xml:lang="pt">perfil qualitativo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
         <Literal xml:lang="en">qualitative profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_quantitative_profile</IRI>
+        <Literal xml:lang="pt">perfil quantitativo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -658,6 +693,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_reference_map</IRI>
         <Literal xml:lang="en">reference map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_resistivity_profile</IRI>
+        <Literal xml:lang="pt">perfil de resistividade</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -682,6 +722,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_seismic_profile</IRI>
+        <Literal xml:lang="pt">perfil sísmico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_seismic_profile</IRI>
         <Literal xml:lang="en">seismic profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -697,7 +742,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
+        <Literal xml:lang="pt">perfil sônico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
         <Literal xml:lang="en">sonic profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
+        <Literal xml:lang="pt">perfil de potencial espotâneo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -713,6 +768,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
         <Literal xml:lang="en">stratigraphic cross section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
+        <Literal xml:lang="pt">perfil estratigráfico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -737,6 +797,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
+        <Literal xml:lang="pt">perfil topográfico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
         <Literal xml:lang="en">topographic profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -748,6 +813,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_well_core_photograph</IRI>
         <Literal xml:lang="en">well core photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
+        <Literal xml:lang="pt">log de poço</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
