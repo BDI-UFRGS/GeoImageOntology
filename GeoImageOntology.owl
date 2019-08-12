@@ -50,6 +50,9 @@
         <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_cartogram"/>
     </Declaration>
     <Declaration>
@@ -68,6 +71,9 @@
         <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_density_profile"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
     </Declaration>
     <Declaration>
@@ -75,6 +81,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_flow_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
@@ -110,6 +119,9 @@
         <Class IRI="#UFRGS:GeoImage_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_neutron_profile"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_point_location_map"/>
     </Declaration>
     <Declaration>
@@ -128,6 +140,9 @@
         <Class IRI="#UFRGS:GeoImage_reference_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
     </Declaration>
     <Declaration>
@@ -135,6 +150,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_seismic_section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_sonic_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
@@ -178,6 +199,10 @@
         <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_cartogram"/>
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
@@ -202,6 +227,10 @@
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_density_profile"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
@@ -212,6 +241,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_flow_map"/>
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
@@ -258,6 +291,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000308"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_neutron_profile"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_point_location_map"/>
         <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
     </SubClassOf>
@@ -282,6 +319,10 @@
         <Class IRI="#UFRGS:GeoImage_map"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
     </SubClassOf>
@@ -292,6 +333,14 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_seismic_section"/>
         <Class IRI="#UFRGS:GeoImage_cross_section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_sonic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
@@ -367,6 +416,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_caliper_profile</IRI>
+        <Literal xml:lang="en">caliper profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_cartogram</IRI>
         <Literal xml:lang="en">cartogram</Literal>
     </AnnotationAssertion>
@@ -397,6 +451,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_density_profile</IRI>
+        <Literal xml:lang="en">density profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
         <Literal xml:lang="en">dot distribution map</Literal>
     </AnnotationAssertion>
@@ -409,6 +468,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_flow_map</IRI>
         <Literal xml:lang="en">flow map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
+        <Literal xml:lang="en">gamma ray profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -487,6 +551,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
+        <Literal xml:lang="en">neutron profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_point_location_map</IRI>
         <Literal xml:lang="en">point location map</Literal>
     </AnnotationAssertion>
@@ -516,6 +585,11 @@
         <Literal xml:lang="en">reference map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_resistivity_profile</IRI>
+        <Literal xml:lang="en">resistivity profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_satellite_image</IRI>
         <Literal xml:lang="en">An image of the Earth or other planets collected by an imaging satellite.</Literal>
@@ -539,6 +613,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_seismic_section</IRI>
         <Literal xml:lang="en">seismic section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
+        <Literal xml:lang="en">sonic profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
+        <Literal xml:lang="en">spontaneous potential profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
