@@ -161,6 +161,9 @@
         <Class IRI="#UFRGS:GeoImage_seismic_section"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_sem_image"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_sketch"/>
     </Declaration>
     <Declaration>
@@ -360,6 +363,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_seismic_section"/>
         <Class IRI="#UFRGS:GeoImage_cross_section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_sem_image"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_sketch"/>
@@ -859,6 +866,26 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_seismic_section</IRI>
         <Literal xml:lang="pt">seção sísmica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_sem_image</IRI>
+        <Literal xml:lang="en">An image made by a SEM (scanning electron microscope). A SEM is a type of electron microscope that produces images of a sample by scanning the surface with a focused beam of electrons.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_sem_image</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Scanning_electron_microscope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_sem_image</IRI>
+        <Literal xml:lang="pt">imagem de mev</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_sem_image</IRI>
+        <Literal xml:lang="en">sem image</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
