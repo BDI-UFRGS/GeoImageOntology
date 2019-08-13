@@ -417,6 +417,11 @@
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#UFRGS:GeoImage_Photomicrohraph"/>
+        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
+        <Class IRI="#UFRGS:GeoImage_sem_image"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
     </DisjointClasses>
