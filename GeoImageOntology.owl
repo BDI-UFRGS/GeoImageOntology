@@ -38,7 +38,7 @@
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_Photomicroghraph"/>
+        <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
@@ -201,7 +201,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_Photomicroghraph"/>
+        <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
     </SubClassOf>
     <SubClassOf>
@@ -413,11 +413,11 @@
         <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="#UFRGS:GeoImage_Photomicroghraph"/>
+        <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#UFRGS:GeoImage_Photomicroghraph"/>
+        <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
         <Class IRI="#UFRGS:GeoImage_sem_image"/>
     </DisjointClasses>
@@ -432,22 +432,22 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_Photomicroghraph</IRI>
+        <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
         <Literal xml:lang="en">A digital image taken through a microscope or similar device to show a magnified image of an object.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_Photomicroghraph</IRI>
+        <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
         <Literal xml:lang="en">https://en.wikipedia.org/wiki/Micrograph</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_Photomicroghraph</IRI>
+        <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
         <Literal xml:lang="pt">microfotografia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_Photomicroghraph</IRI>
+        <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
         <Literal xml:lang="en">photomicrograph</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
