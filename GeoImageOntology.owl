@@ -508,6 +508,16 @@
         <Literal xml:lang="pt">cartograma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
+        <Literal xml:lang="en">A thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Choropleth_map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
         <Literal xml:lang="en">choropleth map</Literal>
@@ -753,6 +763,11 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_named_photograph</IRI>
         <Literal xml:lang="en">A photograph that is specifically named after the object which it is about.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_named_photograph</IRI>
+        <Literal xml:lang="pt">fotografia nomeada</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
