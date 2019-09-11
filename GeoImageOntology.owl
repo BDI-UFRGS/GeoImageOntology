@@ -628,6 +628,21 @@
         <Literal xml:lang="pt">perfil de densidade</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
+        <Literal xml:lang="en">A map that uses a dot symbol to show the presence of a feature or a phenomenon. Dot maps rely on a visual scatter to show spatial pattern.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
+        <Literal xml:lang="pt">Um mapa que usa um símbolo de ponto para mostrar a presença de um elemento ou fenômeno. Os mapas de pontos contam com uma dispersão visual para mostrar o padrão espacial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Dot_distribution_map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
         <Literal xml:lang="en">dot distribution map</Literal>
