@@ -845,6 +845,26 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_proportional_symbol_map</IRI>
+        <Literal xml:lang="en">A map that uses symbols of different heights, lengths, areas, or volumes to represent data associated with different areas or locations within the map.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_proportional_symbol_map</IRI>
+        <Literal xml:lang="pt">Um mapa que usa símbolos de diferentes alturas, comprimentos, áreas ou volumes para representar dados associados a diferentes áreas ou locais dentro do mapa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_proportional_symbol_map</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_proportional_symbol_map</IRI>
+        <Literal xml:lang="pt">mapa de símbolo proporcional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_proportional_symbol_map</IRI>
         <Literal xml:lang="en">proportional symbol map</Literal>
