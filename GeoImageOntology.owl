@@ -478,6 +478,21 @@
         <Literal xml:lang="pt">mapa batimétrico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_bouguer_anomaly_map</IRI>
+        <Literal xml:lang="en">Map that shows a measure of gravity that is correct for topography (elevation) and latitude, but not for isostasis (subsurface rock density).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_bouguer_anomaly_map</IRI>
+        <Literal xml:lang="pt">Mapa que mostra uma medida de gravidade que é correta para a topografia(elevação) e latitude, mas não para a isostasia (densidade de rochas subsuperficiais).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_bouguer_anomaly_map</IRI>
+        <Literal xml:lang="en">Dictionary of Petroleum Exploration, Drilling, &amp; Production, Norman J. Hyne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_bouguer_anomaly_map</IRI>
         <Literal xml:lang="en">bourguer anomaly map</Literal>
