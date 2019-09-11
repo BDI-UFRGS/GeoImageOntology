@@ -538,6 +538,21 @@
         <Literal xml:lang="pt">mapa composicional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_contour_map</IRI>
+        <Literal xml:lang="en">A map that depicts continuous phenomena. Each line-bounded area on this type of map represents a region with the same value.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_contour_map</IRI>
+        <Literal xml:lang="pt">Um mapa que descreve fenômenos contínuos. Cada área delimitada por linhas neste tipo de mapa representa uma região com o mesmo valor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_contour_map</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_contour_map</IRI>
         <Literal xml:lang="en">contour map</Literal>
