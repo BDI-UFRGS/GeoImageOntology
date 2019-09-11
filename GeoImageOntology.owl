@@ -675,6 +675,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="pt">mapa de fácies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_flow_map</IRI>
+        <Literal xml:lang="en">A map that uses lines or arrows to portray movement between two or more destinations. These lines or arrows can also represent quantities of things being transferred between locations. This can be done via use of proportional symbols.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_flow_map</IRI>
+        <Literal xml:lang="pt">Um mapa que usa linhas ou setas para retratar o movimento entre dois ou mais destinos. Essas linhas ou setas também podem representar quantidades de coisas sendo transferidas entre locais. Isso pode ser feito através do uso de símbolos proporcionais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_flow_map</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_flow_map</IRI>
         <Literal xml:lang="en">flow map</Literal>
