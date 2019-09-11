@@ -528,6 +528,11 @@
         <Literal xml:lang="en">A thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
+        <Literal xml:lang="pt">Um mapa temático no qual as áreas são sombreadas ou padronizadas na proporção da medida da variável estatística exibida no mapa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
         <Literal xml:lang="en">https://en.wikipedia.org/wiki/Choropleth_map</Literal>
