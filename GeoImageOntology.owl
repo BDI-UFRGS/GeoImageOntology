@@ -765,6 +765,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="pt">mapa de fluxo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
+        <Literal xml:lang="en">A measurement of the natural radioactivity of the rocks through which the drill hole passes.  The record is expressed in API units</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
+        <Literal xml:lang="pt">Uma medida da radioatividade natural das rochas através das quais o furo passa. O registro é expresso em unidades de API</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
+        <Literal xml:lang="pt">Dictionary of Earth Sciences, Michael Allaby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
         <Literal xml:lang="en">gamma ray profile</Literal>
