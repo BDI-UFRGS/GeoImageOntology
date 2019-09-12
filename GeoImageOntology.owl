@@ -790,6 +790,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="pt">perfil de raio gama</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
+        <Literal xml:lang="en">An interpretation of a vertical section through the Earth’s surface, for which evidence was obtained by geologic and geophysical techniques or from a geologic map.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
+        <Literal xml:lang="en">Uma interpretação de uma seção vertical através da superfície da Terra, para o qual foram obtidas evidências por técnicas geológicas e geofísicas ou a partir de um mapa geológico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
+        <Literal xml:lang="en">Dictionary of Earth Science, Michael Allaby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
         <Literal xml:lang="en">geological cross section</Literal>
@@ -842,7 +857,7 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_imaging_log</IRI>
-        <Literal xml:lang="en">a continuous image taken along of a wellbore using resisitvity,  ultrasonic or other physical record</Literal>
+        <Literal xml:lang="en">A continuous image taken along of a wellbore using resisitvity,  ultrasonic or other physical record.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
