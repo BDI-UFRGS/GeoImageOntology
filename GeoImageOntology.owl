@@ -1210,6 +1210,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">sketch</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
+        <Literal xml:lang="en">A record of the single travel time a sound wave takes to pass through the sidewall of a borehole from a sonde source to a receiver, when these are a constant distance apart and on the same down-hole tool. As the tool is drawn up the borehole to the surface a record of the variations in travel time is plotted as a function of down-hole depth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
+        <Literal xml:lang="pt">Um registro do tempo de viagem que uma onda sonora leva para passar através da parede lateral de um poço de uma fonte para um receptor, quando estes estão a uma distância constante e na mesma ferramenta de fundo de poço. À medida que a ferramenta é puxada pelo poço para a superfície, um registro das variações no tempo de viagem é plotado em função da profundidade do fundo do poço.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
+        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
         <Literal xml:lang="pt">perfil sônico</Literal>
