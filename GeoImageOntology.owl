@@ -688,6 +688,11 @@
         <Literal xml:lang="en">A map showing the distribution of different types of rock attributes or facies occurring within a deisgnated geologic unit.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_facies_map</IRI>
+        <Literal xml:lang="pt">Um mapa mostrando a distribuição de diferentes tipos de atributos ou fácies rochosas que ocorrem dentro de uma unidade geológica demarcada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_facies_map</IRI>
         <Literal xml:lang="en">https://www.mindat.org/glossary/facies_map
