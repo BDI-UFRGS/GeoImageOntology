@@ -805,6 +805,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">imaging log</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_isopach_map</IRI>
+        <Literal xml:lang="en">A geologic map showing isopachs(a contour line joining points of equal thickness in a rock layer) in plan view throughout a particular geographic area.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_isopach_map</IRI>
+        <Literal xml:lang="en">Um mapa geológico mostrando isópacas (uma linha de contorno unindo pontos de igual espessura em uma camada de rocha) em vista de planta em uma área geográfica específica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_isopach_map</IRI>
+        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_isopach_map</IRI>
         <Literal xml:lang="en">isopach map</Literal>
