@@ -1000,6 +1000,16 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">resistivity profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_rose_diagram</IRI>
+        <Literal xml:lang="en">A circular histogram plot which displays directional data and the frequency of each class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_rose_diagram</IRI>
+        <Literal xml:lang="pt">Um gráfico circular de histograma que exibe dados direcionais e a frequência de cada classe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_rose_diagram</IRI>
         <Literal xml:lang="pt">diagrama de roseta</Literal>
