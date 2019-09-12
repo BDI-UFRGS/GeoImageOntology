@@ -518,6 +518,21 @@
         <Literal xml:lang="pt">mapa de anomalia bouguer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_caliper_profile</IRI>
+        <Literal xml:lang="pt">O registro produzido por um paquímetro carregado por mola que se ajusta continuamente ao tamanho de um poço quando ele é puxado para a superfície. O perfil é uma medida direta do diâmetro do poço em função da profundidade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_caliper_profile</IRI>
+        <Literal xml:lang="en">The record produced by a spring-loaded caliper that continually adjusts itself to the size of a borehole as it is pulled to the surface. The log is a direct measure of the diameter of the borehole as a function of depth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_caliper_profile</IRI>
+        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_caliper_profile</IRI>
         <Literal xml:lang="en">caliper profile</Literal>
@@ -646,6 +661,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
         <Literal xml:lang="pt">mapa dasimétrico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_density_profile</IRI>
+        <Literal xml:lang="en">A record of the density of the rocks penetrated by a drill hole.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_density_profile</IRI>
+        <Literal xml:lang="pt">Um registro da densidade das rochas perfuradas por uma broca.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_density_profile</IRI>
+        <Literal xml:lang="pt">Dictionary of Earth Sciences, Michael Allaby</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
