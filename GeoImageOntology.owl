@@ -965,6 +965,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">named photograph</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
+        <Literal xml:lang="en">A recording of neutron bombardment by a sonde being raised through a borehole. The neutron log is used to estimate formation porosity and is presented on a scale calibrated in limestone porosity units.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
+        <Literal xml:lang="pt">Uma gravação de bombardeio de nêutrons por uma sonda sendo levantada através de um poço. O perfil nêutron é usado para estimar a porosidade da formação e é apresentado em uma escala calibrada em unidades de porosidade do calcário.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
+        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
         <Literal xml:lang="en">neutron profile</Literal>
