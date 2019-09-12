@@ -1235,6 +1235,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">sonic profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
+        <Literal xml:lang="en">A measurment of the electrochemical activity of the rocks within a borehole.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
+        <Literal xml:lang="pt">Uma medição da atividade eletroquímica das rochas dentro de um poço.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
+        <Literal xml:lang="en">Dictionary of Earth Science, Michael Allaby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
         <Literal xml:lang="pt">perfil de potencial espotâneo</Literal>
