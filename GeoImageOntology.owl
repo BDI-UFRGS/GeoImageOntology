@@ -1085,6 +1085,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">reference map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_resistivity_profile</IRI>
+        <Literal xml:lang="pt">Perfil de resistividade é o registro, em seções não revestidas ou recentemente revestidas de um poço, das resistividades (ou seus recíprocos, as condutividades) das formações da subsuperfície, geralmente juntamente com os potenciais espontâneos (SPs) gerados no poço</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_resistivity_profile</IRI>
+        <Literal xml:lang="en">Resistivity profile is the recording,in uncased or recently cased sections of a borehole, of the resistivities(or their reciprocals, the conductivities)of the subsurface formations, generally along with the spontaneous potentials (SPs) generated in the borehole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_resistivity_profile</IRI>
+        <Literal xml:lang="en">https://petrowiki.org/Electrode_resistivity_devices</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_resistivity_profile</IRI>
         <Literal xml:lang="pt">perfil de resistividade</Literal>
