@@ -1330,6 +1330,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">spontaneous potential profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
+        <Literal xml:lang="en">A cross section that shows the thicknesses and stratigraphic relationships of successions of named lithostratigraphic units.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
+        <Literal xml:lang="pt">Um seção transversal que mostra as espessuras e os relacionamentos estratigráficos das sucessões das unidades litoestratigráficas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
+        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
         <Literal xml:lang="pt">seção estratigráfica</Literal>
