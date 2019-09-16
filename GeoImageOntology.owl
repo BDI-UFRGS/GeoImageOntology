@@ -434,6 +434,11 @@
     </DisjointClasses>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000101</IRI>
+        <Literal xml:lang="pt">imagem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_3d_block_diagram</IRI>
         <Literal xml:lang="en">3d block diagram</Literal>
     </AnnotationAssertion>
@@ -952,7 +957,17 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_map</IRI>
-        <Literal xml:lang="en">map is a symbolic depiction emphasizing relationships between elements of some space, such as objects, regions, or themes.</Literal>
+        <Literal xml:lang="en">Map is a symbolic depiction emphasizing relationships between elements of some space, such as objects, regions, or themes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_map</IRI>
+        <Literal xml:lang="pt">Mapa é uma representação simbólica que enfatiza as relações entre elementos de algum espaço, como objetos, regiões ou temas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_map</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
