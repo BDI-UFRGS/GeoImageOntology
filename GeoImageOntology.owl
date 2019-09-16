@@ -950,6 +950,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="pt">mapa de litofácies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
+        <Literal xml:lang="en">A profile that represents the downhole rock or material types that aren&apos;t necessarily layered in a specific order.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
+        <Literal xml:lang="pt">Uma seção transversal que representa as rochas ou os tipos de material em um poço que não são necessariamente colocados em camadas ou em uma ordem específica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
+        <Literal xml:lang="en">RockWare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
         <Literal xml:lang="en">lithologic profile</Literal>
@@ -958,6 +973,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
         <Literal xml:lang="pt">perfil litológico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_lithological_cross_section</IRI>
+        <Literal xml:lang="en">A cross section that represents the downhole rock or material types that aren&apos;t necessarily layered in a specific order.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_lithological_cross_section</IRI>
+        <Literal xml:lang="pt">Uma seção transversal que representa as rochas ou os tipos de material em um poço que não são necessariamente colocados em camadas ou em uma ordem específica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_lithological_cross_section</IRI>
+        <Literal xml:lang="en">RockWare</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1252,7 +1282,7 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="en">seismic section</Literal>
+        <Literal xml:lang="en">seismic cross section</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1347,17 +1377,17 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="en">A cross section that shows the thicknesses and stratigraphic relationships of successions of named lithostratigraphic units.</Literal>
+        <Literal xml:lang="en">A cross section that represents interpreted formations, often groups of lithologies, which are distinctly layered in nature, are consistent between wells in their order from the surface downward, and never repeat within a borehole.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="pt">Um seção transversal que mostra as espessuras e os relacionamentos estratigráficos das sucessões das unidades litoestratigráficas.</Literal>
+        <Literal xml:lang="pt">Uma seção transversal que representa formações interpretadas, geralmente grupos de litologias, cuja natureza é de camadas distintas, é consistente entre os poços em sua ordem da superfície para baixo e nunca se repete dentro de um poço.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
+        <Literal xml:lang="en">RockWare</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1372,17 +1402,17 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="en">A profile that shows the thicknesses and stratigraphic relationships of successions of named lithostratigraphic units.</Literal>
+        <Literal xml:lang="en">A profile that represents interpreted formations, often groups of lithologies, which are distinctly layered in nature, are consistent between wells in their order from the surface downward, and never repeat within a borehole.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="pt">Um perfil que mostra as espessuras e os relacionamentos estratigráficos das sucessões das unidades litoestratigráficas.</Literal>
+        <Literal xml:lang="pt">Um perfil que representa formações interpretadas, geralmente grupos de litologias, cuja natureza é de camadas distintas, é consistente entre os poços em sua ordem da superfície para baixo e nunca se repete dentro de um poço.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
+        <Literal xml:lang="en">RockWare</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
