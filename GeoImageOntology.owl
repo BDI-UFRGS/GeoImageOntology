@@ -1435,6 +1435,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">structural map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_ternary_diagram</IRI>
+        <Literal xml:lang="en">A plot on three variables which sum to a constant. It graphically depicts the ratios of the three variables as positions in an equilateral triangle. The values of the three variables a, b, and c must sum to some constant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_ternary_diagram</IRI>
+        <Literal xml:lang="pt">Um gráfico em três variáveis ​​que somam uma constante. Representa graficamente as proporções das três variáveis ​​como posições em um triângulo equilátero. Os valores das três variáveis ​​a, b e c devem somar alguma constante</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_ternary_diagram</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Ternary_plot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_ternary_diagram</IRI>
         <Literal xml:lang="pt">diagrama ternário</Literal>
