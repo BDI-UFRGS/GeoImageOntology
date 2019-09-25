@@ -1535,6 +1535,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">well core photograph</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
+        <Literal xml:lang="en">A graphical record of the measured or computed physical characteristics of the rock section found in a well, plotted as a continuous depth function. Multiple measurements are usually taken simultaneously, and the resulting curves are displayed side by side on the common depth scale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
+        <Literal xml:lang="pt">Um registro gráfico das características físicas medidas ou computadas da seção de rocha encontradas em um poço, plotadas como uma função contínua de profundidade. Várias medidas são geralmente feitas simultaneamente, e as curvas resultantes são exibidas lado a lado na escala de profundidade comum.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
+        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
         <Literal xml:lang="pt">log de poço</Literal>
