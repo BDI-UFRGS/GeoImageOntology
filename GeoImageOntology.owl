@@ -1220,6 +1220,16 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">proportional symbol map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
+        <Literal xml:lang="en">A graphical representation of some characteristic evaluated and recorded  at regular depths  in a well or vertical site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
+        <Literal xml:lang="pt">Uma representação gráfica de alguma característica avaliada e registrada em profundidades regulares em um poço ou local vertical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
         <Literal xml:lang="pt">perfil qualitativo</Literal>
@@ -1228,6 +1238,16 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
         <Literal xml:lang="en">qualitative profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_quantitative_profile</IRI>
+        <Literal xml:lang="en">A graphical representation of a continuous recording of some analogic value at regular depths</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_quantitative_profile</IRI>
+        <Literal xml:lang="pt">Uma representação gráfica de uma gravação contínua de algum valor analógico em profundidades regulares</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
