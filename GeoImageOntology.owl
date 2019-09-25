@@ -473,9 +473,24 @@
         <Literal xml:lang="en">photomicrograph</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_amplitute_map</IRI>
+        <Literal xml:lang="en">A display of amplitude measurements on a slice on the horizon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_amplitute_map</IRI>
+        <Literal xml:lang="pt">Uma exibição de medições de amplitude em uma fatia no horizonte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_amplitute_map</IRI>
+        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_amplitute_map</IRI>
-        <Literal xml:lang="en">amplitute map</Literal>
+        <Literal xml:lang="en">amplitude map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -838,6 +853,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geological_map</IRI>
         <Literal xml:lang="pt">mapa geológico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_geophysical_cross_section</IRI>
+        <Literal xml:lang="en">A cross section showing the variation of one property, such as elevation or gravity, usually with cordinates, relative to another property, such as distance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_geophysical_cross_section</IRI>
+        <Literal xml:lang="pt">Uma seção transversal que mostra a variação de uma propriedade, como elevação ou gravidade, geralmente com coordenadas, em relação a outra propriedade, como distância.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_geophysical_cross_section</IRI>
+        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
