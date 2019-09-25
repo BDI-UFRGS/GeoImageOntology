@@ -1570,6 +1570,16 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">A representation of the relief of the terrain that is obtained by cutting transversely the lines of a topographic map.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
+        <Literal xml:lang="pt">Uma representação do relevo do terreno obtido através do corte nas linhas de um mapa topográfico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Topographic_profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
         <Literal xml:lang="pt">perfil topográfico</Literal>
