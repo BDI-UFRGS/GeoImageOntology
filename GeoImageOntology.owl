@@ -658,6 +658,21 @@
         <Literal xml:lang="pt">mapa de contorno</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_cross_section</IRI>
+        <Literal xml:lang="en">A cross section of a diagram or drawing showing features cut by a particular specific plane. An actual exhibit or cut showing cut geological features.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_cross_section</IRI>
+        <Literal xml:lang="pt">Corte transversal a um diagrama ou desenho que mostra características cortadas por um determinado plano específico.  Uma exposição ou corte real que mostra recursos geológicos cortados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_cross_section</IRI>
+        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_cross_section</IRI>
         <Literal xml:lang="en">cross section</Literal>
