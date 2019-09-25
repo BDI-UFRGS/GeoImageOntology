@@ -1550,6 +1550,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">stratigraphic profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_structural_map</IRI>
+        <Literal xml:lang="en">A map that represents the shape of rock bodies, their spatial distribution, and the deformation processes that produce geological structures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_structural_map</IRI>
+        <Literal xml:lang="pt">Um mapa que representa o formato dos corpos rochosos, sua distribuição espacial, e os processos de deformação que produzem as estruturas geológicas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_structural_map</IRI>
+        <Literal xml:lang="pt">https://pt.wikipedia.org/wiki/Geologia_estrutural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_structural_map</IRI>
         <Literal xml:lang="pt">mapa estrutural</Literal>
