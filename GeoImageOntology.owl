@@ -860,6 +860,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="pt">seção geológica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_geological_map</IRI>
+        <Literal xml:lang="en">A map in which geological information is recorded, such as the distribution, nature and age relationships of rock units (surface deposits may or may not be mapped separately), and the occurrence of structural features (folds, faults, joints), mineral deposits and locations. fossils</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_geological_map</IRI>
+        <Literal xml:lang="pt">Um mapa no qual são registradas informações geológicas, como a distribuição, natureza e relações de idade das unidades rochosas (depósitos superficiais podem ou não ser mapeados separadamente), e a ocorrência de características estruturais (dobras, falhas, juntas), depósitos minerais e localidades fósseis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_geological_map</IRI>
+        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geological_map</IRI>
         <Literal xml:lang="en">geological map</Literal>
