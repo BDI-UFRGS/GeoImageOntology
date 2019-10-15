@@ -977,7 +977,7 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
-        <Literal xml:lang="en">Uma interpretação de uma seção vertical através da superfície da Terra, para o qual foram obtidas evidências por técnicas geológicas e geofísicas ou a partir de um mapa geológico.</Literal>
+        <Literal xml:lang="pt">Uma interpretação de uma seção vertical através da superfície da Terra, para o qual foram obtidas evidências por técnicas geológicas e geofísicas ou a partir de um mapa geológico.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -1112,7 +1112,7 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_isopach_map</IRI>
-        <Literal xml:lang="en">Um mapa geológico mostrando isópacas (uma linha de contorno unindo pontos de igual espessura em uma camada de rocha) em vista de planta em uma área geográfica específica.</Literal>
+        <Literal xml:lang="pt">Um mapa geológico mostrando isópacas (uma linha de contorno unindo pontos de igual espessura em uma camada de rocha) em vista de planta em uma área geográfica específica.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
