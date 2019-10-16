@@ -41,6 +41,9 @@
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_aerial_photography"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_altimetric_map"/>
     </Declaration>
     <Declaration>
@@ -217,6 +220,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_aerial_photography"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
     </SubClassOf>
     <SubClassOf>
@@ -638,6 +645,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
         <Literal xml:lang="en">photomicrograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_aerial_photography</IRI>
+        <Literal xml:lang="pt">fotografia a partir de uma aeronave ou outro objeto voador.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_aerial_photography</IRI>
+        <Literal xml:lang="en">photograph from an aircraft or other flying object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_aerial_photography</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Aerial_photography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_aerial_photography</IRI>
+        <Literal xml:lang="en">aerial photography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_aerial_photography</IRI>
+        <Literal xml:lang="pt">fotografia aérea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
