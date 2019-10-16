@@ -820,6 +820,11 @@
         <Literal xml:lang="pt">diagrama que representa a distribuição espacial da composição mineral  em  uma amostra de rocha.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_compositional_diagram</IRI>
+        <Literal xml:lang="pt">mapa composicional de amostra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_compositional_diagram</IRI>
         <Literal xml:lang="en">compositional diagram</Literal>
@@ -1395,6 +1400,21 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_outcrop_photograph</IRI>
         <Literal xml:lang="en">outcrop photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
+        <Literal xml:lang="en">a map that shows the location of a point on the surface of the Earth, expressed in terms of geodesic latitude and longitude.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
+        <Literal xml:lang="pt">um mapa que mostra a localização de um ponto na superfície da Terra, expresso em termos de latitude e longitude geodésica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
+        <Literal xml:lang="pt">mapa de localização de pontos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
