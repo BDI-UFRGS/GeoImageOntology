@@ -62,6 +62,9 @@
         <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_compositional_diagram"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_compositional_map"/>
     </Declaration>
     <Declaration>
@@ -243,6 +246,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_compositional_diagram"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_compositional_map"/>
@@ -801,6 +808,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
         <Literal xml:lang="pt">mapa coroplético</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_compositional_diagram</IRI>
+        <Literal xml:lang="en">diagram representing the spatial distribution of mineral composition in a rock sample.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_compositional_diagram</IRI>
+        <Literal xml:lang="pt">diagrama que representa a distribuição espacial da composição mineral  em  uma amostra de rocha.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_compositional_diagram</IRI>
+        <Literal xml:lang="en">compositional diagram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_compositional_diagram</IRI>
+        <Literal xml:lang="pt">diagrama composicional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
