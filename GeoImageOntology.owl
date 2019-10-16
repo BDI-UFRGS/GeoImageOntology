@@ -805,7 +805,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_compositional_map</IRI>
-        <Literal xml:lang="pt">diferentes mapas com várias informações correlacionadas no MEV.</Literal>
+        <Literal xml:lang="en">a map that represents the geographical distribution of mineral compositions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -816,6 +816,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_compositional_map</IRI>
         <Literal xml:lang="pt">mapa composicional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_compositional_map</IRI>
+        <Literal xml:lang="pt">mapa que representa a distribuição geográfica de composições minerais.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -1145,14 +1150,14 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">A continuous image taken along of a wellbore using resisitvity,  ultrasonic or other physical record.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
+        <Literal xml:lang="pt">Uma imagem contínua tirada ao longo de um de poço usando resistividade, ultrassom ou outro registro físico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_imaging_log</IRI>
         <Literal xml:lang="en">Hyne, N.J. Nontechnical guide to petroleum geology, exploration, drilling and production (2nd edition).  PennWell, 2001.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
-        <Literal xml:lang="pt">Uma imagem contínua tirada ao longo de um de poço usando resistividade, ultrassom ou outro registro físico.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
