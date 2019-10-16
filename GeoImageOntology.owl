@@ -433,9 +433,109 @@
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
     </DisjointClasses>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000037</IRI>
+        <Literal xml:lang="pt">Um gráfico de pontos é uma representação gráfica onde cada observação é representada por um único ponto posicionado em coordenadas definidas por valores da observação em certas dimensões.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000037</IRI>
+        <Literal xml:lang="pt">gráfico de pontos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000038</IRI>
+        <Literal xml:lang="pt">Um diagrama que apresenta uma ou mais tuplas de informação através do mapeamento de tais tuplas em um espaço bidimensional de maneira arbitrária.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000038</IRI>
+        <Literal xml:lang="pt">gráfico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000057</IRI>
+        <Literal xml:lang="pt">gráfico de contornos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000079</IRI>
+        <Literal xml:lang="pt">Um gráfico de densidades é uma representação gráfica onde a cor de cada pixel é definida em função do número de observações (data points) próximas à posição do pixel.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000079</IRI>
+        <Literal xml:lang="pt">gráfico de densidades</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000101</IRI>
         <Literal xml:lang="pt">imagem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000179</IRI>
+        <Literal xml:lang="pt">Um histograma é a representação gráfica em colunas ou em barras (retângulos) de um conjunto de dados previamente tabulado e dividido em classes uniformes ou não uniformes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000179</IRI>
+        <Literal xml:lang="pt">WEB: https://pt.wikipedia.org/wiki/Histograma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000179</IRI>
+        <Literal xml:lang="pt">histograma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000180</IRI>
+        <Literal xml:lang="pt">Um heatmap é uma representação gráfica onde os valores de um certo campo escalar são mapeados para cores em uma figura bidimensional.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000180</IRI>
+        <Literal xml:lang="pt">heatmap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000181</IRI>
+        <Literal xml:lang="pt">Um diagrama de Venn mostra todas possíveis relações lógicas entre uma coleção finita de conjuntos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000181</IRI>
+        <Literal xml:lang="pt">diagrama de Venn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000183</IRI>
+        <Literal xml:lang="pt">Um dendrograma é um diagrama gráfico no formato de árvore frequentemente utilizado para ilustrar a organização de grupos (clusters) produzidos por um algoritmo de agrupamento (clustering).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000183</IRI>
+        <Literal xml:lang="pt">dendrograma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000184</IRI>
+        <Literal xml:lang="pt">Um gráfico de dispersão (scatter plot) utiliza coordenadas Cartesianas para exibir valores de um conjunto de dados. Os dados são exibidos como uma coleção de pontos, cada um com o valor de uma variável determinando a posição no eixo horizontal e o valor da outra variável determinando a posição no eixo vertical (em caso de duas variáveis).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000184</IRI>
+        <Literal xml:lang="pt">WEB: https://pt.wikipedia.org/wiki/Gr%C3%A1fico_de_dispers%C3%A3o</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000184</IRI>
+        <Literal xml:lang="pt">gráfico de dispersão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000185</IRI>
+        <Literal xml:lang="pt">fotografia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -446,6 +546,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000309</IRI>
         <Literal xml:lang="pt">diagrama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000573</IRI>
+        <Literal xml:lang="pt">Um gráfico de linha é um gráfico criado através da conexão de vários pontos utilizando segmentos de linhas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000573</IRI>
+        <Literal xml:lang="pt">gráfico de linha</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -475,7 +585,12 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
-        <Literal xml:lang="en">A digital image taken through a microscope or similar device to show a magnified image of an object.</Literal>
+        <Literal xml:lang="en">A photograph taken through a microscope or similar device to show a magnified image of an object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
+        <Literal xml:lang="pt">Uma fotografia obtida através de um microscópio ou dispositivo similar para mostrar uma visão aumentada de um objeto.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -867,7 +982,7 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
-        <Literal xml:lang="en">Uma interpretação de uma seção vertical através da superfície da Terra, para o qual foram obtidas evidências por técnicas geológicas e geofísicas ou a partir de um mapa geológico.</Literal>
+        <Literal xml:lang="pt">Uma interpretação de uma seção vertical através da superfície da Terra, para o qual foram obtidas evidências por técnicas geológicas e geofísicas ou a partir de um mapa geológico.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -1002,7 +1117,7 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_isopach_map</IRI>
-        <Literal xml:lang="en">Um mapa geológico mostrando isópacas (uma linha de contorno unindo pontos de igual espessura em uma camada de rocha) em vista de planta em uma área geográfica específica.</Literal>
+        <Literal xml:lang="pt">Um mapa geológico mostrando isópacas (uma linha de contorno unindo pontos de igual espessura em uma camada de rocha) em vista de planta em uma área geográfica específica.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -1170,6 +1285,11 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="pt">perfil neutron</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_outcrop_photograph</IRI>
+        <Literal xml:lang="pt">Uma fotografia que mostra um afloramento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_outcrop_photograph</IRI>
         <Literal xml:lang="pt">foto de afloramento</Literal>
@@ -1187,12 +1307,12 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_profile</IRI>
-        <Literal xml:lang="en">Appearance, representation of an object viewed from one of its sides.</Literal>
+        <Literal xml:lang="en">A profile is a representation of an object viewed from one of its sides.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_profile</IRI>
-        <Literal xml:lang="pt">Aspecto, representação de um objeto visto de um dos seus lados.</Literal>
+        <Literal xml:lang="pt">Um perfil é a representação de um objeto visto de um dos seus lados.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -1327,12 +1447,12 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_rose_diagram</IRI>
-        <Literal xml:lang="en">A circular histogram plot which displays directional data and the frequency of each class.</Literal>
+        <Literal xml:lang="en">A rose diagram is a circular histogram plot which displays directional data and the frequency of each class.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_rose_diagram</IRI>
-        <Literal xml:lang="pt">Um gráfico circular de histograma que exibe dados direcionais e a frequência de cada classe.</Literal>
+        <Literal xml:lang="pt">Um diagrama de roseta é um histograma circular que exibe dados direcionais e a frequência de cada classe.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -1353,6 +1473,11 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_satellite_image</IRI>
         <Literal xml:lang="en">An image of the Earth or other planets collected by an imaging satellite.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_satellite_image</IRI>
+        <Literal xml:lang="pt">Uma imagem da Terra ou de outro planeta obtida através de um satélite artificial.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -1425,6 +1550,11 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">An image made by a SEM (scanning electron microscope). A SEM is a type of electron microscope that produces images of a sample by scanning the surface with a focused beam of electrons.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_sem_image</IRI>
+        <Literal xml:lang="pt">Uma imagem feita por um microscópio eletrônico de varredura (MEV), que produz uma imagem de uma amostra através da varredura da superfície por um feixe de elétrons.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_sem_image</IRI>
         <Literal xml:lang="en">https://en.wikipedia.org/wiki/Scanning_electron_microscope</Literal>
@@ -1445,9 +1575,19 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="en">A free hand drawing in any drawing medium.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_sketch</IRI>
+        <Literal xml:lang="pt">Um desenho feito a mão livre em qualquer meio.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_sketch</IRI>
         <Literal xml:lang="en">https://en.wikipedia.org/wiki/Sketch_(drawing)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_sketch</IRI>
+        <Literal xml:lang="pt">desenho a mão livre</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1653,6 +1793,11 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
         <Literal xml:lang="en">topographic profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_well_core_photograph</IRI>
+        <Literal xml:lang="pt">Uma fotografia que mostra um testemunho.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
