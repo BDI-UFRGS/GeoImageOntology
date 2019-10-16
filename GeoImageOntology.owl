@@ -35,6 +35,9 @@
         <Literal xml:lang="en">Mara Abel</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="#altimetric_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#lithostratigraphic_chart"/>
     </Declaration>
     <Declaration>
@@ -206,6 +209,10 @@
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#altimetric_map"/>
+        <Class IRI="#topographic_map"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#lithostratigraphic_chart"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </SubClassOf>
@@ -227,7 +234,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+        <Class IRI="#topographic_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
@@ -434,6 +441,10 @@
         <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
     </SubClassOf>
     <DisjointClasses>
+        <Class IRI="#altimetric_map"/>
+        <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
     </DisjointClasses>
@@ -570,6 +581,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000573</IRI>
         <Literal xml:lang="pt">gráfico de linha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#altimetric_map</IRI>
+        <Literal xml:lang="en">a contour map with heights indicated by outlines (isobaths) drawn at regular intervals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#altimetric_map</IRI>
+        <Literal xml:lang="pt">um mapa de contorno com alturas indicadas por contornos(isóbatas) traçados em intervalos regulares.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#altimetric_map</IRI>
+        <Literal xml:lang="en">altimetric map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#altimetric_map</IRI>
+        <Literal xml:lang="pt">mapa altimétrico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
