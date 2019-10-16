@@ -233,7 +233,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_compositional_map"/>
-        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
+        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_contour_map"/>
@@ -641,6 +641,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
         <Literal xml:lang="pt">mapa coroplético</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_compositional_map</IRI>
+        <Literal xml:lang="pt">diferentes mapas com várias informações correlacionadas no MEV.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
