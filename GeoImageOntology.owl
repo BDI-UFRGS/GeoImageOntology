@@ -329,7 +329,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_chart"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000308"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
@@ -1302,6 +1302,16 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="pt">seção litológica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_lithostratigraphic_chart</IRI>
+        <Literal xml:lang="en">a chart that represents the combinations of lithologic properties and stratigraphic relations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_lithostratigraphic_chart</IRI>
+        <Literal xml:lang="pt">uma carta que representa as combinações de propriedades litológicas e relações estratigráficas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_lithostratigraphic_chart</IRI>
         <Literal xml:lang="pt">carta litoestratigráfica</Literal>
@@ -1310,6 +1320,16 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_lithostratigraphic_chart</IRI>
         <Literal xml:lang="en">lithostratigraphic chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
+        <Literal xml:lang="en">a cross section that represents the combinations of lithologic properties and stratigraphic relations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
+        <Literal xml:lang="pt">uma seção transversal que representa as combinações de propriedades litológicas e relações estratigráficas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
