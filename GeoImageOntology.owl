@@ -1152,7 +1152,17 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_imaging_log</IRI>
+        <Literal xml:lang="pt">Uma imagem contínua tirada ao longo de um de poço usando resistividade, ultrassom ou outro registro físico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
         <Literal xml:lang="en">imaging log</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
+        <Literal xml:lang="pt">log de imagem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
