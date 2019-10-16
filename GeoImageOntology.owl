@@ -35,6 +35,9 @@
         <Literal xml:lang="en">Mara Abel</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="#lithostratigraphic_chart"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
     </Declaration>
     <Declaration>
@@ -199,6 +202,10 @@
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="#lithostratigraphic_chart"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
@@ -556,6 +563,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000573</IRI>
         <Literal xml:lang="pt">gráfico de linha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lithostratigraphic_chart</IRI>
+        <Literal xml:lang="pt">carta litoestratigráfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lithostratigraphic_chart</IRI>
+        <Literal xml:lang="en">lithostratigraphic chart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
