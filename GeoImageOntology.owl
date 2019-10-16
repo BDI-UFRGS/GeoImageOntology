@@ -35,19 +35,13 @@
         <Literal xml:lang="en">Mara Abel</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#altimetric_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#lithostratigraphic_chart"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#topographic_map"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_altimetric_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
@@ -125,6 +119,9 @@
         <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_lithostratigraphic_chart"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
     </Declaration>
     <Declaration>
@@ -200,6 +197,9 @@
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_topographic_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
     </Declaration>
     <Declaration>
@@ -209,18 +209,6 @@
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#altimetric_map"/>
-        <Class IRI="#topographic_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#lithostratigraphic_chart"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#topographic_map"/>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </SubClassOf>
@@ -229,12 +217,16 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_altimetric_map"/>
+        <Class IRI="#UFRGS:GeoImage_topographic_map"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
         <Class IRI="#UFRGS:GeoImage_contour_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
-        <Class IRI="#topographic_map"/>
+        <Class IRI="#UFRGS:GeoImage_topographic_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
@@ -327,6 +319,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
         <Class IRI="#UFRGS:GeoImage_cross_section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_lithostratigraphic_chart"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
@@ -429,6 +425,10 @@
         <Class IRI="#UFRGS:GeoImage_map"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_topographic_map"/>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
         <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
     </SubClassOf>
@@ -441,10 +441,6 @@
         <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="#altimetric_map"/>
-        <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
     </DisjointClasses>
@@ -452,6 +448,10 @@
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
         <Class IRI="#UFRGS:GeoImage_sem_image"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:GeoImage_altimetric_map"/>
+        <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
@@ -584,61 +584,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#altimetric_map</IRI>
-        <Literal xml:lang="en">a contour map with heights indicated by outlines (isobaths) drawn at regular intervals.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#altimetric_map</IRI>
-        <Literal xml:lang="pt">um mapa de contorno com alturas indicadas por contornos(isóbatas) traçados em intervalos regulares.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#altimetric_map</IRI>
-        <Literal xml:lang="en">altimetric map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#altimetric_map</IRI>
-        <Literal xml:lang="pt">mapa altimétrico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#lithostratigraphic_chart</IRI>
-        <Literal xml:lang="pt">carta litoestratigráfica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#lithostratigraphic_chart</IRI>
-        <Literal xml:lang="en">lithostratigraphic chart</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#topographic_map</IRI>
-        <Literal xml:lang="en">A map characterized by large-scale detail and quantitative representation of relief using contour lines.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#topographic_map</IRI>
-        <Literal xml:lang="pt">Um mapa caracterizado por detalhes em larga escala e representação quantitativa de relevo usando linhas de contorno.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#topographic_map</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Topographic_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#topographic_map</IRI>
-        <Literal xml:lang="pt">mapa topográfico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#topographic_map</IRI>
-        <Literal xml:lang="en">topographic map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_3d_block_diagram</IRI>
         <Literal xml:lang="en">A representation of an imaginary rectangular block of the earth&apos;s crust (representing geological and topographic features) in what appears to be a three-dimensional perspective, showing a surface area at the top and including one or more (usually two) vertical cross sections.</Literal>
     </AnnotationAssertion>
@@ -686,6 +631,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
         <Literal xml:lang="en">photomicrograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_altimetric_map</IRI>
+        <Literal xml:lang="en">a contour map with heights indicated by outlines (isobaths) drawn at regular intervals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_altimetric_map</IRI>
+        <Literal xml:lang="pt">um mapa de contorno com alturas indicadas por contornos(isóbatas) traçados em intervalos regulares.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_altimetric_map</IRI>
+        <Literal xml:lang="en">altimetric map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_altimetric_map</IRI>
+        <Literal xml:lang="pt">mapa altimétrico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -1291,6 +1256,16 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_lithostratigraphic_chart</IRI>
+        <Literal xml:lang="pt">carta litoestratigráfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_lithostratigraphic_chart</IRI>
+        <Literal xml:lang="en">lithostratigraphic chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
         <Literal xml:lang="en">lithostratigraphic cross section</Literal>
     </AnnotationAssertion>
@@ -1848,6 +1823,31 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_thematic_map</IRI>
         <Literal xml:lang="en">thematic map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_topographic_map</IRI>
+        <Literal xml:lang="en">A map characterized by large-scale detail and quantitative representation of relief using contour lines.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_topographic_map</IRI>
+        <Literal xml:lang="pt">Um mapa caracterizado por detalhes em larga escala e representação quantitativa de relevo usando linhas de contorno.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_topographic_map</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Topographic_map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_topographic_map</IRI>
+        <Literal xml:lang="pt">mapa topográfico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_topographic_map</IRI>
+        <Literal xml:lang="en">topographic map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
