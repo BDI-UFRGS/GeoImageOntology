@@ -882,7 +882,7 @@
         <Literal xml:lang="pt">mapa composicional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_compositional_map</IRI>
         <Literal xml:lang="pt">mapa que representa a distribuição geográfica de composições minerais.</Literal>
     </AnnotationAssertion>
