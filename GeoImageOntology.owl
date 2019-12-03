@@ -82,7 +82,7 @@
     <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_3d_block_diagram -->
 
     <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_3d_block_diagram">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_geological_model"/>
         <obo:IAO_0000115 xml:lang="en">A representation of an imaginary rectangular block of the earth&apos;s crust (representing geological and topographic features) in what appears to be a three-dimensional perspective, showing a surface area at the top and including one or more (usually two) vertical cross sections.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt">Uma representação de um bloco retangular imaginário da crosta terrestre (representando características geológicas e topográficas) no que parece ser uma perspectiva tridimensional, mostrando uma área de superfície no topo e incluindo uma ou mais (geralmente duas) seções transversais verticais.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</obo:IAO_0000119>
@@ -376,6 +376,19 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</obo:IAO_000
         <obo:IAO_0000119 xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</obo:IAO_0000119>
         <rdfs:label xml:lang="en">geological map</rdfs:label>
         <rdfs:label xml:lang="pt">mapa geológico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_geological_model -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_geological_model">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A computerized representation of portions of the Earth&apos;s crust based on geophysical and geological observations made on and below the Earth surface.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma representação computadorizada de porções da crosta terrestre com base em observações geofísicas e geológicas feitas na superfície e abaixo dela.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Geologic_modelling</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">geological model</rdfs:label>
+        <rdfs:label xml:lang="pt">modelo geológico</rdfs:label>
     </owl:Class>
     
 
