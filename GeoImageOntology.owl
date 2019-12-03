@@ -1,2034 +1,928 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology"
      xml:base="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology">
-    <Prefix name="" IRI="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/iao/dev/iao-edit.owl</Import>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
-        <Literal xml:lang="en">Bruno Firnkes</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
-        <Literal xml:lang="en">Cassiana Michelin</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
-        <Literal xml:lang="en">Eduardo S. L. Gastal</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
-        <Literal xml:lang="en">Luan Fonseca Garcia</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
-        <Literal xml:lang="en">Mara Abel</Literal>
-    </Annotation>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_aerial_photography"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_altimetric_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_cartogram"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_compositional_diagram"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_compositional_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_density_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_facies_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_flow_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_geological_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_geothermal_gradient_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_gravimetric_cross_section"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_imaging_log"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_isopach_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lithofacies_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lithologic_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lithostratigraphic_chart"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_named_photograph"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_neutron_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_reference_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_seismic_section"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_sem_image"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_sketch"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_sonic_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stratigraphic_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_structural_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_ternary_diagram"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_topographic_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_aerial_photography"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_altimetric_map"/>
-        <Class IRI="#UFRGS:GeoImage_topographic_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
-        <Class IRI="#UFRGS:GeoImage_topographic_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
-        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_cartogram"/>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_compositional_diagram"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000309"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_compositional_map"/>
-        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000308"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_density_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_facies_map"/>
-        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_flow_map"/>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_geological_map"/>
-        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_geothermal_gradient_map"/>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_gravimetric_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_imaging_log"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000101"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_isopach_map"/>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_lithofacies_map"/>
-        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_lithologic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_lithostratigraphic_chart"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000308"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_map"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000308"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_named_photograph"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_neutron_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
-        <Class IRI="#UFRGS:GeoImage_named_photograph"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
-        <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_profile"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000038"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
-        <Class IRI="#UFRGS:GeoImage_profile"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
-        <Class IRI="#UFRGS:GeoImage_profile"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_reference_map"/>
-        <Class IRI="#UFRGS:GeoImage_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000179"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_seismic_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_sem_image"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000185"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_sketch"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000309"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_sonic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_stratigraphic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_structural_map"/>
-        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_ternary_diagram"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000038"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
-        <Class IRI="#UFRGS:GeoImage_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_topographic_map"/>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
-        <Class IRI="#UFRGS:GeoImage_named_photograph"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
-        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
-    </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
-        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
-        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
-        <Class IRI="#UFRGS:GeoImage_sem_image"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#UFRGS:GeoImage_altimetric_map"/>
-        <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
-        <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
-    </DisjointClasses>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000037</IRI>
-        <Literal xml:lang="pt">Um gráfico de pontos é uma representação gráfica onde cada observação é representada por um único ponto posicionado em coordenadas definidas por valores da observação em certas dimensões.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000037</IRI>
-        <Literal xml:lang="pt">gráfico de pontos</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000038</IRI>
-        <Literal xml:lang="pt">Um diagrama que apresenta uma ou mais tuplas de informação através do mapeamento de tais tuplas em um espaço bidimensional de maneira arbitrária.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000038</IRI>
-        <Literal xml:lang="pt">gráfico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000057</IRI>
-        <Literal xml:lang="pt">gráfico de contornos</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000079</IRI>
-        <Literal xml:lang="pt">Um gráfico de densidades é uma representação gráfica onde a cor de cada pixel é definida em função do número de observações (data points) próximas à posição do pixel.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000079</IRI>
-        <Literal xml:lang="pt">gráfico de densidades</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000101</IRI>
-        <Literal xml:lang="pt">imagem</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000179</IRI>
-        <Literal xml:lang="pt">Um histograma é a representação gráfica em colunas ou em barras (retângulos) de um conjunto de dados previamente tabulado e dividido em classes uniformes ou não uniformes.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000179</IRI>
-        <Literal xml:lang="pt">WEB: https://pt.wikipedia.org/wiki/Histograma</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000179</IRI>
-        <Literal xml:lang="pt">histograma</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000180</IRI>
-        <Literal xml:lang="pt">Um heatmap é uma representação gráfica onde os valores de um certo campo escalar são mapeados para cores em uma figura bidimensional.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000180</IRI>
-        <Literal xml:lang="pt">heatmap</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000181</IRI>
-        <Literal xml:lang="pt">Um diagrama de Venn mostra todas possíveis relações lógicas entre uma coleção finita de conjuntos.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000181</IRI>
-        <Literal xml:lang="pt">diagrama de Venn</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000183</IRI>
-        <Literal xml:lang="pt">Um dendrograma é um diagrama gráfico no formato de árvore frequentemente utilizado para ilustrar a organização de grupos (clusters) produzidos por um algoritmo de agrupamento (clustering).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000183</IRI>
-        <Literal xml:lang="pt">dendrograma</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000184</IRI>
-        <Literal xml:lang="pt">Um gráfico de dispersão (scatter plot) utiliza coordenadas Cartesianas para exibir valores de um conjunto de dados. Os dados são exibidos como uma coleção de pontos, cada um com o valor de uma variável determinando a posição no eixo horizontal e o valor da outra variável determinando a posição no eixo vertical (em caso de duas variáveis).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000184</IRI>
-        <Literal xml:lang="pt">WEB: https://pt.wikipedia.org/wiki/Gr%C3%A1fico_de_dispers%C3%A3o</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000184</IRI>
-        <Literal xml:lang="pt">gráfico de dispersão</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000185</IRI>
-        <Literal xml:lang="pt">fotografia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000309</IRI>
-        <Literal xml:lang="pt">Uma figura que expressa uma ou mais proposições.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000309</IRI>
-        <Literal xml:lang="pt">diagrama</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000573</IRI>
-        <Literal xml:lang="pt">Um gráfico de linha é um gráfico criado através da conexão de vários pontos utilizando segmentos de linhas.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000573</IRI>
-        <Literal xml:lang="pt">gráfico de linha</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_3d_block_diagram</IRI>
-        <Literal xml:lang="en">A representation of an imaginary rectangular block of the earth&apos;s crust (representing geological and topographic features) in what appears to be a three-dimensional perspective, showing a surface area at the top and including one or more (usually two) vertical cross sections.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_3d_block_diagram</IRI>
-        <Literal xml:lang="pt">Uma representação de um bloco retangular imaginário da crosta terrestre (representando características geológicas e topográficas) no que parece ser uma perspectiva tridimensional, mostrando uma área de superfície no topo e incluindo uma ou mais (geralmente duas) seções transversais verticais.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_3d_block_diagram</IRI>
-        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_3d_block_diagram</IRI>
-        <Literal xml:lang="en">3d block diagram</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_3d_block_diagram</IRI>
-        <Literal xml:lang="pt">bloco diagrama</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
-        <Literal xml:lang="en">A photograph taken through a microscope or similar device to show a magnified image of an object.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
-        <Literal xml:lang="pt">Uma fotografia obtida através de um microscópio ou dispositivo similar para mostrar uma visão aumentada de um objeto.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Micrograph</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
-        <Literal xml:lang="pt">microfotografia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
-        <Literal xml:lang="en">photomicrograph</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_aerial_photography</IRI>
-        <Literal xml:lang="pt">fotografia a partir de uma aeronave ou outro objeto voador.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_aerial_photography</IRI>
-        <Literal xml:lang="en">photograph from an aircraft or other flying object.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_aerial_photography</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Aerial_photography</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_aerial_photography</IRI>
-        <Literal xml:lang="en">aerial photography</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_aerial_photography</IRI>
-        <Literal xml:lang="pt">fotografia aérea</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_altimetric_map</IRI>
-        <Literal xml:lang="en">a contour map with heights indicated by outlines (isobaths) drawn at regular intervals.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_altimetric_map</IRI>
-        <Literal xml:lang="pt">um mapa de contorno com alturas indicadas por contornos(isóbatas) traçados em intervalos regulares.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_altimetric_map</IRI>
-        <Literal xml:lang="en">altimetric map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_altimetric_map</IRI>
-        <Literal xml:lang="pt">mapa altimétrico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_amplitute_map</IRI>
-        <Literal xml:lang="en">A display of amplitude measurements on a slice on the horizon.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_amplitute_map</IRI>
-        <Literal xml:lang="pt">Uma exibição de medições de amplitude em uma fatia no horizonte.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_amplitute_map</IRI>
-        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_amplitute_map</IRI>
-        <Literal xml:lang="en">amplitude map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_amplitute_map</IRI>
-        <Literal xml:lang="pt">mapa de amplitude</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_bathymetric_map</IRI>
-        <Literal xml:lang="en">A contour map of the bottom of a body of water (such as the seabed) with depths indicated by outlines (isobaths) drawn at regular intervals.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_bathymetric_map</IRI>
-        <Literal xml:lang="pt">um mapa de contorno do fundo de um corpo de água (como o fundo do mar) com profundidades indicadas por contornos(isóbatas) traçados em intervalos regulares.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_bathymetric_map</IRI>
-        <Literal xml:lang="en">Glossary of Geology, Klaus K. E. Neuendorf, James P. Mehl Jr. and Julia A. Jackson</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_bathymetric_map</IRI>
-        <Literal xml:lang="en">bathymetric map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_bathymetric_map</IRI>
-        <Literal xml:lang="pt">mapa batimétrico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_bouguer_anomaly_map</IRI>
-        <Literal xml:lang="en">Map that shows a measure of gravity that is correct for topography (elevation) and latitude, but not for isostasis (subsurface rock density).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_bouguer_anomaly_map</IRI>
-        <Literal xml:lang="pt">Mapa que mostra uma medida de gravidade que é correta para a topografia(elevação) e latitude, mas não para a isostasia (densidade de rochas subsuperficiais).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_bouguer_anomaly_map</IRI>
-        <Literal xml:lang="en">Dictionary of Petroleum Exploration, Drilling, &amp; Production, Norman J. Hyne</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_bouguer_anomaly_map</IRI>
-        <Literal xml:lang="en">bourguer anomaly map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_bouguer_anomaly_map</IRI>
-        <Literal xml:lang="pt">mapa de anomalia bouguer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_caliper_profile</IRI>
-        <Literal xml:lang="pt">O registro produzido por um paquímetro carregado por mola que se ajusta continuamente ao tamanho de um poço quando ele é puxado para a superfície. O perfil é uma medida direta do diâmetro do poço em função da profundidade.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_caliper_profile</IRI>
-        <Literal xml:lang="en">The record produced by a spring-loaded caliper that continually adjusts itself to the size of a borehole as it is pulled to the surface. The log is a direct measure of the diameter of the borehole as a function of depth.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_caliper_profile</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_caliper_profile</IRI>
-        <Literal xml:lang="en">caliper profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_caliper_profile</IRI>
-        <Literal xml:lang="pt">perfil caliper</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_cartogram</IRI>
-        <Literal xml:lang="en">A map that purposely distorts geographic space based on values of a theme.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_cartogram</IRI>
-        <Literal xml:lang="pt">Um mapa que distorce propositalmente o espaço geográfico com base nos valores de um tema.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_cartogram</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_cartogram</IRI>
-        <Literal xml:lang="en">cartogram</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_cartogram</IRI>
-        <Literal xml:lang="pt">cartograma</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
-        <Literal xml:lang="en">A thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
-        <Literal xml:lang="pt">Um mapa temático no qual as áreas são sombreadas ou padronizadas na proporção da medida da variável estatística exibida no mapa.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Choropleth_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
-        <Literal xml:lang="en">choropleth map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
-        <Literal xml:lang="pt">mapa coroplético</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_compositional_diagram</IRI>
-        <Literal xml:lang="en">diagram representing the spatial distribution of mineral composition in a rock sample.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_compositional_diagram</IRI>
-        <Literal xml:lang="pt">diagrama que representa a distribuição espacial da composição mineral  em  uma amostra de rocha.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
-        <IRI>#UFRGS:GeoImage_compositional_diagram</IRI>
-        <Literal xml:lang="pt">mapa composicional de amostra</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_compositional_diagram</IRI>
-        <Literal xml:lang="en">compositional diagram</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_compositional_diagram</IRI>
-        <Literal xml:lang="pt">diagrama composicional</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_compositional_map</IRI>
-        <Literal xml:lang="en">a map that represents the geographical distribution of mineral compositions.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_compositional_map</IRI>
-        <Literal xml:lang="en">compositional map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_compositional_map</IRI>
-        <Literal xml:lang="pt">mapa composicional</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_compositional_map</IRI>
-        <Literal xml:lang="pt">mapa que representa a distribuição geográfica de composições minerais.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_contour_map</IRI>
-        <Literal xml:lang="en">A map that depicts continuous phenomena. Each line-bounded area on this type of map represents a region with the same value.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_contour_map</IRI>
-        <Literal xml:lang="pt">Um mapa que descreve fenômenos contínuos. Cada área delimitada por linhas neste tipo de mapa representa uma região com o mesmo valor.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_contour_map</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_contour_map</IRI>
-        <Literal xml:lang="en">contour map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_contour_map</IRI>
-        <Literal xml:lang="pt">mapa de contorno</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="en">A cross section of a diagram or drawing showing features cut by a particular specific plane. An actual exhibit or cut showing cut geological features.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="pt">Corte transversal a um diagrama ou desenho que mostra características cortadas por um determinado plano específico.  Uma exposição ou corte real que mostra recursos geológicos cortados.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="en">cross section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="pt">seção transversal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
-        <Literal xml:lang="en">A map which uses areal symbols to spatially classify volumetric data.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
-        <Literal xml:lang="pt">Um mapa que usa símbolos de área para classificar espacialmente dados volumétricos.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Dasymetric_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
-        <Literal xml:lang="en">dasymetric map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
-        <Literal xml:lang="pt">mapa dasimétrico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_density_profile</IRI>
-        <Literal xml:lang="en">A record of the density of the rocks penetrated by a drill hole.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_density_profile</IRI>
-        <Literal xml:lang="pt">Um registro da densidade das rochas perfuradas por uma broca.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_density_profile</IRI>
-        <Literal xml:lang="pt">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_density_profile</IRI>
-        <Literal xml:lang="en">density profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_density_profile</IRI>
-        <Literal xml:lang="pt">perfil de densidade</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
-        <Literal xml:lang="en">A map that uses a dot symbol to show the presence of a feature or a phenomenon. Dot maps rely on a visual scatter to show spatial pattern.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
-        <Literal xml:lang="pt">Um mapa que usa um símbolo de ponto para mostrar a presença de um elemento ou fenômeno. Os mapas de pontos contam com uma dispersão visual para mostrar o padrão espacial.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Dot_distribution_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
-        <Literal xml:lang="en">dot distribution map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
-        <Literal xml:lang="pt">mapa de distribuição de pontos</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_facies_map</IRI>
-        <Literal xml:lang="en">A map showing the distribution of different types of rock attributes or facies occurring within a deisgnated geologic unit.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_facies_map</IRI>
-        <Literal xml:lang="pt">Um mapa mostrando a distribuição de diferentes tipos de atributos ou fácies rochosas que ocorrem dentro de uma unidade geológica demarcada.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_facies_map</IRI>
-        <Literal xml:lang="en">https://www.mindat.org/glossary/facies_map
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/dev/iao-edit.owl"/>
+        <dc:contributor xml:lang="en">Bruno Firnkes</dc:contributor>
+        <dc:contributor xml:lang="en">Cassiana Michelin</dc:contributor>
+        <dc:contributor xml:lang="en">Eduardo S. L. Gastal</dc:contributor>
+        <dc:contributor xml:lang="en">Luan Fonseca Garcia</dc:contributor>
+        <dc:contributor xml:lang="en">Mara Abel</dc:contributor>
+    </owl:Ontology>
+    
 
-Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_facies_map</IRI>
-        <Literal xml:lang="en">facies map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_facies_map</IRI>
-        <Literal xml:lang="pt">mapa de fácies</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_flow_map</IRI>
-        <Literal xml:lang="en">A map that uses lines or arrows to portray movement between two or more destinations. These lines or arrows can also represent quantities of things being transferred between locations. This can be done via use of proportional symbols.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_flow_map</IRI>
-        <Literal xml:lang="pt">Um mapa que usa linhas ou setas para retratar o movimento entre dois ou mais destinos. Essas linhas ou setas também podem representar quantidades de coisas sendo transferidas entre locais. Isso pode ser feito através do uso de símbolos proporcionais.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_flow_map</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_flow_map</IRI>
-        <Literal xml:lang="en">flow map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_flow_map</IRI>
-        <Literal xml:lang="pt">mapa de fluxo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
-        <Literal xml:lang="en">A measurement of the natural radioactivity of the rocks through which the drill hole passes.  The record is expressed in API units</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
-        <Literal xml:lang="pt">Uma medida da radioatividade natural das rochas através das quais o furo passa. O registro é expresso em unidades de API</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
-        <Literal xml:lang="pt">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
-        <Literal xml:lang="en">gamma ray profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
-        <Literal xml:lang="pt">perfil de raio gama</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
-        <Literal xml:lang="en">An interpretation of a vertical section through the Earth’s surface, for which evidence was obtained by geologic and geophysical techniques or from a geologic map.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
-        <Literal xml:lang="pt">Uma interpretação de uma seção vertical através da superfície da Terra, para o qual foram obtidas evidências por técnicas geológicas e geofísicas ou a partir de um mapa geológico.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Science, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
-        <Literal xml:lang="en">geological cross section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_geological_cross_section</IRI>
-        <Literal xml:lang="pt">seção geológica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_geological_map</IRI>
-        <Literal xml:lang="en">A map in which geological information is recorded, such as the distribution, nature and age relationships of rock units (surface deposits may or may not be mapped separately), and the occurrence of structural features (folds, faults, joints), mineral deposits and locations. fossils</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_geological_map</IRI>
-        <Literal xml:lang="pt">Um mapa no qual são registradas informações geológicas, como a distribuição, natureza e relações de idade das unidades rochosas (depósitos superficiais podem ou não ser mapeados separadamente), e a ocorrência de características estruturais (dobras, falhas, juntas), depósitos minerais e localidades fósseis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_geological_map</IRI>
-        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_geological_map</IRI>
-        <Literal xml:lang="en">geological map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_geological_map</IRI>
-        <Literal xml:lang="pt">mapa geológico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_geophysical_cross_section</IRI>
-        <Literal xml:lang="en">A cross section showing the variation of one property, such as elevation or gravity, usually with cordinates, relative to another property, such as distance.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_geophysical_cross_section</IRI>
-        <Literal xml:lang="pt">Uma seção transversal que mostra a variação de uma propriedade, como elevação ou gravidade, geralmente com coordenadas, em relação a outra propriedade, como distância.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_geophysical_cross_section</IRI>
-        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_geophysical_cross_section</IRI>
-        <Literal xml:lang="en">geophysical cross section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_geophysical_cross_section</IRI>
-        <Literal xml:lang="pt">seção geofísica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_geothermal_gradient_map</IRI>
-        <Literal xml:lang="en">A map that represents the increase of temperature with depth. It usually refers to depths below 200 m.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_geothermal_gradient_map</IRI>
-        <Literal xml:lang="pt">Um mapa que representa o aumento de temperatura com profundidade. Geralmente se refere a profundidades abaixo de 200 m.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_geothermal_gradient_map</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_geothermal_gradient_map</IRI>
-        <Literal xml:lang="en">geothermal gradient map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_geothermal_gradient_map</IRI>
-        <Literal xml:lang="pt">mapa de gradiente geotérmico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_gravimetric_cross_section</IRI>
-        <Literal xml:lang="en">Measurement of the acceleration of gravity in a given section.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_gravimetric_cross_section</IRI>
-        <Literal xml:lang="pt">Medida da aceleração da gravidade em uma determinada seção.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_gravimetric_cross_section</IRI>
-        <Literal xml:lang="en">gravimetric cross section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_gravimetric_cross_section</IRI>
-        <Literal xml:lang="pt">seção gravimétrica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
-        <Literal xml:lang="en">A continuous image taken along of a wellbore using resisitvity,  ultrasonic or other physical record.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
-        <Literal xml:lang="pt">Uma imagem contínua tirada ao longo de um de poço usando resistividade, ultrassom ou outro registro físico.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
-        <Literal xml:lang="en">Hyne, N.J. Nontechnical guide to petroleum geology, exploration, drilling and production (2nd edition).  PennWell, 2001.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
-        <Literal xml:lang="en">imaging log</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
-        <Literal xml:lang="pt">log de imagem</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_isopach_map</IRI>
-        <Literal xml:lang="en">A geologic map showing isopachs(a contour line joining points of equal thickness in a rock layer) in plan view throughout a particular geographic area.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_isopach_map</IRI>
-        <Literal xml:lang="pt">Um mapa geológico mostrando isópacas (uma linha de contorno unindo pontos de igual espessura em uma camada de rocha) em vista de planta em uma área geográfica específica.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_isopach_map</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_isopach_map</IRI>
-        <Literal xml:lang="en">isopach map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_isopach_map</IRI>
-        <Literal xml:lang="pt">mapa de isópacas</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithofacies_map</IRI>
-        <Literal xml:lang="en">A map which shows the distribution of different lithofacies for a particular stratigraphic interval or horizon. Such maps may be interpreted to yield a palaeogeography or environmental interpretation for the mapped horizon.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithofacies_map</IRI>
-        <Literal xml:lang="pt">A map which shows the distribution of different lithofacies for a particular stratigraphic interval or horizon. Such maps may be interpreted to yield a palaeogeography or environmental interpretation for the mapped horizon.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_lithofacies_map</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithofacies_map</IRI>
-        <Literal xml:lang="en">lithofacies map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithofacies_map</IRI>
-        <Literal xml:lang="pt">mapa de litofácies</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
-        <Literal xml:lang="en">A profile that represents the downhole rock or material types that aren&apos;t necessarily layered in a specific order.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
-        <Literal xml:lang="pt">Uma seção transversal que representa as rochas ou os tipos de material em um poço que não são necessariamente colocados em camadas ou em uma ordem específica.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
-        <Literal xml:lang="en">RockWare</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
-        <Literal xml:lang="en">lithologic profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
-        <Literal xml:lang="pt">perfil litológico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithological_cross_section</IRI>
-        <Literal xml:lang="en">A cross section that represents the downhole rock or material types that aren&apos;t necessarily layered in a specific order.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithological_cross_section</IRI>
-        <Literal xml:lang="pt">Uma seção transversal que representa as rochas ou os tipos de material em um poço que não são necessariamente colocados em camadas ou em uma ordem específica.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_lithological_cross_section</IRI>
-        <Literal xml:lang="en">RockWare</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithological_cross_section</IRI>
-        <Literal xml:lang="en">lithological cross section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithological_cross_section</IRI>
-        <Literal xml:lang="pt">seção litológica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_chart</IRI>
-        <Literal xml:lang="en">a chart that represents the combinations of lithologic properties and stratigraphic relations.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_chart</IRI>
-        <Literal xml:lang="pt">uma carta que representa as combinações de propriedades litológicas e relações estratigráficas.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_chart</IRI>
-        <Literal xml:lang="pt">carta litoestratigráfica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_chart</IRI>
-        <Literal xml:lang="en">lithostratigraphic chart</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
-        <Literal xml:lang="en">a cross section that represents the combinations of lithologic properties and stratigraphic relations.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
-        <Literal xml:lang="pt">uma seção transversal que representa as combinações de propriedades litológicas e relações estratigráficas.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
-        <Literal xml:lang="en">lithostratigraphic cross section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
-        <Literal xml:lang="pt">seção litoestratigráfica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_map</IRI>
-        <Literal xml:lang="en">Map is a symbolic depiction emphasizing relationships between elements of some space, such as objects, regions, or themes.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_map</IRI>
-        <Literal xml:lang="pt">Mapa é uma representação simbólica que enfatiza as relações entre elementos de algum espaço, como objetos, regiões ou temas.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_map</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_map</IRI>
-        <Literal xml:lang="en">map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_map</IRI>
-        <Literal xml:lang="pt">mapa</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_named_photograph</IRI>
-        <Literal xml:lang="en">A photograph that is specifically named after the object which it is about.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_named_photograph</IRI>
-        <Literal xml:lang="pt">fotografia nomeada</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_named_photograph</IRI>
-        <Literal xml:lang="en">named photograph</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
-        <Literal xml:lang="en">A recording of neutron bombardment by a sonde being raised through a borehole. The neutron log is used to estimate formation porosity and is presented on a scale calibrated in limestone porosity units.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
-        <Literal xml:lang="pt">Uma gravação de bombardeio de nêutrons por uma sonda sendo levantada através de um poço. O perfil nêutron é usado para estimar a porosidade da formação e é apresentado em uma escala calibrada em unidades de porosidade do calcário.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
-        <Literal xml:lang="en">neutron profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
-        <Literal xml:lang="pt">perfil neutron</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_outcrop_photograph</IRI>
-        <Literal xml:lang="pt">Uma fotografia que mostra um afloramento.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_outcrop_photograph</IRI>
-        <Literal xml:lang="pt">foto de afloramento</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_outcrop_photograph</IRI>
-        <Literal xml:lang="en">outcrop photograph</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
-        <Literal xml:lang="en">a map that shows the location of a point on the surface of the Earth, expressed in terms of geodesic latitude and longitude.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
-        <Literal xml:lang="pt">um mapa que mostra a localização de um ponto na superfície da Terra, expresso em termos de latitude e longitude geodésica.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
-        <Literal xml:lang="pt">mapa de localização de pontos</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
-        <Literal xml:lang="en">point location map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_profile</IRI>
-        <Literal xml:lang="en">A profile is a representation of an object viewed from one of its sides.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_profile</IRI>
-        <Literal xml:lang="pt">Um perfil é a representação de um objeto visto de um dos seus lados.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_profile</IRI>
-        <Literal xml:lang="pt">https://dicionario.priberam.org/perfil</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_profile</IRI>
-        <Literal xml:lang="pt">perfil</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_profile</IRI>
-        <Literal xml:lang="en">profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_proportional_symbol_map</IRI>
-        <Literal xml:lang="en">A map that uses symbols of different heights, lengths, areas, or volumes to represent data associated with different areas or locations within the map.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_proportional_symbol_map</IRI>
-        <Literal xml:lang="pt">Um mapa que usa símbolos de diferentes alturas, comprimentos, áreas ou volumes para representar dados associados a diferentes áreas ou locais dentro do mapa.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_proportional_symbol_map</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_proportional_symbol_map</IRI>
-        <Literal xml:lang="pt">mapa de símbolo proporcional</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_proportional_symbol_map</IRI>
-        <Literal xml:lang="en">proportional symbol map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
-        <Literal xml:lang="en">A graphical representation of some characteristic evaluated and recorded  at regular depths  in a well or vertical site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
-        <Literal xml:lang="pt">Uma representação gráfica de alguma característica avaliada e registrada em profundidades regulares em um poço ou local vertical</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
-        <Literal xml:lang="pt">perfil qualitativo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
-        <Literal xml:lang="en">qualitative profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_quantitative_profile</IRI>
-        <Literal xml:lang="en">A graphical representation of a continuous recording of some analogic value at regular depths</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_quantitative_profile</IRI>
-        <Literal xml:lang="pt">Uma representação gráfica de uma gravação contínua de algum valor analógico em profundidades regulares</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_quantitative_profile</IRI>
-        <Literal xml:lang="pt">perfil quantitativo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_quantitative_profile</IRI>
-        <Literal xml:lang="en">quantitative profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_reference_map</IRI>
-        <Literal xml:lang="pt">Mapas de referência descrevem as informações de localização  que servem como base para mapas temáticos, tais como topografia, limites de paises e regiões, posição de pontos de referência ou rodovias.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_reference_map</IRI>
-        <Literal xml:lang="en">Reference maps portray the base data, such as landforms, lines of transportation, settlements, and political boundaries, for their own sake.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_reference_map</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_reference_map</IRI>
-        <Literal xml:lang="pt">mapa de referência</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_reference_map</IRI>
-        <Literal xml:lang="en">reference map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_resistivity_profile</IRI>
-        <Literal xml:lang="pt">Perfil de resistividade é o registro, em seções não revestidas ou recentemente revestidas de um poço, das resistividades (ou seus recíprocos, as condutividades) das formações da subsuperfície, geralmente juntamente com os potenciais espontâneos (SPs) gerados no poço</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_resistivity_profile</IRI>
-        <Literal xml:lang="en">Resistivity profile is the recording,in uncased or recently cased sections of a borehole, of the resistivities(or their reciprocals, the conductivities)of the subsurface formations, generally along with the spontaneous potentials (SPs) generated in the borehole</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_resistivity_profile</IRI>
-        <Literal xml:lang="en">https://petrowiki.org/Electrode_resistivity_devices</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_resistivity_profile</IRI>
-        <Literal xml:lang="pt">perfil de resistividade</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_resistivity_profile</IRI>
-        <Literal xml:lang="en">resistivity profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_rose_diagram</IRI>
-        <Literal xml:lang="en">A rose diagram is a circular histogram plot which displays directional data and the frequency of each class.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_rose_diagram</IRI>
-        <Literal xml:lang="pt">Um diagrama de roseta é um histograma circular que exibe dados direcionais e a frequência de cada classe.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_rose_diagram</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_rose_diagram</IRI>
-        <Literal xml:lang="pt">diagrama de roseta</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_rose_diagram</IRI>
-        <Literal xml:lang="en">rose diagram</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_satellite_image</IRI>
-        <Literal xml:lang="en">An image of the Earth or other planets collected by an imaging satellite.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_satellite_image</IRI>
-        <Literal xml:lang="pt">Uma imagem da Terra ou de outro planeta obtida através de um satélite artificial.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_satellite_image</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Satellite_imagery</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_satellite_image</IRI>
-        <Literal xml:lang="pt">imagem de satélite</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_satellite_image</IRI>
-        <Literal xml:lang="en">sattelite image</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_seismic_profile</IRI>
-        <Literal xml:lang="pt">O registro sísmico em perfil que é obtido quando os hidrofones são posicionados abaixo de um poço para detectar ondas sísmicas originárias de tiros sucessivos disparados de uma fonte de superfície com deslocamento crescente. Ele fornece muita informação sobre as características geofísicas dos refletores e sobre as estruturas geológicas nas proximidades de um poço existente.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_seismic_profile</IRI>
-        <Literal xml:lang="en">The seismic record in profile which is obtained when hydrophones are positioned down a borehole to detect seismic waves originating from successive shots fired from a surface source with increasing offset. It provides much information about the geophysical characteristics of reflectors and about the geologic structures in the vicinity of an existing well.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_seismic_profile</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_seismic_profile</IRI>
-        <Literal xml:lang="pt">perfil sísmico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_seismic_profile</IRI>
-        <Literal xml:lang="en">seismic profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="pt">O registro sísmico em seção transversal que é obtido quando os hidrofones são posicionados abaixo de um poço para detectar ondas sísmicas originárias de tiros sucessivos disparados de uma fonte de superfície com deslocamento crescente. Ele fornece muita informação sobre as características geofísicas dos refletores e sobre as estruturas geológicas nas proximidades de um poço existente.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="en">The seismic record in cross section which is obtained when hydrophones are positioned down a borehole to detect seismic waves originating from successive shots fired from a surface source with increasing offset. It provides much information about the geophysical characteristics of reflectors and about the geologic structures in the vicinity of an existing well.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="en">seismic cross section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="pt">seção sísmica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_sem_image</IRI>
-        <Literal xml:lang="en">An image made by a SEM (scanning electron microscope). A SEM is a type of electron microscope that produces images of a sample by scanning the surface with a focused beam of electrons.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_sem_image</IRI>
-        <Literal xml:lang="pt">Uma imagem feita por um microscópio eletrônico de varredura (MEV), que produz uma imagem de uma amostra através da varredura da superfície por um feixe de elétrons.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_sem_image</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Scanning_electron_microscope</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_sem_image</IRI>
-        <Literal xml:lang="pt">imagem de microscópio eletrônico de varredura</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_sem_image</IRI>
-        <Literal xml:lang="en">scanning electron microscope image</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_sketch</IRI>
-        <Literal xml:lang="en">A free hand drawing in any drawing medium.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_sketch</IRI>
-        <Literal xml:lang="pt">Um desenho feito a mão livre em qualquer meio.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_sketch</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Sketch_(drawing)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_sketch</IRI>
-        <Literal xml:lang="pt">desenho a mão livre</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_sketch</IRI>
-        <Literal xml:lang="en">sketch</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
-        <Literal xml:lang="en">A record of the single travel time a sound wave takes to pass through the sidewall of a borehole from a sonde source to a receiver, when these are a constant distance apart and on the same down-hole tool. As the tool is drawn up the borehole to the surface a record of the variations in travel time is plotted as a function of down-hole depth.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
-        <Literal xml:lang="pt">Um registro do tempo de viagem que uma onda sonora leva para passar através da parede lateral de um poço de uma fonte para um receptor, quando estes estão a uma distância constante e na mesma ferramenta de fundo de poço. À medida que a ferramenta é puxada pelo poço para a superfície, um registro das variações no tempo de viagem é plotado em função da profundidade do fundo do poço.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
-        <Literal xml:lang="pt">perfil sônico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
-        <Literal xml:lang="en">sonic profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
-        <Literal xml:lang="en">A measurment of the electrochemical activity of the rocks within a borehole.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
-        <Literal xml:lang="pt">Uma medição da atividade eletroquímica das rochas dentro de um poço.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Science, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
-        <Literal xml:lang="pt">perfil de potencial espotâneo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
-        <Literal xml:lang="en">spontaneous potential profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="en">A cross section that represents interpreted formations, often groups of lithologies, which are distinctly layered in nature, are consistent between wells in their order from the surface downward, and never repeat within a borehole.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="pt">Uma seção transversal que representa formações interpretadas, geralmente grupos de litologias, cuja natureza é de camadas distintas, é consistente entre os poços em sua ordem da superfície para baixo e nunca se repete dentro de um poço.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="en">RockWare</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="pt">seção estratigráfica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="en">stratigraphic cross section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="en">A profile that represents interpreted formations, often groups of lithologies, which are distinctly layered in nature, are consistent between wells in their order from the surface downward, and never repeat within a borehole.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="pt">Um perfil que representa formações interpretadas, geralmente grupos de litologias, cuja natureza é de camadas distintas, é consistente entre os poços em sua ordem da superfície para baixo e nunca se repete dentro de um poço.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="en">RockWare</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="pt">perfil estratigráfico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="en">stratigraphic profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_structural_map</IRI>
-        <Literal xml:lang="en">A map that represents the shape of rock bodies, their spatial distribution, and the deformation processes that produce geological structures.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_structural_map</IRI>
-        <Literal xml:lang="pt">Um mapa que representa o formato dos corpos rochosos, sua distribuição espacial, e os processos de deformação que produzem as estruturas geológicas.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_structural_map</IRI>
-        <Literal xml:lang="pt">https://pt.wikipedia.org/wiki/Geologia_estrutural</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_structural_map</IRI>
-        <Literal xml:lang="pt">mapa estrutural</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_structural_map</IRI>
-        <Literal xml:lang="en">structural map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_ternary_diagram</IRI>
-        <Literal xml:lang="en">A plot on three variables which sum to a constant. It graphically depicts the ratios of the three variables as positions in an equilateral triangle. The values of the three variables a, b, and c must sum to some constant</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_ternary_diagram</IRI>
-        <Literal xml:lang="pt">Um gráfico em três variáveis ​​que somam uma constante. Representa graficamente as proporções das três variáveis ​​como posições em um triângulo equilátero. Os valores das três variáveis ​​a, b e c devem somar alguma constante</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_ternary_diagram</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Ternary_plot</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_ternary_diagram</IRI>
-        <Literal xml:lang="pt">diagrama ternário</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_ternary_diagram</IRI>
-        <Literal xml:lang="en">ternary diagram</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_thematic_map</IRI>
-        <Literal xml:lang="en">A map that focuses on a specific theme or subject area. Thematic maps use the base data, such as coastlines, boundaries and places, only as points of reference for the phenomenon being mapped.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_thematic_map</IRI>
-        <Literal xml:lang="pt">Um mapa que se concentra em um tema ou área de assunto específica. Os mapas temáticos usam os dados de base, como linhas de costa, limites e locais, apenas como pontos de referência para o fenômeno que está sendo mapeado.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_thematic_map</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_thematic_map</IRI>
-        <Literal xml:lang="pt">mapa temático</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_thematic_map</IRI>
-        <Literal xml:lang="en">thematic map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_topographic_map</IRI>
-        <Literal xml:lang="en">A map characterized by large-scale detail and quantitative representation of relief using contour lines.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_topographic_map</IRI>
-        <Literal xml:lang="pt">Um mapa caracterizado por detalhes em larga escala e representação quantitativa de relevo usando linhas de contorno.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_topographic_map</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Topographic_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_topographic_map</IRI>
-        <Literal xml:lang="pt">mapa topográfico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_topographic_map</IRI>
-        <Literal xml:lang="en">topographic map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
-        <Literal xml:lang="en">A representation of the relief of the terrain that is obtained by cutting transversely the lines of a topographic map.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
-        <Literal xml:lang="pt">Uma representação do relevo do terreno obtido através do corte nas linhas de um mapa topográfico.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Topographic_profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
-        <Literal xml:lang="pt">perfil topográfico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
-        <Literal xml:lang="en">topographic profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_well_core_photograph</IRI>
-        <Literal xml:lang="pt">Uma fotografia que mostra um testemunho.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_well_core_photograph</IRI>
-        <Literal xml:lang="pt">foto de testemunho</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_well_core_photograph</IRI>
-        <Literal xml:lang="en">well core photograph</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
-        <Literal xml:lang="en">A graphical record of the measured or computed physical characteristics of the rock section found in a well, plotted as a continuous depth function. Multiple measurements are usually taken simultaneously, and the resulting curves are displayed side by side on the common depth scale.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
-        <Literal xml:lang="pt">Um registro gráfico das características físicas medidas ou computadas da seção de rocha encontradas em um poço, plotadas como uma função contínua de profundidade. Várias medidas são geralmente feitas simultaneamente, e as curvas resultantes são exibidas lado a lado na escala de profundidade comum.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
-        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
-        <Literal xml:lang="pt">log de poço</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
-        <Literal xml:lang="en">wireline well log</Literal>
-    </AnnotationAssertion>
-</Ontology>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000038 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000038">
+        <obo:IAO_0000115 xml:lang="pt">Um diagrama que apresenta uma ou mais tuplas de informação através do mapeamento de tais tuplas em um espaço bidimensional de maneira arbitrária.</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">gráfico</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000101 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000101">
+        <rdfs:label xml:lang="pt">imagem</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000179 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000179">
+        <obo:IAO_0000115 xml:lang="pt">Um histograma é a representação gráfica em colunas ou em barras (retângulos) de um conjunto de dados previamente tabulado e dividido em classes uniformes ou não uniformes.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="pt">WEB: https://pt.wikipedia.org/wiki/Histograma</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">histograma</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000185 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000185">
+        <rdfs:label xml:lang="pt">fotografia</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000309 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000309">
+        <obo:IAO_0000115 xml:lang="pt">Uma figura que expressa uma ou mais proposições.</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">diagrama</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_3d_block_diagram -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_3d_block_diagram">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A representation of an imaginary rectangular block of the earth&apos;s crust (representing geological and topographic features) in what appears to be a three-dimensional perspective, showing a surface area at the top and including one or more (usually two) vertical cross sections.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma representação de um bloco retangular imaginário da crosta terrestre (representando características geológicas e topográficas) no que parece ser uma perspectiva tridimensional, mostrando uma área de superfície no topo e incluindo uma ou mais (geralmente duas) seções transversais verticais.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">3d block diagram</rdfs:label>
+        <rdfs:label xml:lang="pt">bloco diagrama</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_Photomicrograph -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_Photomicrograph">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000185"/>
+        <owl:disjointWith rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_satellite_image"/>
+        <obo:IAO_0000115 xml:lang="en">A photograph taken through a microscope or similar device to show a magnified image of an object.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma fotografia obtida através de um microscópio ou dispositivo similar para mostrar uma visão aumentada de um objeto.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Micrograph</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">microfotografia</rdfs:label>
+        <rdfs:label xml:lang="en">photomicrograph</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_aerial_photography -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_aerial_photography">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000185"/>
+        <obo:IAO_0000115 xml:lang="pt">fotografia a partir de uma aeronave ou outro objeto voador.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">photograph from an aircraft or other flying object.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Aerial_photography</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">aerial photography</rdfs:label>
+        <rdfs:label xml:lang="pt">fotografia aérea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_altimetric_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_altimetric_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_topographic_map"/>
+        <owl:disjointWith rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_bathymetric_map"/>
+        <obo:IAO_0000115 xml:lang="en">a contour map with heights indicated by outlines (isobaths) drawn at regular intervals.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">um mapa de contorno com alturas indicadas por contornos(isóbatas) traçados em intervalos regulares.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altimetric map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa altimétrico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_amplitute_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_amplitute_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_contour_map"/>
+        <obo:IAO_0000115 xml:lang="en">A display of amplitude measurements on a slice on the horizon.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma exibição de medições de amplitude em uma fatia no horizonte.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">amplitude map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa de amplitude</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_bathymetric_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_bathymetric_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_topographic_map"/>
+        <obo:IAO_0000115 xml:lang="en">A contour map of the bottom of a body of water (such as the seabed) with depths indicated by outlines (isobaths) drawn at regular intervals.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">um mapa de contorno do fundo de um corpo de água (como o fundo do mar) com profundidades indicadas por contornos(isóbatas) traçados em intervalos regulares.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Glossary of Geology, Klaus K. E. Neuendorf, James P. Mehl Jr. and Julia A. Jackson</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">bathymetric map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa batimétrico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_bouguer_anomaly_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_bouguer_anomaly_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_choropleth_map"/>
+        <obo:IAO_0000115 xml:lang="en">Map that shows a measure of gravity that is correct for topography (elevation) and latitude, but not for isostasis (subsurface rock density).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Mapa que mostra uma medida de gravidade que é correta para a topografia(elevação) e latitude, mas não para a isostasia (densidade de rochas subsuperficiais).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Petroleum Exploration, Drilling, &amp; Production, Norman J. Hyne</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">bourguer anomaly map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa de anomalia bouguer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_caliper_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_caliper_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_wireline_well_log"/>
+        <obo:IAO_0000115 xml:lang="pt">O registro produzido por um paquímetro carregado por mola que se ajusta continuamente ao tamanho de um poço quando ele é puxado para a superfície. O perfil é uma medida direta do diâmetro do poço em função da profundidade.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The record produced by a spring-loaded caliper that continually adjusts itself to the size of a borehole as it is pulled to the surface. The log is a direct measure of the diameter of the borehole as a function of depth.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">caliper profile</rdfs:label>
+        <rdfs:label xml:lang="pt">perfil caliper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_cartogram -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_cartogram">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_thematic_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map that purposely distorts geographic space based on values of a theme.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa que distorce propositalmente o espaço geográfico com base nos valores de um tema.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">cartogram</rdfs:label>
+        <rdfs:label xml:lang="pt">cartograma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_choropleth_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_choropleth_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_thematic_map"/>
+        <obo:IAO_0000115 xml:lang="en">A thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa temático no qual as áreas são sombreadas ou padronizadas na proporção da medida da variável estatística exibida no mapa.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Choropleth_map</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">choropleth map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa coroplético</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_compositional_diagram -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_compositional_diagram">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000309"/>
+        <obo:IAO_0000115 xml:lang="en">diagram representing the spatial distribution of mineral composition in a rock sample.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">diagrama que representa a distribuição espacial da composição mineral  em  uma amostra de rocha.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="pt">mapa composicional de amostra</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">compositional diagram</rdfs:label>
+        <rdfs:label xml:lang="pt">diagrama composicional</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_compositional_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_compositional_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_choropleth_map"/>
+        <obo:IAO_0000115 xml:lang="en">a map that represents the geographical distribution of mineral compositions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">mapa que representa a distribuição geográfica de composições minerais.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">compositional map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa composicional</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_contour_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_contour_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_thematic_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map that depicts continuous phenomena. Each line-bounded area on this type of map represents a region with the same value.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa que descreve fenômenos contínuos. Cada área delimitada por linhas neste tipo de mapa representa uma região com o mesmo valor.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">contour map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa de contorno</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_cross_section -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_cross_section">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000308"/>
+        <obo:IAO_0000115 xml:lang="en">A cross section of a diagram or drawing showing features cut by a particular specific plane. An actual exhibit or cut showing cut geological features.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Corte transversal a um diagrama ou desenho que mostra características cortadas por um determinado plano específico.  Uma exposição ou corte real que mostra recursos geológicos cortados.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">cross section</rdfs:label>
+        <rdfs:label xml:lang="pt">seção transversal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_dasymetric_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_dasymetric_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_thematic_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map which uses areal symbols to spatially classify volumetric data.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa que usa símbolos de área para classificar espacialmente dados volumétricos.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Dasymetric_map</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">dasymetric map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa dasimétrico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_density_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_density_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_wireline_well_log"/>
+        <obo:IAO_0000115 xml:lang="en">A record of the density of the rocks penetrated by a drill hole.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um registro da densidade das rochas perfuradas por uma broca.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="pt">Dictionary of Earth Sciences, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">density profile</rdfs:label>
+        <rdfs:label xml:lang="pt">perfil de densidade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_dot_distribution_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_dot_distribution_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_thematic_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map that uses a dot symbol to show the presence of a feature or a phenomenon. Dot maps rely on a visual scatter to show spatial pattern.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa que usa um símbolo de ponto para mostrar a presença de um elemento ou fenômeno. Os mapas de pontos contam com uma dispersão visual para mostrar o padrão espacial.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Dot_distribution_map</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">dot distribution map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa de distribuição de pontos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_facies_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_facies_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_dasymetric_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map showing the distribution of different types of rock attributes or facies occurring within a deisgnated geologic unit.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa mostrando a distribuição de diferentes tipos de atributos ou fácies rochosas que ocorrem dentro de uma unidade geológica demarcada.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://www.mindat.org/glossary/facies_map
+
+Mindat.org glossary, project of the Hudson Institute of Mineralogy.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">facies map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa de fácies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_flow_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_flow_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_thematic_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map that uses lines or arrows to portray movement between two or more destinations. These lines or arrows can also represent quantities of things being transferred between locations. This can be done via use of proportional symbols.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa que usa linhas ou setas para retratar o movimento entre dois ou mais destinos. Essas linhas ou setas também podem representar quantidades de coisas sendo transferidas entre locais. Isso pode ser feito através do uso de símbolos proporcionais.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">flow map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa de fluxo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_gamma_ray_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_gamma_ray_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_wireline_well_log"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement of the natural radioactivity of the rocks through which the drill hole passes.  The record is expressed in API units</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma medida da radioatividade natural das rochas através das quais o furo passa. O registro é expresso em unidades de API</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="pt">Dictionary of Earth Sciences, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">gamma ray profile</rdfs:label>
+        <rdfs:label xml:lang="pt">perfil de raio gama</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_geological_cross_section -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_geological_cross_section">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_cross_section"/>
+        <obo:IAO_0000115 xml:lang="en">An interpretation of a vertical section through the Earth’s surface, for which evidence was obtained by geologic and geophysical techniques or from a geologic map.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma interpretação de uma seção vertical através da superfície da Terra, para o qual foram obtidas evidências por técnicas geológicas e geofísicas ou a partir de um mapa geológico.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Earth Science, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">geological cross section</rdfs:label>
+        <rdfs:label xml:lang="pt">seção geológica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_geological_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_geological_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_choropleth_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map in which geological information is recorded, such as the distribution, nature and age relationships of rock units (surface deposits may or may not be mapped separately), and the occurrence of structural features (folds, faults, joints), mineral deposits and locations. fossils</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa no qual são registradas informações geológicas, como a distribuição, natureza e relações de idade das unidades rochosas (depósitos superficiais podem ou não ser mapeados separadamente), e a ocorrência de características estruturais (dobras, falhas, juntas), depósitos minerais e localidades fósseis</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">geological map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa geológico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_geophysical_cross_section -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_geophysical_cross_section">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_cross_section"/>
+        <obo:IAO_0000115 xml:lang="en">A cross section showing the variation of one property, such as elevation or gravity, usually with cordinates, relative to another property, such as distance.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma seção transversal que mostra a variação de uma propriedade, como elevação ou gravidade, geralmente com coordenadas, em relação a outra propriedade, como distância.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">geophysical cross section</rdfs:label>
+        <rdfs:label xml:lang="pt">seção geofísica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_geothermal_gradient_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_geothermal_gradient_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_contour_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map that represents the increase of temperature with depth. It usually refers to depths below 200 m.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa que representa o aumento de temperatura com profundidade. Geralmente se refere a profundidades abaixo de 200 m.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">geothermal gradient map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa de gradiente geotérmico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_gravimetric_cross_section -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_gravimetric_cross_section">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_cross_section"/>
+        <obo:IAO_0000115 xml:lang="en">Measurement of the acceleration of gravity in a given section.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Medida da aceleração da gravidade em uma determinada seção.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">gravimetric cross section</rdfs:label>
+        <rdfs:label xml:lang="pt">seção gravimétrica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_imaging_log -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_imaging_log">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000101"/>
+        <obo:IAO_0000115 xml:lang="en">A continuous image taken along of a wellbore using resisitvity,  ultrasonic or other physical record.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma imagem contínua tirada ao longo de um de poço usando resistividade, ultrassom ou outro registro físico.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Hyne, N.J. Nontechnical guide to petroleum geology, exploration, drilling and production (2nd edition).  PennWell, 2001.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">imaging log</rdfs:label>
+        <rdfs:label xml:lang="pt">log de imagem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_isopach_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_isopach_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_contour_map"/>
+        <obo:IAO_0000115 xml:lang="en">A geologic map showing isopachs(a contour line joining points of equal thickness in a rock layer) in plan view throughout a particular geographic area.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa geológico mostrando isópacas (uma linha de contorno unindo pontos de igual espessura em uma camada de rocha) em vista de planta em uma área geográfica específica.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">isopach map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa de isópacas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_lithofacies_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_lithofacies_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_choropleth_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map which shows the distribution of different lithofacies for a particular stratigraphic interval or horizon. Such maps may be interpreted to yield a palaeogeography or environmental interpretation for the mapped horizon.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">A map which shows the distribution of different lithofacies for a particular stratigraphic interval or horizon. Such maps may be interpreted to yield a palaeogeography or environmental interpretation for the mapped horizon.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">lithofacies map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa de litofácies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_lithologic_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_lithologic_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_qualitative_profile"/>
+        <obo:IAO_0000115 xml:lang="en">A profile that represents the downhole rock or material types that aren&apos;t necessarily layered in a specific order.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma seção transversal que representa as rochas ou os tipos de material em um poço que não são necessariamente colocados em camadas ou em uma ordem específica.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">RockWare</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">lithologic profile</rdfs:label>
+        <rdfs:label xml:lang="pt">perfil litológico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_lithological_cross_section -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_lithological_cross_section">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_cross_section"/>
+        <obo:IAO_0000115 xml:lang="en">A cross section that represents the downhole rock or material types that aren&apos;t necessarily layered in a specific order.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma seção transversal que representa as rochas ou os tipos de material em um poço que não são necessariamente colocados em camadas ou em uma ordem específica.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">RockWare</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">lithological cross section</rdfs:label>
+        <rdfs:label xml:lang="pt">seção litológica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_lithostratigraphic_chart -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_lithostratigraphic_chart">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000308"/>
+        <obo:IAO_0000115 xml:lang="en">a chart that represents the combinations of lithologic properties and stratigraphic relations.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">uma carta que representa as combinações de propriedades litológicas e relações estratigráficas.</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">carta litoestratigráfica</rdfs:label>
+        <rdfs:label xml:lang="en">lithostratigraphic chart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_lithostratigraphic_cross_section -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_lithostratigraphic_cross_section">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_cross_section"/>
+        <obo:IAO_0000115 xml:lang="en">a cross section that represents the combinations of lithologic properties and stratigraphic relations.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">uma seção transversal que representa as combinações de propriedades litológicas e relações estratigráficas.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">lithostratigraphic cross section</rdfs:label>
+        <rdfs:label xml:lang="pt">seção litoestratigráfica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_map">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000308"/>
+        <obo:IAO_0000115 xml:lang="en">Map is a symbolic depiction emphasizing relationships between elements of some space, such as objects, regions, or themes.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Mapa é uma representação simbólica que enfatiza as relações entre elementos de algum espaço, como objetos, regiões ou temas.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Map</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">map</rdfs:label>
+        <rdfs:label xml:lang="pt">mapa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_named_photograph -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_named_photograph">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000185"/>
+        <obo:IAO_0000115 xml:lang="en">A photograph that is specifically named after the object which it is about.</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">fotografia nomeada</rdfs:label>
+        <rdfs:label xml:lang="en">named photograph</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_neutron_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_neutron_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_wireline_well_log"/>
+        <obo:IAO_0000115 xml:lang="en">A recording of neutron bombardment by a sonde being raised through a borehole. The neutron log is used to estimate formation porosity and is presented on a scale calibrated in limestone porosity units.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma gravação de bombardeio de nêutrons por uma sonda sendo levantada através de um poço. O perfil nêutron é usado para estimar a porosidade da formação e é apresentado em uma escala calibrada em unidades de porosidade do calcário.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">neutron profile</rdfs:label>
+        <rdfs:label xml:lang="pt">perfil neutron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_outcrop_photograph -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_outcrop_photograph">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_named_photograph"/>
+        <owl:disjointWith rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_well_core_photograph"/>
+        <obo:IAO_0000115 xml:lang="pt">Uma fotografia que mostra um afloramento.</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">foto de afloramento</rdfs:label>
+        <rdfs:label xml:lang="en">outcrop photograph</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_point_location_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_point_location_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_dot_distribution_map"/>
+        <obo:IAO_0000115 xml:lang="en">a map that shows the location of a point on the surface of the Earth, expressed in terms of geodesic latitude and longitude.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">um mapa que mostra a localização de um ponto na superfície da Terra, expresso em termos de latitude e longitude geodésica.</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">mapa de localização de pontos</rdfs:label>
+        <rdfs:label xml:lang="en">point location map</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_profile">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">A profile is a representation of an object viewed from one of its sides.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um perfil é a representação de um objeto visto de um dos seus lados.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="pt">https://dicionario.priberam.org/perfil</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">perfil</rdfs:label>
+        <rdfs:label xml:lang="en">profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_proportional_symbol_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_proportional_symbol_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_thematic_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map that uses symbols of different heights, lengths, areas, or volumes to represent data associated with different areas or locations within the map.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa que usa símbolos de diferentes alturas, comprimentos, áreas ou volumes para representar dados associados a diferentes áreas ou locais dentro do mapa.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">mapa de símbolo proporcional</rdfs:label>
+        <rdfs:label xml:lang="en">proportional symbol map</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_qualitative_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_qualitative_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_profile"/>
+        <obo:IAO_0000115 xml:lang="en">A graphical representation of some characteristic evaluated and recorded  at regular depths  in a well or vertical site</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma representação gráfica de alguma característica avaliada e registrada em profundidades regulares em um poço ou local vertical</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">perfil qualitativo</rdfs:label>
+        <rdfs:label xml:lang="en">qualitative profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_quantitative_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_quantitative_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_profile"/>
+        <obo:IAO_0000115 xml:lang="en">A graphical representation of a continuous recording of some analogic value at regular depths</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma representação gráfica de uma gravação contínua de algum valor analógico em profundidades regulares</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">perfil quantitativo</rdfs:label>
+        <rdfs:label xml:lang="en">quantitative profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_reference_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_reference_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_map"/>
+        <obo:IAO_0000115 xml:lang="pt">Mapas de referência descrevem as informações de localização  que servem como base para mapas temáticos, tais como topografia, limites de paises e regiões, posição de pontos de referência ou rodovias.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Reference maps portray the base data, such as landforms, lines of transportation, settlements, and political boundaries, for their own sake.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">mapa de referência</rdfs:label>
+        <rdfs:label xml:lang="en">reference map</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_resistivity_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_resistivity_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_wireline_well_log"/>
+        <obo:IAO_0000115 xml:lang="pt">Perfil de resistividade é o registro, em seções não revestidas ou recentemente revestidas de um poço, das resistividades (ou seus recíprocos, as condutividades) das formações da subsuperfície, geralmente juntamente com os potenciais espontâneos (SPs) gerados no poço</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Resistivity profile is the recording,in uncased or recently cased sections of a borehole, of the resistivities(or their reciprocals, the conductivities)of the subsurface formations, generally along with the spontaneous potentials (SPs) generated in the borehole</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://petrowiki.org/Electrode_resistivity_devices</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">perfil de resistividade</rdfs:label>
+        <rdfs:label xml:lang="en">resistivity profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_rose_diagram -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_rose_diagram">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000179"/>
+        <obo:IAO_0000115 xml:lang="en">A rose diagram is a circular histogram plot which displays directional data and the frequency of each class.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um diagrama de roseta é um histograma circular que exibe dados direcionais e a frequência de cada classe.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">diagrama de roseta</rdfs:label>
+        <rdfs:label xml:lang="en">rose diagram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_satellite_image -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_satellite_image">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000185"/>
+        <obo:IAO_0000115 xml:lang="en">An image of the Earth or other planets collected by an imaging satellite.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma imagem da Terra ou de outro planeta obtida através de um satélite artificial.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Satellite_imagery</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">imagem de satélite</rdfs:label>
+        <rdfs:label xml:lang="en">sattelite image</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_seismic_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_seismic_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_qualitative_profile"/>
+        <obo:IAO_0000115 xml:lang="pt">O registro sísmico em perfil que é obtido quando os hidrofones são posicionados abaixo de um poço para detectar ondas sísmicas originárias de tiros sucessivos disparados de uma fonte de superfície com deslocamento crescente. Ele fornece muita informação sobre as características geofísicas dos refletores e sobre as estruturas geológicas nas proximidades de um poço existente.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The seismic record in profile which is obtained when hydrophones are positioned down a borehole to detect seismic waves originating from successive shots fired from a surface source with increasing offset. It provides much information about the geophysical characteristics of reflectors and about the geologic structures in the vicinity of an existing well.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">perfil sísmico</rdfs:label>
+        <rdfs:label xml:lang="en">seismic profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_seismic_section -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_seismic_section">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_cross_section"/>
+        <obo:IAO_0000115 xml:lang="pt">O registro sísmico em seção transversal que é obtido quando os hidrofones são posicionados abaixo de um poço para detectar ondas sísmicas originárias de tiros sucessivos disparados de uma fonte de superfície com deslocamento crescente. Ele fornece muita informação sobre as características geofísicas dos refletores e sobre as estruturas geológicas nas proximidades de um poço existente.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The seismic record in cross section which is obtained when hydrophones are positioned down a borehole to detect seismic waves originating from successive shots fired from a surface source with increasing offset. It provides much information about the geophysical characteristics of reflectors and about the geologic structures in the vicinity of an existing well.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">seismic cross section</rdfs:label>
+        <rdfs:label xml:lang="pt">seção sísmica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_sem_image -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_sem_image">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000185"/>
+        <obo:IAO_0000115 xml:lang="en">An image made by a SEM (scanning electron microscope). A SEM is a type of electron microscope that produces images of a sample by scanning the surface with a focused beam of electrons.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma imagem feita por um microscópio eletrônico de varredura (MEV), que produz uma imagem de uma amostra através da varredura da superfície por um feixe de elétrons.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Scanning_electron_microscope</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">imagem de microscópio eletrônico de varredura</rdfs:label>
+        <rdfs:label xml:lang="en">scanning electron microscope image</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_sketch -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_sketch">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000309"/>
+        <obo:IAO_0000115 xml:lang="en">A free hand drawing in any drawing medium.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um desenho feito a mão livre em qualquer meio.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Sketch_(drawing)</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">desenho a mão livre</rdfs:label>
+        <rdfs:label xml:lang="en">sketch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_sonic_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_sonic_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_wireline_well_log"/>
+        <obo:IAO_0000115 xml:lang="en">A record of the single travel time a sound wave takes to pass through the sidewall of a borehole from a sonde source to a receiver, when these are a constant distance apart and on the same down-hole tool. As the tool is drawn up the borehole to the surface a record of the variations in travel time is plotted as a function of down-hole depth.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um registro do tempo de viagem que uma onda sonora leva para passar através da parede lateral de um poço de uma fonte para um receptor, quando estes estão a uma distância constante e na mesma ferramenta de fundo de poço. À medida que a ferramenta é puxada pelo poço para a superfície, um registro das variações no tempo de viagem é plotado em função da profundidade do fundo do poço.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">perfil sônico</rdfs:label>
+        <rdfs:label xml:lang="en">sonic profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_spontaneous_potential_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_spontaneous_potential_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_wireline_well_log"/>
+        <obo:IAO_0000115 xml:lang="en">A measurment of the electrochemical activity of the rocks within a borehole.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma medição da atividade eletroquímica das rochas dentro de um poço.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Dictionary of Earth Science, Michael Allaby</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">perfil de potencial espotâneo</rdfs:label>
+        <rdfs:label xml:lang="en">spontaneous potential profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_stereogram -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_stereogram">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">A graphic diagram on a plane surface, giving a three-dimensional representation, such as projecting a set of angular relations.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um diagrama gráfico em uma superfície plana, fornecendo uma representação tridimensional, como a projeção de um conjunto de relações angulares.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">estereograma</rdfs:label>
+        <rdfs:label xml:lang="en">stereogram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_stratigraphic_cross_section -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_stratigraphic_cross_section">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_cross_section"/>
+        <obo:IAO_0000115 xml:lang="en">A cross section that represents interpreted formations, often groups of lithologies, which are distinctly layered in nature, are consistent between wells in their order from the surface downward, and never repeat within a borehole.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma seção transversal que representa formações interpretadas, geralmente grupos de litologias, cuja natureza é de camadas distintas, é consistente entre os poços em sua ordem da superfície para baixo e nunca se repete dentro de um poço.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">RockWare</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">seção estratigráfica</rdfs:label>
+        <rdfs:label xml:lang="en">stratigraphic cross section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_stratigraphic_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_stratigraphic_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_qualitative_profile"/>
+        <obo:IAO_0000115 xml:lang="en">A profile that represents interpreted formations, often groups of lithologies, which are distinctly layered in nature, are consistent between wells in their order from the surface downward, and never repeat within a borehole.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um perfil que representa formações interpretadas, geralmente grupos de litologias, cuja natureza é de camadas distintas, é consistente entre os poços em sua ordem da superfície para baixo e nunca se repete dentro de um poço.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">RockWare</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">perfil estratigráfico</rdfs:label>
+        <rdfs:label xml:lang="en">stratigraphic profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_structural_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_structural_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_dasymetric_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map that represents the shape of rock bodies, their spatial distribution, and the deformation processes that produce geological structures.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa que representa o formato dos corpos rochosos, sua distribuição espacial, e os processos de deformação que produzem as estruturas geológicas.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="pt">https://pt.wikipedia.org/wiki/Geologia_estrutural</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">mapa estrutural</rdfs:label>
+        <rdfs:label xml:lang="en">structural map</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_ternary_diagram -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_ternary_diagram">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">A plot on three variables which sum to a constant. It graphically depicts the ratios of the three variables as positions in an equilateral triangle. The values of the three variables a, b, and c must sum to some constant</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um gráfico em três variáveis ​​que somam uma constante. Representa graficamente as proporções das três variáveis ​​como posições em um triângulo equilátero. Os valores das três variáveis ​​a, b e c devem somar alguma constante</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Ternary_plot</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">diagrama ternário</rdfs:label>
+        <rdfs:label xml:lang="en">ternary diagram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_thematic_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_thematic_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map that focuses on a specific theme or subject area. Thematic maps use the base data, such as coastlines, boundaries and places, only as points of reference for the phenomenon being mapped.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa que se concentra em um tema ou área de assunto específica. Os mapas temáticos usam os dados de base, como linhas de costa, limites e locais, apenas como pontos de referência para o fenômeno que está sendo mapeado.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Thematic_map</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">mapa temático</rdfs:label>
+        <rdfs:label xml:lang="en">thematic map</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_topographic_map -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_topographic_map">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_contour_map"/>
+        <obo:IAO_0000115 xml:lang="en">A map characterized by large-scale detail and quantitative representation of relief using contour lines.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um mapa caracterizado por detalhes em larga escala e representação quantitativa de relevo usando linhas de contorno.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Topographic_map</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">mapa topográfico</rdfs:label>
+        <rdfs:label xml:lang="en">topographic map</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_topographic_profile -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_topographic_profile">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_quantitative_profile"/>
+        <obo:IAO_0000115 xml:lang="en">A representation of the relief of the terrain that is obtained by cutting transversely the lines of a topographic map.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma representação do relevo do terreno obtido através do corte nas linhas de um mapa topográfico.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Topographic_profile</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">perfil topográfico</rdfs:label>
+        <rdfs:label xml:lang="en">topographic profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_well_core_photograph -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_well_core_photograph">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_named_photograph"/>
+        <obo:IAO_0000115 xml:lang="pt">Uma fotografia que mostra um testemunho.</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">foto de testemunho</rdfs:label>
+        <rdfs:label xml:lang="en">well core photograph</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_wireline_well_log -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_wireline_well_log">
+        <rdfs:subClassOf rdf:resource="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_quantitative_profile"/>
+        <obo:IAO_0000115 xml:lang="en">A graphical record of the measured or computed physical characteristics of the rock section found in a well, plotted as a continuous depth function. Multiple measurements are usually taken simultaneously, and the resulting curves are displayed side by side on the common depth scale.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Um registro gráfico das características físicas medidas ou computadas da seção de rocha encontradas em um poço, plotadas como uma função contínua de profundidade. Várias medidas são geralmente feitas simultaneamente, e as curvas resultantes são exibidas lado a lado na escala de profundidade comum.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">log de poço</rdfs:label>
+        <rdfs:label xml:lang="en">wireline well log</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000037">
+        <obo:IAO_0000115 xml:lang="pt">Um gráfico de pontos é uma representação gráfica onde cada observação é representada por um único ponto posicionado em coordenadas definidas por valores da observação em certas dimensões.</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">gráfico de pontos</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000057">
+        <rdfs:label xml:lang="pt">gráfico de contornos</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000079">
+        <obo:IAO_0000115 xml:lang="pt">Um gráfico de densidades é uma representação gráfica onde a cor de cada pixel é definida em função do número de observações (data points) próximas à posição do pixel.</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">gráfico de densidades</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000180">
+        <obo:IAO_0000115 xml:lang="pt">Um heatmap é uma representação gráfica onde os valores de um certo campo escalar são mapeados para cores em uma figura bidimensional.</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">heatmap</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000181">
+        <rdfs:label xml:lang="pt">diagrama de Venn</rdfs:label>
+        <obo:IAO_0000115 xml:lang="pt">Um diagrama de Venn mostra todas possíveis relações lógicas entre uma coleção finita de conjuntos.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000183">
+        <rdfs:label xml:lang="pt">dendrograma</rdfs:label>
+        <obo:IAO_0000115 xml:lang="pt">Um dendrograma é um diagrama gráfico no formato de árvore frequentemente utilizado para ilustrar a organização de grupos (clusters) produzidos por um algoritmo de agrupamento (clustering).</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000184">
+        <obo:IAO_0000115 xml:lang="pt">Um gráfico de dispersão (scatter plot) utiliza coordenadas Cartesianas para exibir valores de um conjunto de dados. Os dados são exibidos como uma coleção de pontos, cada um com o valor de uma variável determinando a posição no eixo horizontal e o valor da outra variável determinando a posição no eixo vertical (em caso de duas variáveis).</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">gráfico de dispersão</rdfs:label>
+        <obo:IAO_0000119 xml:lang="pt">WEB: https://pt.wikipedia.org/wiki/Gr%C3%A1fico_de_dispers%C3%A3o</obo:IAO_0000119>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000573">
+        <obo:IAO_0000115 xml:lang="pt">Um gráfico de linha é um gráfico criado através da conexão de vários pontos utilizando segmentos de linhas.</obo:IAO_0000115>
+        <rdfs:label xml:lang="pt">gráfico de linha</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_Photomicrograph"/>
+            <rdf:Description rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_satellite_image"/>
+            <rdf:Description rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_sem_image"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
 
 
 
