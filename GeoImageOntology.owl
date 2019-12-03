@@ -210,6 +210,19 @@
     
 
 
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_chronostratigraphic_chart -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_chronostratigraphic_chart">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000308"/>
+        <obo:IAO_0000115 xml:lang="pt">Exposição gráfica, com tempo geológico ao longo do eixo vertical e distância referente a uma seção de referência no eixo horizontal, para demonstrar idades relativas e extensão geográfica de estratos ou unidades estratigráficas de uma determinada área.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Graphical display with geological time along the vertical axis and distance from a reference section on the horizontal axis to demonstrate relative ages and geographic extent of strata or stratigraphic units within a given area.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="pt">http://dicionariodopetroleo.com.br/</obo:IAO_0000119>
+        <rdfs:label xml:lang="pt">carta cronoestratigráfica</rdfs:label>
+        <rdfs:label xml:lang="en">chronostratigraphic chart</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_compositional_diagram -->
 
     <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_compositional_diagram">
