@@ -300,6 +300,19 @@
     
 
 
+    <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_diffractogram -->
+
+    <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_diffractogram">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">A measure of the diffraction peaks in X-rays diffracted by the sample.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="pt">Uma medida dos picos de difração dos raios X difratados pela amostra.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://www.glossary.oilfield.slb.com/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">diffractogram</rdfs:label>
+        <rdfs:label xml:lang="pt">difratograma</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_dot_distribution_map -->
 
     <owl:Class rdf:about="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology#UFRGS:GeoImage_dot_distribution_map">
