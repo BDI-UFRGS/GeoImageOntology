@@ -1915,7 +1915,7 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_sketch</IRI>
-        <Literal xml:lang="pt">desenho a mão livre</Literal>
+        <Literal xml:lang="pt">esboço esquemático</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
