@@ -1313,6 +1313,14 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="pt">Um mapa que representa o aumento de temperatura com profundidade. Geralmente se refere a profundidades abaixo de 200 m.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <IRI>#UFRGS:GeoImage_geothermal_gradient_map</IRI>
+        <Literal>Mara Abel
+Cassiana Michelin
+Luan Garcia
+Luiza Maggi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <IRI>#UFRGS:GeoImage_geothermal_gradient_map</IRI>
         <Literal xml:lang="pt">mapa de temperatura</Literal>
@@ -1330,12 +1338,12 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geothermal_gradient_map</IRI>
-        <Literal xml:lang="en">geothermal gradient map</Literal>
+        <Literal xml:lang="en">geothermal map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geothermal_gradient_map</IRI>
-        <Literal xml:lang="pt">mapa de gradiente geotérmico</Literal>
+        <Literal xml:lang="pt">mapa geotérmico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
