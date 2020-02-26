@@ -185,6 +185,9 @@
         <Class IRI="#UFRGS:GeoImage_temperature_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_locator_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
     </Declaration>
     <Declaration>
@@ -414,6 +417,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
         <Class IRI="#UFRGS:GeoImage_cross_section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_locator_map"/>
+        <Class IRI="#UFRGS:GeoImage_reference_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_map"/>
@@ -1719,6 +1726,31 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção litoestratigráfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_locator_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A locator map, sometimes referred to simply as a locator, is typically a simple map used in cartography to show the location of a particular geographic area within its larger and presumably more familiar context. Depending on the needs of the cartographer, this type of map can be used on its own or as an inset or addition to a larger map.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_locator_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um mapa de localização é tipicamente um mapa simples utilizado em cartografia para mostrar a localização de uma área geográfica particular dentro de uma área maior e de contexto mais familiar. Dependendo da necessidade do cartógrafo, este tipo de mapa pode tanto ser utilizado por si só quanto como base para um mapa maior.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_locator_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_locator_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">locator map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_locator_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de localização</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
