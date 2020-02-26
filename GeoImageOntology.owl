@@ -478,7 +478,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
