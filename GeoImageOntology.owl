@@ -348,7 +348,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_facies_map"/>
-        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
+        <Class IRI="#UFRGS:GeoImage_geological_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_fence_diagram"/>
