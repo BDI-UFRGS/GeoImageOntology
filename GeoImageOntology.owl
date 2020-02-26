@@ -71,6 +71,9 @@
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_van_krevelen_diagram"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
     </Declaration>
     <Declaration>
@@ -80,10 +83,10 @@
         <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
+        <Class IRI="#UFRGS:GeoImage_cross_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
@@ -95,10 +98,10 @@
         <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_map"/>
+        <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
+        <Class IRI="#UFRGS:GeoImage_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_ternary_diagram"/>
@@ -137,13 +140,16 @@
         <Class IRI="#UFRGS:GeoImage_neutron_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_structural_map"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_point_location_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_structural_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_fence_diagram"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
@@ -179,19 +185,19 @@
         <Class IRI="#UFRGS:GeoImage_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
+        <Class IRI="#UFRGS:GeoImage_diffractogram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_diffractogram"/>
+        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_imaging_log"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_density_profile"/>
+        <Class IRI="#UFRGS:GeoImage_flow_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_flow_map"/>
+        <Class IRI="#UFRGS:GeoImage_density_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_facies_map"/>
@@ -314,6 +320,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_facies_map"/>
         <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_fence_diagram"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_flow_map"/>
@@ -486,6 +496,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
         <Class IRI="#UFRGS:GeoImage_cross_section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_van_krevelen_diagram"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
@@ -1158,6 +1172,40 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_facies_map</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de fácies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_fence_diagram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A graphical display of three-dimensional data and interpretations in two-dimensional perspective view. Geologic cross sections can be displayed in a network to form a fence diagram. Stratigraphic changes can be displayed clearly in fence diagrams.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_fence_diagram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma exibição gráfica de dados  e interpretações tridimensionais em perspectiva bidimensional.
+
+As seções transversais geológicas podem ser exibidas em uma rede para formar um diagrama de cerca. As mudanças estratigráficas podem ser mostradas claramente neste tipo de diagrama.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_fence_diagram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Schlumberger Oilfiled Glossary.
+
+https://www.glossary.oilfield.slb.com/en/Terms/f/fence_diagram.aspx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_fence_diagram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_fence_diagram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diagrama de cerca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_fence_diagram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fence diagram</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -2218,6 +2266,38 @@ Luiza Maggi</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">topographic profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_van_krevelen_diagram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A plot of atomic oxygen/carbon (O/C) versus atomic hydrogen/carbon (H/C) originally used to classify coals and predict compositional evolution during thermal maturation, but adapted to classify kerogen types I, II, III, and IV. More common is the pseudo-Van Krevelen diagram, where Rock-Eval pyrolysis oxygen index ([OI] mg HC/g TOC) is plotted versus hydrogen index ([HI] mg HC/g TOC).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_van_krevelen_diagram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um gráfico de oxigênio / carbono atômicos verus hidrogênio / carbono originalmente utilizado para classificar carvões e predizer evolução composicional durante maturação térmica, mas adaptado para classificar querogênios tipos I, II, III e IV.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_van_krevelen_diagram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AAPG Wiki.
+
+https://wiki.aapg.org/Van_Krevelen_diagram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_van_krevelen_diagram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_van_krevelen_diagram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diagrama de van krevelen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_van_krevelen_diagram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">van krevelen diagram</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
