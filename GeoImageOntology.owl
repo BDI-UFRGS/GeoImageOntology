@@ -77,6 +77,9 @@
         <Class IRI="#UFRGS:GeoImage_stereogram"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_cross_section"/>
     </Declaration>
     <Declaration>
@@ -351,6 +354,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isopach_map"/>
         <Class IRI="#UFRGS:GeoImage_contour_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
+        <Class abbreviatedIRI="obo:IAO_0000185"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithofacies_map"/>
@@ -1391,6 +1398,38 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_isopach_map</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de isópacas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_lateral_core_photograph</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A photo from a cilindric rock sample obtained from the lateral part of the well.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_lateral_core_photograph</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fotografia de uma amostra cilíndrica de rocha obtida ortogonalmente à parede do poço.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_lateral_core_photograph</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dicionário do Petróleo.
+
+http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_lateral_core_photograph</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_lateral_core_photograph</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fotografia de amostra lateral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_lateral_core_photograph</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lateral core photograph</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
