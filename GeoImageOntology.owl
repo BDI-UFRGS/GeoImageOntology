@@ -77,9 +77,6 @@
         <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stereogram"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
     </Declaration>
     <Declaration>
@@ -243,6 +240,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_stereographic_projection"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
@@ -458,7 +458,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
-        <Class abbreviatedIRI="obo:IAO_0000179"/>
+        <Class IRI="#UFRGS:GeoImage_stereographic_projection"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
@@ -493,8 +493,8 @@
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_stereogram"/>
-        <Class abbreviatedIRI="obo:IAO_0000038"/>
+        <Class IRI="#UFRGS:GeoImage_stereographic_projection"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
@@ -2215,28 +2215,47 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_stereogram</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A graphic diagram on a plane surface, giving a three-dimensional representation, such as projecting a set of angular relations.</Literal>
+        <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In geometry, the stereographic projection is a particular mapping (function) that projects a sphere onto a plane. The projection is defined on the entire sphere, except at one point: the projection point. Where it is defined, the mapping is smooth and bijective. It is conformal, meaning that it preserves angles at which curves meet. It is neither isometric nor area-preserving: that is, it preserves neither distances nor the areas of figures.
+
+Intuitively, then, the stereographic projection is a way of picturing the sphere as the plane, with some inevitable compromises. Because the sphere and the plane appear in many areas of mathematics and its applications, so does the stereographic projection; it finds use in diverse fields including complex analysis, cartography, geology, and photography.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_stereogram</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um diagrama gráfico em uma superfície plana, fornecendo uma representação tridimensional, como a projeção de um conjunto de relações angulares.</Literal>
+        <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Na geometria, a projeção estereográfica é um mapeamento (função) específico que projeta uma esfera em um plano. A projeção é definida em toda a esfera, exceto em um ponto: o ponto de projeção. Onde é definido, o mapeamento é suave e bijetivo. É conforme, o que significa que preserva ângulos nos quais as curvas se encontram. Não é isométrico nem preserva a área: ou seja, não preserva nem distâncias nem áreas de figuras.
+
+Intuitivamente, então, a projeção estereográfica é uma maneira de retratar a esfera como o plano, com alguns compromissos inevitáveis. Como a esfera e o plano aparecem em muitas áreas da matemática e suas aplicações, o mesmo ocorre com a projeção estereográfica; encontra uso em diversos campos, incluindo análises complexas, cartografia, geologia e fotografia.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_stereogram</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_stereogram</IRI>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">estereograma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_stereogram</IRI>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stereogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Stereographic_projection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">projeção estereográfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stereographic projection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
