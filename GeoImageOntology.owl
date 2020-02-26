@@ -65,6 +65,9 @@
         <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_isochron_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_gravimetric_cross_section"/>
     </Declaration>
     <Declaration>
@@ -204,6 +207,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_hand_sample_image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_isolith_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_profile"/>
@@ -403,6 +409,14 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_imaging_log"/>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_isochron_map"/>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_isolith_map"/>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isopach_map"/>
@@ -1610,6 +1624,70 @@ https://www.glossary.oilfield.slb.com/en/Terms/f/fence_diagram.aspx</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_imaging_log</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">log de imagem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_isochron_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Isochron Map is a map that displays areas related to isochrones between two different travel points. The map has some connecting points that depict something that has occurred. It is most commonly used in hydrology and transport planning. Moreover, it is also regarded as a counter map of similar values of distinct travel points between the selected seismic reflection events. It is used to provide the information about the thickness of seismic data. It is a time-structured map used to generate isopach maps and elevation structure maps.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_isochron_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um mapa de isócronas é um mapa que mostra áreas relacionadas às isócronas entre dois pontos. O mapa possui algumas pontos conectados que mostram algo que ocorreu. É mais comumente utilizado em hidrologia e planejamento de transporte de petróleo. Além disso, é também considerado um mapa de contorno de valores similares de pontos de viagem entre os eventos de reflexão sísmica selecionados.f É utilizado para prover a informações sobre a espessura do dado sísmico. É um mapa temporalmente estruturado utilizado para gear maps de isópacas e mapas de elevação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_isochron_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pedropedia.
+
+https://www.petropedia.com/definition/2126/isochron-map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_isochron_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_isochron_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isochron map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_isochron_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de isócronas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_isolith_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An Isolith Map is a map that contains contour lines which depict the thickness of a lithology. In an isolith map the points of a similar lithology are usually connected by a series of contours. These maps help geologists to select a particular component of the rock in a stratigraphic unit and analyze its structure, components, thickness, permeability and other physical or chemical properties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_isolith_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma mapa de isólitas é um mapa que contém linhas de contorno que mostram a espessura de uma litologia. Em um mapa de isólitas, os pontos de uma litologia similar são conectados por uma série de contornos. Estes mapas auxiliam os geólogos a selecionar algum componente em particular da rocha em uma unidade estratigráfica e analisar sua estrutura, componentes, espessura, permeabilidade e outras propriedades físicas ou químicas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_isolith_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pedropedia.
+
+https://www.petropedia.com/definition/7018/isolith-map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_isolith_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_isolith_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isolith map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_isolith_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de isólitas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
