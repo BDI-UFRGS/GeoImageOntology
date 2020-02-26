@@ -274,6 +274,9 @@
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_structure_contour_map"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
@@ -545,6 +548,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_structural_map"/>
         <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_structure_contour_map"/>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_temperature_map"/>
@@ -2524,6 +2531,46 @@ Intuitivamente, então, a projeção estereográfica é uma maneira de retratar 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_structural_map</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structural map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_structure_contour_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A type of subsurface map whose contours represent the elevation of a particular formation, reservoir or geologic marker in space, such that folds, faults and other geologic structures are clearly displayed. Its appearance is similar to that of a topographic map, but a topographic map displays elevations of the Earth&apos;s surface and a structure map displays the elevation of a particular rock layer, generally beneath the surface.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_structure_contour_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um tipo de mapa cujo os contornos representam a elevação de uma formação, reservatório ou marcação geológica no es[aço, de forma que dobras, falhas e outras estruturas geológicas são claramente exibidas. Sua aparência é similar a um mapa topográfico, mas um mapa topográfico exibe elevações da superfície da Terra e um mapa de contorno estrutural exibe a elevação de uma camada de rocha em específico, geralmente na subsuperfície.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_structure_contour_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de topo de formação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_structure_contour_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structure map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_structure_contour_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.glossary.oilfield.slb.com/en/Terms/s/structure_map.aspx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_structure_contour_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_structure_contour_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de contorno estrutural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_structure_contour_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structure contour map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
