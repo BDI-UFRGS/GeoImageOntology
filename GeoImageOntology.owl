@@ -41,10 +41,10 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mara Abel</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_seismic_section"/>
+        <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_seismic_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
@@ -89,13 +89,13 @@
         <Class IRI="#UFRGS:GeoImage_compositional_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_geothermal_gradient_map"/>
@@ -350,7 +350,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_imaging_log"/>
-        <Class abbreviatedIRI="obo:IAO_0000101"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isopach_map"/>
