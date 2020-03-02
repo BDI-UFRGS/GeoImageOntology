@@ -194,6 +194,9 @@
         <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_photographic_interpretation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_point_location_map"/>
     </Declaration>
     <Declaration>
@@ -495,6 +498,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
         <Class abbreviatedIRI="obo:IAO_0000185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_photographic_interpretation"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_point_location_map"/>
@@ -2063,6 +2070,41 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_outcrop_photograph</IRI>
         <Literal xml:lang="en">outcrop photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_photographic_interpretation</IRI>
+        <Literal xml:lang="pt">Fotointerpretação é o ato de examinar fotografias com o objetivo de identificar objetos e julgar sua significância.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_photographic_interpretation</IRI>
+        <Literal xml:lang="en">Photographic interpretation is the act of examining photographic images for the purpose of identifying objects and judging their significance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_photographic_interpretation</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Aerial_photographic_and_satellite_image_interpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_photographic_interpretation</IRI>
+        <Literal xml:lang="en">Photographic interpretation is more of a technique than a kind of figure it self. I think its result is usually a map or some other kind of diagram.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_photographic_interpretation</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_photographic_interpretation</IRI>
+        <Literal xml:lang="pt">fotointerpretação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_photographic_interpretation</IRI>
+        <Literal xml:lang="en">photographic interpretation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
