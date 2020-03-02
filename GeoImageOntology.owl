@@ -68,6 +68,9 @@
         <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_biostratigraphic_chart"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
     </Declaration>
     <Declaration>
@@ -342,6 +345,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
         <Class IRI="#UFRGS:GeoImage_topographic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_biostratigraphic_chart"/>
+        <Class IRI="#UFRGS:GeoImage_geological_chart"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
@@ -1058,6 +1065,26 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_bathymetric_map</IRI>
         <Literal xml:lang="pt">mapa batimétrico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_biostratigraphic_chart</IRI>
+        <Literal xml:lang="en">biostratigraphic summary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_biostratigraphic_chart</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_biostratigraphic_chart</IRI>
+        <Literal xml:lang="en">biostratigraphic chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_biostratigraphic_chart</IRI>
+        <Literal xml:lang="pt">sumário bioestratigráfico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
