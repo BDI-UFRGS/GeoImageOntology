@@ -155,6 +155,9 @@
         <Class IRI="#UFRGS:GeoImage_imaging_log"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_interpreted_seismic"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_isochron_map"/>
     </Declaration>
     <Declaration>
@@ -295,6 +298,20 @@
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#UFRGS:GeoImage_interpreted_seismic"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class IRI="#UFRGS:GeoImage_seismic_image"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UFRGS:GeoImage_interpreted_seismic"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class IRI="#UFRGS:GeoImage_seismic_image"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
@@ -446,6 +463,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_imaging_log"/>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_interpreted_seismic"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isochron_map"/>
@@ -1739,6 +1760,31 @@ Convencionamos que manteremos o termo perfil geoquímico para carta geoquímica 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_imaging_log</IRI>
         <Literal xml:lang="pt">log de imagem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_interpreted_seismic</IRI>
+        <Literal xml:lang="en">It is an interpretation of some seismic image.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_interpreted_seismic</IRI>
+        <Literal xml:lang="pt">É uma interpretação de alguma imagem sísmica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_interpreted_seismic</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_interpreted_seismic</IRI>
+        <Literal xml:lang="en">interpreted seismic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_interpreted_seismic</IRI>
+        <Literal xml:lang="pt">sísmica interpretada</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
