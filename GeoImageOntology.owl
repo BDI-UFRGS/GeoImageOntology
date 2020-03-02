@@ -348,7 +348,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_compositional_diagram"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_compositional_map"/>
