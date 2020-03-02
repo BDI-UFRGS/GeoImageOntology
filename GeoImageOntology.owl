@@ -137,6 +137,9 @@
         <Class IRI="#UFRGS:GeoImage_geological_chart"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
     </Declaration>
     <Declaration>
@@ -297,6 +300,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_well_correlation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
@@ -430,6 +436,10 @@
         <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
@@ -644,6 +654,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
         <Class abbreviatedIRI="obo:IAO_0000185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_well_correlation"/>
+        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
@@ -1623,6 +1637,21 @@ Convencionamos que manteremos o termo perfil geoquímico para carta geoquímica 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geological_chart</IRI>
         <Literal xml:lang="en">geological chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_geological_correlation</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geological_correlation</IRI>
+        <Literal xml:lang="pt">correlação geológica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geological_correlation</IRI>
+        <Literal xml:lang="en">geological correlation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3087,6 +3116,21 @@ https://wiki.aapg.org/Van_Krevelen_diagram</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_well_core_photograph</IRI>
         <Literal xml:lang="en">well core photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_well_correlation</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_well_correlation</IRI>
+        <Literal xml:lang="pt">correlação de poços</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_well_correlation</IRI>
+        <Literal xml:lang="en">well correlation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
