@@ -473,7 +473,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_chart"/>
@@ -481,7 +481,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_locator_map"/>
@@ -577,7 +577,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_profile"/>
