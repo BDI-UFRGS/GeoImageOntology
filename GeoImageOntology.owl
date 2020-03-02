@@ -272,6 +272,9 @@
         <Class IRI="#UFRGS:GeoImage_time_series"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_tomogram"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_topographic_map"/>
     </Declaration>
     <Declaration>
@@ -596,6 +599,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_time_series"/>
         <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_tomogram"/>
+        <Class abbreviatedIRI="obo:IAO_0000101"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_topographic_map"/>
@@ -2802,6 +2809,36 @@ Séries temporais frequentemente são plotadas como gráficos de linhas. Séries
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_time_series</IRI>
         <Literal xml:lang="en">time series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_tomogram</IRI>
+        <Literal xml:lang="en">It its the resulting image from the process of tomography. Tomography is imaging by sections or sectioning, through the use of any kind of penetrating wave.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_tomogram</IRI>
+        <Literal xml:lang="pt">É a imagem resultante de um processo de tomografia. Tomografia é o imageamento seccionado de um objeto através do uso de qualquer tipo de onda penetrante, como raio-x ou sísmica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_tomogram</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Tomography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_tomogram</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_tomogram</IRI>
+        <Literal xml:lang="pt">imagem de tomografia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_tomogram</IRI>
+        <Literal xml:lang="en">tomogram</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
