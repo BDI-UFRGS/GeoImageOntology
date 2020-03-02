@@ -44,6 +44,12 @@
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_3d_geological_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_3d_grid"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
     </Declaration>
     <Declaration>
@@ -288,6 +294,14 @@
     </Declaration>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_3d_geological_model"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_3d_grid"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
@@ -810,6 +824,51 @@ This category excludes infrared, ultrason, electronic scan and other kinds of wa
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_3d_block_diagram</IRI>
         <Literal xml:lang="pt">bloco diagrama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_3d_geological_model</IRI>
+        <Literal xml:lang="en">This is more of a geological conceptual model, which is 3d and isn&apos;t a grid. However, this is not a block diagram as well.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_3d_geological_model</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_3d_geological_model</IRI>
+        <Literal xml:lang="en">3d geological model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_3d_geological_model</IRI>
+        <Literal xml:lang="pt">modelo geológico 3d</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_3d_grid</IRI>
+        <Literal xml:lang="en">3d grid model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_3d_grid</IRI>
+        <Literal xml:lang="pt">modelo de grid 3d</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_3d_grid</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_3d_grid</IRI>
+        <Literal xml:lang="en">3d grid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_3d_grid</IRI>
+        <Literal xml:lang="pt">grid 3d</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
