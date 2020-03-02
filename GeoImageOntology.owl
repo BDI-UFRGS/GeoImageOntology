@@ -101,9 +101,6 @@
         <Class IRI="#UFRGS:GeoImage_contour_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
     </Declaration>
     <Declaration>
@@ -373,10 +370,6 @@
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
@@ -426,7 +419,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_map"/>
@@ -434,11 +427,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+        <Class abbreviatedIRI="obo:IAO_0000101"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_gravimetric_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+        <Class abbreviatedIRI="obo:IAO_0000101"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_hand_sample_image"/>
@@ -474,7 +467,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_chart"/>
@@ -482,7 +475,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_locator_map"/>
@@ -546,7 +539,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_seismic_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+        <Class abbreviatedIRI="obo:IAO_0000101"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_sem_image"/>
@@ -574,7 +567,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_profile"/>
@@ -610,7 +603,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_van_krevelen_diagram"/>
@@ -1288,46 +1281,6 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_contour_map</IRI>
         <Literal xml:lang="pt">mapa de contorno</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="en">A cross section of a diagram or drawing showing features cut by a particular specific plane. An actual exhibit or cut showing cut geological features.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="pt">Corte transversal a um diagrama ou desenho que mostra características cortadas por um determinado plano específico.  Uma exposição ou corte real que mostra recursos geológicos cortados.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="en">2D model</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="pt">modelo 2D</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="en">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="pt">Embora não sejam exatamente a mesma coisa, o mais comum é de que os modelos 2D sejam representados como seções transversais em Geologia. Por esta razão, modelo 2d está como um termo alternativo para seção.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="en">cross section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_cross_section</IRI>
-        <Literal xml:lang="pt">seção transversal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
