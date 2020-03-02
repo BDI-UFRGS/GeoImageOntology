@@ -224,10 +224,10 @@
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_seismic_image"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_seismic_section"/>
+        <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_sem_image"/>
@@ -534,12 +534,12 @@
         <Class abbreviatedIRI="obo:IAO_0000101"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_seismic_image"/>
+        <Class abbreviatedIRI="obo:IAO_0000101"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_seismic_section"/>
-        <Class abbreviatedIRI="obo:IAO_0000101"/>
+        <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_sem_image"/>
@@ -2324,6 +2324,41 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_seismic_image</IRI>
+        <Literal xml:lang="pt">O registro sísmico em seção transversal que é obtido quando os hidrofones são posicionados abaixo de um poço para detectar ondas sísmicas originárias de tiros sucessivos disparados de uma fonte de superfície com deslocamento crescente. Ele fornece muita informação sobre as características geofísicas dos refletores e sobre as estruturas geológicas nas proximidades de um poço existente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_seismic_image</IRI>
+        <Literal xml:lang="en">The seismic record in cross section which is obtained when hydrophones are positioned down a borehole to detect seismic waves originating from successive shots fired from a surface source with increasing offset. It provides much information about the geophysical characteristics of reflectors and about the geologic structures in the vicinity of an existing well.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_seismic_image</IRI>
+        <Literal xml:lang="en">seismic cross section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_seismic_image</IRI>
+        <Literal xml:lang="pt">seção sísmica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_seismic_image</IRI>
+        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_seismic_image</IRI>
+        <Literal xml:lang="pt">imagem sísmica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_seismic_image</IRI>
+        <Literal xml:lang="en">seismic image</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_seismic_profile</IRI>
         <Literal xml:lang="pt">O registro sísmico em perfil que é obtido quando os hidrofones são posicionados abaixo de um poço para detectar ondas sísmicas originárias de tiros sucessivos disparados de uma fonte de superfície com deslocamento crescente. Ele fornece muita informação sobre as características geofísicas dos refletores e sobre as estruturas geológicas nas proximidades de um poço existente.</Literal>
     </AnnotationAssertion>
@@ -2346,31 +2381,6 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_seismic_profile</IRI>
         <Literal xml:lang="en">seismic profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="pt">O registro sísmico em seção transversal que é obtido quando os hidrofones são posicionados abaixo de um poço para detectar ondas sísmicas originárias de tiros sucessivos disparados de uma fonte de superfície com deslocamento crescente. Ele fornece muita informação sobre as características geofísicas dos refletores e sobre as estruturas geológicas nas proximidades de um poço existente.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="en">The seismic record in cross section which is obtained when hydrophones are positioned down a borehole to detect seismic waves originating from successive shots fired from a surface source with increasing offset. It provides much information about the geophysical characteristics of reflectors and about the geologic structures in the vicinity of an existing well.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="en">seismic cross section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="pt">seção sísmica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
