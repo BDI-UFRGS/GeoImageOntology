@@ -143,6 +143,9 @@
         <Class IRI="#UFRGS:GeoImage_geological_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_geological_process_sketch"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
     </Declaration>
     <Declaration>
@@ -298,20 +301,6 @@
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </Declaration>
-    <EquivalentClasses>
-        <Class IRI="#UFRGS:GeoImage_interpreted_seismic"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
-            <Class IRI="#UFRGS:GeoImage_seismic_image"/>
-        </ObjectAllValuesFrom>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#UFRGS:GeoImage_interpreted_seismic"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
-            <Class IRI="#UFRGS:GeoImage_seismic_image"/>
-        </ObjectExactCardinality>
-    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
@@ -447,6 +436,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_map"/>
         <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_geological_process_sketch"/>
+        <Class IRI="#UFRGS:GeoImage_sketch"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
@@ -1670,6 +1663,31 @@ Convencionamos que manteremos o termo perfil geoquímico para carta geoquímica 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geological_map</IRI>
         <Literal xml:lang="pt">mapa geológico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_geological_process_sketch</IRI>
+        <Literal xml:lang="en">A free hand drawing in any drawing medium representing one or more geological processes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_geological_process_sketch</IRI>
+        <Literal xml:lang="pt">Um desenho feito a mão livre em qualquer meio representando um ou mais processos geológicos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_geological_process_sketch</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geological_process_sketch</IRI>
+        <Literal xml:lang="pt">esboço esquemático de processo geológico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geological_process_sketch</IRI>
+        <Literal xml:lang="en">geological process sketch</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
