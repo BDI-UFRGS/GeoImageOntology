@@ -206,6 +206,9 @@
         <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_paleo_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_photographic_interpretation"/>
     </Declaration>
     <Declaration>
@@ -309,6 +312,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdf:type"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
@@ -529,6 +535,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
         <Class abbreviatedIRI="obo:IAO_0000185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_paleo_map"/>
+        <Class IRI="#UFRGS:GeoImage_geological_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_photographic_interpretation"/>
@@ -2200,6 +2210,21 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_outcrop_photograph</IRI>
         <Literal xml:lang="en">outcrop photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_paleo_map</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_paleo_map</IRI>
+        <Literal xml:lang="pt">mapa paleo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_paleo_map</IRI>
+        <Literal xml:lang="en">paleo map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
