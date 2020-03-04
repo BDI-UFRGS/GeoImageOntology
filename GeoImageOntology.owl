@@ -170,6 +170,9 @@
         <Class IRI="#UFRGS:GeoImage_isochron_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_isoline_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_isolith_map"/>
     </Declaration>
     <Declaration>
@@ -486,15 +489,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isochron_map"/>
+        <Class IRI="#UFRGS:GeoImage_isoline_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_isoline_map"/>
         <Class IRI="#UFRGS:GeoImage_contour_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isolith_map"/>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+        <Class IRI="#UFRGS:GeoImage_isoline_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isopach_map"/>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+        <Class IRI="#UFRGS:GeoImage_isoline_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
@@ -1911,6 +1918,21 @@ https://www.petropedia.com/definition/2126/isochron-map</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_isochron_map</IRI>
         <Literal xml:lang="pt">mapa de isócronas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_isoline_map</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_isoline_map</IRI>
+        <Literal xml:lang="en">isoline map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_isoline_map</IRI>
+        <Literal xml:lang="pt">mapa de isolinhas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
