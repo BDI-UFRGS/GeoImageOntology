@@ -557,7 +557,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_profile"/>
-        <Class abbreviatedIRI="obo:IAO_0000038"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
