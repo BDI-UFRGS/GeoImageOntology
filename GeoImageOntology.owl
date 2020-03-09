@@ -1226,7 +1226,7 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_box_plot</IRI>
-        <Literal xml:lang="pt">diagrama de caixa</Literal>
+        <Literal xml:lang="pt">gráfico de caixa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
