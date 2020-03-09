@@ -86,7 +86,7 @@
         <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_chronostratigraphic_chart"/>
+        <Class IRI="#UFRGS:GeoImage_chronolithostratigraphic_chart"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_chronostratigraphic_profile"/>
@@ -117,6 +117,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_drill_cutting_photograph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_elementar_curve"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_events_chart"/>
@@ -177,6 +180,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_isopach_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_isotopic_curve"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
@@ -380,7 +386,7 @@
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_chronostratigraphic_chart"/>
+        <Class IRI="#UFRGS:GeoImage_chronolithostratigraphic_chart"/>
         <Class IRI="#UFRGS:GeoImage_geological_chart"/>
     </SubClassOf>
     <SubClassOf>
@@ -422,6 +428,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_drill_cutting_photograph"/>
         <Class abbreviatedIRI="obo:IAO_0000185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_elementar_curve"/>
+        <Class IRI="#UFRGS:GeoImage_geochemical_curve"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_events_chart"/>
@@ -502,6 +512,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isopach_map"/>
         <Class IRI="#UFRGS:GeoImage_isoline_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_isotopic_curve"/>
+        <Class IRI="#UFRGS:GeoImage_geochemical_curve"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
@@ -1235,37 +1249,37 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_chronostratigraphic_chart</IRI>
+        <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
         <Literal xml:lang="pt">Exposição gráfica, com tempo geológico ao longo do eixo vertical e distância referente a uma seção de referência no eixo horizontal, para demonstrar idades relativas e extensão geográfica de estratos ou unidades estratigráficas de uma determinada área.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_chronostratigraphic_chart</IRI>
+        <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
         <Literal xml:lang="en">Graphical display with geological time along the vertical axis and distance from a reference section on the horizontal axis to demonstrate relative ages and geographic extent of strata or stratigraphic units within a given area.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>#UFRGS:GeoImage_chronostratigraphic_chart</IRI>
+        <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
         <Literal xml:lang="pt">carta litocronoestratigráfica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>#UFRGS:GeoImage_chronostratigraphic_chart</IRI>
+        <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
         <Literal xml:lang="en">litochronostratigraphic chart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_chronostratigraphic_chart</IRI>
+        <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
         <Literal xml:lang="pt">http://dicionariodopetroleo.com.br/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_chronostratigraphic_chart</IRI>
+        <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
         <Literal xml:lang="pt">carta cronoestratigráfica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_chronostratigraphic_chart</IRI>
+        <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
         <Literal xml:lang="en">chronostratigraphic chart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1502,6 +1516,21 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_drill_cutting_photograph</IRI>
         <Literal xml:lang="pt">fotografia de amostra de calha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_elementar_curve</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_elementar_curve</IRI>
+        <Literal xml:lang="pt">curva elementar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_elementar_curve</IRI>
+        <Literal xml:lang="en">elementar curve</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
@@ -1990,6 +2019,21 @@ https://www.petropedia.com/definition/7018/isolith-map</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_isopach_map</IRI>
         <Literal xml:lang="pt">mapa de isópacas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_isotopic_curve</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_isotopic_curve</IRI>
+        <Literal xml:lang="pt">curva isotópica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_isotopic_curve</IRI>
+        <Literal xml:lang="en">isotopic curve</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
