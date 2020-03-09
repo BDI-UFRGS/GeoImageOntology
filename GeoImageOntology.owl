@@ -467,7 +467,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_fence_diagram"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_flow_map"/>
