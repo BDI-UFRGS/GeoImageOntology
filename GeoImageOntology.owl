@@ -611,7 +611,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_sem_image"/>
