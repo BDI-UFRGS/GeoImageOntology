@@ -242,6 +242,9 @@
         <Class IRI="#UFRGS:GeoImage_reference_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_resistivity_cross_section"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
     </Declaration>
     <Declaration>
@@ -483,7 +486,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_gravimetric_cross_section"/>
-        <Class abbreviatedIRI="obo:IAO_0000101"/>
+        <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_hand_sample_image"/>
@@ -594,6 +597,10 @@
         <Class IRI="#UFRGS:GeoImage_map"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_resistivity_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </SubClassOf>
@@ -607,7 +614,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_seismic_image"/>
-        <Class abbreviatedIRI="obo:IAO_0000101"/>
+        <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
@@ -2516,6 +2523,21 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_reference_map</IRI>
         <Literal xml:lang="en">reference map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_resistivity_cross_section</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_resistivity_cross_section</IRI>
+        <Literal xml:lang="en">resistivity cross section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_resistivity_cross_section</IRI>
+        <Literal xml:lang="pt">seção de resistividade</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
