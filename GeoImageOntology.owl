@@ -3095,6 +3095,16 @@ Séries temporais frequentemente são plotadas como gráficos de linhas. Séries
         <Literal xml:lang="pt">Uma representação do relevo do terreno obtido através do corte nas linhas de um mapa topográfico.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
+        <Literal xml:lang="pt">seção topográfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
+        <Literal xml:lang="en">topographic section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
         <Literal xml:lang="en">https://en.wikipedia.org/wiki/Topographic_profile</Literal>
