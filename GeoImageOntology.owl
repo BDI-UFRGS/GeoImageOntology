@@ -1405,16 +1405,6 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
         <Literal xml:lang="en">Graphical display with geological time along the vertical axis and distance from a reference section on the horizontal axis to demonstrate relative ages and geographic extent of strata or stratigraphic units within a given area.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
-        <Literal xml:lang="pt">carta litocronoestratigráfica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
-        <Literal xml:lang="en">litochronostratigraphic chart</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
         <Literal xml:lang="pt">http://dicionariodopetroleo.com.br/</Literal>
@@ -1422,12 +1412,12 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
-        <Literal xml:lang="pt">carta cronoestratigráfica</Literal>
+        <Literal xml:lang="pt">carta cronolitoestratigráfica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
-        <Literal xml:lang="en">chronostratigraphic chart</Literal>
+        <Literal xml:lang="en">chronolithostratigraphic chart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
