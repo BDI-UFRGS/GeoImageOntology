@@ -68,6 +68,9 @@
         <Class IRI="#UFRGS:GeoImage_bar_chart"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
     </Declaration>
     <Declaration>
@@ -138,6 +141,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_geochemical_chart"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_geochemical_curve"/>
@@ -294,6 +300,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_sonic_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_special_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_spidergram"/>
@@ -392,6 +401,10 @@
         <Class abbreviatedIRI="obo:IAO_0000038"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
         <Class IRI="#UFRGS:GeoImage_topographic_map"/>
     </SubClassOf>
@@ -409,7 +422,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_cartogram"/>
@@ -449,7 +462,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_density_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_diffractogram"/>
@@ -485,7 +498,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_geochemical_chart"/>
+        <Class IRI="#UFRGS:GeoImage_geological_chart"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geochemical_curve"/>
@@ -525,7 +542,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_imaging_log"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_special_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_interpreted_seismic"/>
@@ -585,7 +602,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_neutron_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
@@ -665,7 +682,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
@@ -693,6 +710,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_sonic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_special_profile"/>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </SubClassOf>
     <SubClassOf>
@@ -701,7 +722,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stereographic_projection"/>
@@ -1182,6 +1203,21 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_bar_chart</IRI>
         <Literal xml:lang="pt">gráfico de barra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_basic_profile</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_basic_profile</IRI>
+        <Literal xml:lang="en">basic profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_basic_profile</IRI>
+        <Literal xml:lang="pt">perfil básico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -1775,6 +1811,21 @@ https://www.glossary.oilfield.slb.com/en/Terms/f/fence_diagram.aspx</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_gamma_ray_profile</IRI>
         <Literal xml:lang="pt">perfil de raio gama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_geochemical_chart</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geochemical_chart</IRI>
+        <Literal xml:lang="en">geochemical chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geochemical_chart</IRI>
+        <Literal xml:lang="pt">perfil geoquímico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
@@ -2989,6 +3040,21 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_sonic_profile</IRI>
         <Literal xml:lang="en">sonic profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_special_profile</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_special_profile</IRI>
+        <Literal xml:lang="pt">perfil especial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_special_profile</IRI>
+        <Literal xml:lang="en">special profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
