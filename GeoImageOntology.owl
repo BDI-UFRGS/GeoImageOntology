@@ -53,6 +53,9 @@
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_acoustic_image_log"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_aerial_photography"/>
     </Declaration>
     <Declaration>
@@ -266,6 +269,9 @@
         <Class IRI="#UFRGS:GeoImage_resistivity_cross_section"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_resistivity_image_log"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
     </Declaration>
     <Declaration>
@@ -364,6 +370,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
         <Class abbreviatedIRI="obo:IAO_0000185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_acoustic_image_log"/>
+        <Class IRI="#UFRGS:GeoImage_imaging_log"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_aerial_photography"/>
@@ -648,6 +658,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_resistivity_cross_section"/>
         <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_resistivity_image_log"/>
+        <Class IRI="#UFRGS:GeoImage_imaging_log"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
@@ -1028,6 +1042,42 @@ This category excludes infrared, ultrason, electronic scan and other kinds of wa
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_Photomicrograph</IRI>
         <Literal xml:lang="en">photomicrograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_acoustic_image_log</IRI>
+        <Literal xml:lang="pt">A ferramenta de log acústico utiliza um transdutor/receptor rotativo que opera em frequências ultrasônicas. O tempo de viagem do som do transdutor até a parede do poço e de volta ao receptor é medido. Isto fornece uma imagem completa do diâmetro do poço (um log de caliper). Cores pretas indicam um diâmetro largo, enquanto branco é &quot;próximo&quot; ao tamanho da broca. Fratures e rachaduras do poço são facilmente identificadas em preto. 
+
+O log também captura a amplitude do sinal sonoro refletido da parede do poço. Esta medida é uma medida de impedância acústica da rocha. Valores baixos representam folhelhos ou arenitos macios (preto sombreado no log) e valores altos representam rochas como arenitos cimentados ou carbonatos (branco sombreado no log). Fratures e quebras aparecerão pretas, como no log caliper.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_acoustic_image_log</IRI>
+        <Literal xml:lang="en">The acoustic log tool uses a rotating acoustic transducer/receiver operating at ultrasonic frequencies. The travel time of the sound from the transducer to the wellbore wall and back to the receiver is measured. This provides a complete image of wellbore diameter (a caliper log). Black colour indicates large diameter, white is &quot;near&quot; bit size. Fractures and wellbore breakout are easily seen (black). 
+
+The log also records the amplitude of the sound signal reflected from the borehole wall. This is a measure of the acoustic impedance of the rock. Low values represent shale or soft sandstone (shaded black on the log) and high values represent competent rock such as cemented sandstones or carbonates (shaded white on the log). Fractures and breakout will appear black, as on the caliper image.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_acoustic_image_log</IRI>
+        <Literal xml:lang="en">Crain&apos;s Petrophysical Handbook
+
+https://www.spec2000.net/07-acousticimagelog.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_acoustic_image_log</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_acoustic_image_log</IRI>
+        <Literal xml:lang="en">acoustic image log</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_acoustic_image_log</IRI>
+        <Literal xml:lang="pt">perfil de imagem acústica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -2697,6 +2747,38 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_resistivity_cross_section</IRI>
         <Literal xml:lang="pt">seção de resistividade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_resistivity_image_log</IRI>
+        <Literal xml:lang="pt">Os traços de resistividade são convertidos em imagens baseados em seus valores relativos de resistividade, nas cores branca ou preta. Os dados de resistividade fornecidos por esta ferramenta são de altíssima resolução, na ordem de poucos milímitreos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_resistivity_image_log</IRI>
+        <Literal xml:lang="en">The resistivity traces are translated into images based on their relative resistivity values, in either black and white or colour. The resistivity data provided by this tool are of very high resolution, in the order of a few millimeters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_resistivity_image_log</IRI>
+        <Literal xml:lang="en">Crain&apos;s Petrophysical Handbook
+
+https://www.spec2000.net/07-resimagelog.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_resistivity_image_log</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_resistivity_image_log</IRI>
+        <Literal xml:lang="pt">perfil de imagem resistiva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_resistivity_image_log</IRI>
+        <Literal xml:lang="en">resistivity image log</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
