@@ -3035,12 +3035,7 @@ Intuitivamente, então, a projeção estereográfica é uma maneira de retratar 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="pt">coluna estratigráfica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="pt">empilhamento estratigráfico</Literal>
+        <Literal xml:lang="pt">perfil estratigráfico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
@@ -3055,7 +3050,7 @@ Intuitivamente, então, a projeção estereográfica é uma maneira de retratar 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="pt">perfil estratigráfico</Literal>
+        <Literal xml:lang="pt">empilhamento estratigráfico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
