@@ -900,6 +900,11 @@ This category excludes infrared, ultrason, electronic scan and other kinds of wa
         <Literal xml:lang="pt">fotografia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000306</AbbreviatedIRI>
+        <Literal xml:lang="pt">tabela</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IAO_0000309</AbbreviatedIRI>
         <Literal xml:lang="pt">Uma figura que expressa uma ou mais proposições.</Literal>
