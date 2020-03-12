@@ -197,9 +197,6 @@
         <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lithofacies_map"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_lithologic_profile"/>
     </Declaration>
     <Declaration>
@@ -210,9 +207,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_locator_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_map"/>
@@ -249,9 +243,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_photographic_interpretation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_profile"/>
@@ -573,10 +564,6 @@
         <Class abbreviatedIRI="obo:IAO_0000185"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_lithofacies_map"/>
-        <Class IRI="#UFRGS:GeoImage_geological_map"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithologic_profile"/>
         <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
     </SubClassOf>
@@ -591,10 +578,6 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_locator_map"/>
-        <Class IRI="#UFRGS:GeoImage_reference_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_map"/>
@@ -643,10 +626,6 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_photographic_interpretation"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
-        <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_profile"/>
@@ -2221,31 +2200,6 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithofacies_map</IRI>
-        <Literal xml:lang="en">A map which shows the distribution of different lithofacies for a particular stratigraphic interval or horizon. Such maps may be interpreted to yield a palaeogeography or environmental interpretation for the mapped horizon.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithofacies_map</IRI>
-        <Literal xml:lang="pt">A map which shows the distribution of different lithofacies for a particular stratigraphic interval or horizon. Such maps may be interpreted to yield a palaeogeography or environmental interpretation for the mapped horizon.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_lithofacies_map</IRI>
-        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithofacies_map</IRI>
-        <Literal xml:lang="en">lithofacies map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithofacies_map</IRI>
-        <Literal xml:lang="pt">mapa de litofácies</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
         <Literal xml:lang="en">A profile that represents the downhole rock or material types that aren&apos;t necessarily layered in a specific order.</Literal>
     </AnnotationAssertion>
@@ -2338,31 +2292,6 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
         <Literal xml:lang="pt">seção litoestratigráfica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_locator_map</IRI>
-        <Literal xml:lang="en">A locator map, sometimes referred to simply as a locator, is typically a simple map used in cartography to show the location of a particular geographic area within its larger and presumably more familiar context. Depending on the needs of the cartographer, this type of map can be used on its own or as an inset or addition to a larger map.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_locator_map</IRI>
-        <Literal xml:lang="pt">Um mapa de localização é tipicamente um mapa simples utilizado em cartografia para mostrar a localização de uma área geográfica particular dentro de uma área maior e de contexto mais familiar. Dependendo da necessidade do cartógrafo, este tipo de mapa pode tanto ser utilizado por si só quanto como base para um mapa maior.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
-        <IRI>#UFRGS:GeoImage_locator_map</IRI>
-        <Literal xml:lang="pt">Luan Garcia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_locator_map</IRI>
-        <Literal xml:lang="en">locator map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_locator_map</IRI>
-        <Literal xml:lang="pt">mapa de localização</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -2583,26 +2512,6 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_photographic_interpretation</IRI>
         <Literal xml:lang="en">photographic interpretation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
-        <Literal xml:lang="en">a map that shows the location of a point on the surface of the Earth, expressed in terms of geodesic latitude and longitude.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
-        <Literal xml:lang="pt">um mapa que mostra a localização de um ponto na superfície da Terra, expresso em termos de latitude e longitude geodésica.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
-        <Literal xml:lang="pt">mapa de localização de pontos</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
-        <Literal xml:lang="en">point location map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3466,12 +3375,6 @@ Séries temporais frequentemente são plotadas como gráficos de linhas. Séries
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
         <Literal xml:lang="en">https://en.wikipedia.org/wiki/Topographic_profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
-        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
-        <Literal xml:lang="pt">A definição conceitual de perfil pressupõe um diagrama uma visualização de um valor sobre o eixo Z, o que não corresponde a um perfil topográfico. Conceitualmente um perfil topográfico é uma representação de um valor em 2D vertical, logo uma seção. Portanto o termo seção topográfica, embora menos usual, será privilegiado nesta ontologia. O termo Perfil Topográfico será mantido como sinônimo.
-12/03/2020</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
