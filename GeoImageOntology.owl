@@ -3470,7 +3470,8 @@ Séries temporais frequentemente são plotadas como gráficos de linhas. Séries
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
         <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
-        <Literal xml:lang="pt">Segundo Sofia e Eujana um perfil topográfico é na realidade uma seção que representa a topografia em uma direção de corte do terreno.</Literal>
+        <Literal xml:lang="pt">A definição conceitual de perfil pressupõe um diagrama uma visualização de um valor sobre o eixo Z, o que não corresponde a um perfil topográfico. Conceitualmente um perfil topográfico é uma representação de um valor em 2D vertical, logo uma seção. Portanto o termo seção topográfica, embora menos usual, será privilegiado nesta ontologia. O termo Perfil Topográfico será mantido como sinônimo.
+12/03/2020</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
