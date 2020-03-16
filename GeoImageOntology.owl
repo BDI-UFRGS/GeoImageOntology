@@ -2326,6 +2326,11 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <Literal xml:lang="pt">mapa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_microfossil_photograph</IRI>
+        <Literal xml:lang="pt">estampa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
         <IRI>#UFRGS:GeoImage_microfossil_photograph</IRI>
         <Literal>Luan Garcia</Literal>
