@@ -212,6 +212,9 @@
         <Class IRI="#UFRGS:GeoImage_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_microfossil_photograph"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_neutron_profile"/>
     </Declaration>
     <Declaration>
@@ -582,6 +585,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_map"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_microfossil_photograph"/>
+        <Class abbreviatedIRI="obo:IAO_0000185"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_neutron_profile"/>
@@ -2317,6 +2324,21 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_map</IRI>
         <Literal xml:lang="pt">mapa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_microfossil_photograph</IRI>
+        <Literal>Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_microfossil_photograph</IRI>
+        <Literal xml:lang="pt">fotografia de microfossil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_microfossil_photograph</IRI>
+        <Literal xml:lang="en">microfossil photograph</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
