@@ -110,6 +110,9 @@
         <Class IRI="#UFRGS:GeoImage_contour_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_correlation_diagram"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
     </Declaration>
     <Declaration>
@@ -150,9 +153,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_geological_chart"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
@@ -448,6 +448,10 @@
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_correlation_diagram"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
@@ -481,7 +485,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_fence_diagram"/>
-        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
+        <Class IRI="#UFRGS:GeoImage_correlation_diagram"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_flow_map"/>
@@ -501,10 +505,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_chart"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
@@ -765,7 +765,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_well_correlation"/>
-        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
+        <Class IRI="#UFRGS:GeoImage_correlation_diagram"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
@@ -1509,6 +1509,21 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
         <Literal xml:lang="pt">mapa de contorno</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_correlation_diagram</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_correlation_diagram</IRI>
+        <Literal xml:lang="en">correlation diagram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_correlation_diagram</IRI>
+        <Literal xml:lang="pt">diagrama de correlação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
         <Literal xml:lang="en">A map which uses areal symbols to spatially classify volumetric data.</Literal>
@@ -1841,21 +1856,6 @@ Convencionamos que manteremos o termo perfil geoquímico para carta geoquímica 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geological_chart</IRI>
         <Literal xml:lang="en">geological chart</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
-        <IRI>#UFRGS:GeoImage_geological_correlation</IRI>
-        <Literal xml:lang="pt">Luan Garcia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_geological_correlation</IRI>
-        <Literal xml:lang="pt">correlação geológica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_geological_correlation</IRI>
-        <Literal xml:lang="en">geological correlation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
