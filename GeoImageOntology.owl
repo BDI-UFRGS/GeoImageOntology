@@ -116,6 +116,9 @@
         <Class IRI="#UFRGS:GeoImage_geological_chart"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_geotectonic_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_radar_chart"/>
     </Declaration>
     <Declaration>
@@ -552,6 +555,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
         <Class abbreviatedIRI="obo:IAO_0000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_geotectonic_map"/>
+        <Class IRI="#UFRGS:GeoImage_geological_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_gravimetric_cross_section"/>
@@ -2077,6 +2084,21 @@ Convencionamos que manteremos o termo perfil geoquímico para carta geoquímica 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geophysical_cross_section</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção geofísica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_geotectonic_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geotectonic_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geotectonic map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geotectonic_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa geotectônico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
