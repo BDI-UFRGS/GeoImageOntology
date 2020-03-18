@@ -71,6 +71,9 @@
         <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
     </Declaration>
     <Declaration>
@@ -141,6 +144,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_log_curve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_physical_property_cross_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_cartogram"/>
@@ -448,6 +454,10 @@
         <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
@@ -505,7 +515,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class IRI="#UFRGS:GeoImage_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_map"/>
@@ -630,6 +640,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_photographic_interpretation"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_physical_property_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_profile"/>
@@ -1512,6 +1526,21 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_correlation_diagram</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diagrama de correlação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_cross_section</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_cross_section</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cross section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_cross_section</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção transversal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -2537,6 +2566,21 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_photographic_interpretation</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">photographic interpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_physical_property_cross_section</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_physical_property_cross_section</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">physical property cross section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_physical_property_cross_section</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção de propriedade física</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
