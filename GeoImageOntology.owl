@@ -302,6 +302,9 @@
         <Class IRI="#UFRGS:GeoImage_composite_profile"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_digital_rock"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
     </Declaration>
     <Declaration>
@@ -471,6 +474,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_diffractogram"/>
         <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_digital_rock"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
@@ -1623,6 +1630,21 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_diffractogram</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">difratograma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_digital_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_digital_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">digital rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_digital_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha digital</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
