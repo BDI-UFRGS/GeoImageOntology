@@ -107,6 +107,9 @@
         <Class IRI="#UFRGS:GeoImage_lithologic_profile"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_fragmentogram"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_chronostratigraphic_profile"/>
     </Declaration>
     <Declaration>
@@ -138,6 +141,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_chromatogram"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
@@ -432,6 +438,10 @@
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_chromatogram"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_chronolithostratigraphic_chart"/>
         <Class IRI="#UFRGS:GeoImage_geological_chart"/>
     </SubClassOf>
@@ -506,6 +516,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_flow_map"/>
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_fragmentogram"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
@@ -1388,6 +1402,38 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_chromatogram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A visible record (such as a series of colored bands, or a graph) showing the result of separation of the components of a mixture by chromatography.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_chromatogram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um registro visual (assim como uma série de faixas coloridas, ou um gráfico) qque mostra o resultado da separação dos componentes de uma mistura por cromatografia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_chromatogram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LEXICO Dictionary, by Oxford University.
+
+https://www.lexico.com/en/definition/chromatogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_chromatogram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_chromatogram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">chromatogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_chromatogram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cromatograma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_chronolithostratigraphic_chart</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Exposição gráfica, com tempo geológico ao longo do eixo vertical e distância referente a uma seção de referência no eixo horizontal, para demonstrar idades relativas e extensão geográfica de estratos ou unidades estratigráficas de uma determinada área.</Literal>
     </AnnotationAssertion>
@@ -1818,6 +1864,33 @@ https://www.glossary.oilfield.slb.com/en/Terms/f/fence_diagram.aspx</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_flow_map</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de fluxo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_fragmentogram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dicionário do Petróleo.
+
+http://dicionariodopetroleo.com.br/dictionary/fragmentograma/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_fragmentogram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Registro do sinal obtido em um instrumento GC-MS (cromatografia gasosa-espectrometria de massas) de todos os compostos produzidos por um íon fragmentado em uma razão massa-carga (m/z) especificada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_fragmentogram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_fragmentogram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fragmentogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_fragmentogram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fragmentograma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
