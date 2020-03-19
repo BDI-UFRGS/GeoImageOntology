@@ -44,10 +44,10 @@
         <Class IRI="#UFRGS:GeoImage_acoustic_image_log"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_sem_image"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_sem_image"/>
+        <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
@@ -62,10 +62,10 @@
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stereogram"/>
+        <Class IRI="#UFRGS:GeoImage_time_series"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_time_series"/>
+        <Class IRI="#UFRGS:GeoImage_stereogram"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
@@ -338,10 +338,10 @@
         <Class IRI="#UFRGS:GeoImage_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_diffractogram"/>
+        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
+        <Class IRI="#UFRGS:GeoImage_diffractogram"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_imaging_log"/>
@@ -2267,7 +2267,7 @@ https://www.petropedia.com/definition/7018/isolith-map</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_isolith_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de isólitas</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de isólitas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
