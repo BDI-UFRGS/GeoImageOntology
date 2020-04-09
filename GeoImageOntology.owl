@@ -56,25 +56,40 @@
         <Class IRI="#UFRGS:GeoImage_isochron_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_image_profile"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_biostratigraphic_chart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_stereogram"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_time_series"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stereogram"/>
+        <Class IRI="#UFRGS:GeoImage_lithogeochemical_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
+        <Class IRI="#UFRGS:GeoImage_stamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_image_log"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
@@ -95,6 +110,9 @@
         <Class IRI="#UFRGS:GeoImage_paleoceanographic_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_diagrammatic_profile"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_topographic_map"/>
     </Declaration>
     <Declaration>
@@ -104,13 +122,25 @@
         <Class IRI="#UFRGS:GeoImage_geological_process_sketch"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_special_profile"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_lithologic_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_fragmentogram"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_image_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_isoattribute_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_chronostratigraphic_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_spectral_gamma_ray_log"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_geological_chart"/>
@@ -122,16 +152,25 @@
         <Class IRI="#UFRGS:GeoImage_radar_chart"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_correlation_diagram"/>
+        <Class IRI="#UFRGS:GeoImage_image_cross_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_photoelectric_factor"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_resistivity_image_log"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_neutron_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_burial_graph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_geochemical_plot"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_microfossil_photograph"/>
@@ -150,9 +189,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_log_curve"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_physical_property_cross_section"/>
@@ -176,10 +212,22 @@
         <Class IRI="#UFRGS:GeoImage_paleobathymetric_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_diagrammatic_cross_section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_hand_sample_image"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_diagrammatic_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_density_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_ratio_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_facies_map"/>
@@ -188,13 +236,13 @@
         <Class IRI="#UFRGS:GeoImage_reference_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_3d_grid"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_hydrocarbon_production_graph"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_checkshot_survey"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_paleobiogeographic_map"/>
@@ -239,9 +287,6 @@
         <Class IRI="#UFRGS:GeoImage_van_krevelen_diagram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_tomogram"/>
     </Declaration>
     <Declaration>
@@ -257,6 +302,9 @@
         <Class IRI="#UFRGS:GeoImage_elementar_curve"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_synthetic_seismogram"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
     </Declaration>
     <Declaration>
@@ -266,10 +314,16 @@
         <Class IRI="#UFRGS:GeoImage_paleogeographic_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_variogram"/>
+        <Class IRI="#UFRGS:GeoImage_event_graph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_seismic_cube"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_paleomagnetic_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_variogram"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_geochemical_curve"/>
@@ -284,10 +338,13 @@
         <Class IRI="#UFRGS:GeoImage_resistivity_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_3d_geological_model"/>
+        <Class IRI="#UFRGS:GeoImage_seismic_attribute_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_evolutionary_model"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdf:type"/>
@@ -299,7 +356,10 @@
         <Class IRI="#UFRGS:GeoImage_drill_cutting_photograph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_isoline_map"/>
+        <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_magnetic_anomaly_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_bar_chart"/>
@@ -308,7 +368,13 @@
         <Class IRI="#UFRGS:GeoImage_fence_diagram"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_vertical_seismic_profile"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_composite_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_gravity_anomaly_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_digital_rock"/>
@@ -335,16 +401,19 @@
         <Class IRI="#UFRGS:GeoImage_isolith_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_profile"/>
+        <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_diffractogram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_imaging_log"/>
+        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_nuclear_magnetic_resonance_log"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_flow_map"/>
@@ -356,37 +425,20 @@
         <Class IRI="#UFRGS:GeoImage_geological_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
+        <Class IRI="#UFRGS:GeoImage_sandbox_photograph"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_aerial_photography"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_sandbox_photograph"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_altimetric_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_well_correlation"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_3d_geological_model"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_3d_grid"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
@@ -394,7 +446,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_acoustic_image_log"/>
-        <Class IRI="#UFRGS:GeoImage_imaging_log"/>
+        <Class IRI="#UFRGS:GeoImage_image_log"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_aerial_photography"/>
@@ -406,11 +458,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+        <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bar_chart"/>
         <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bathymetric_map"/>
@@ -422,23 +478,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
-        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
+        <Class IRI="#UFRGS:GeoImage_gravity_anomaly_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_box_plot"/>
         <Class abbreviatedIRI="obo:IAO_0000038"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_burial_graph"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
-        <Class IRI="#UFRGS:GeoImage_log_curve"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_cartogram"/>
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+        <Class IRI="#UFRGS:GeoImage_checkshot_survey"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_chromatogram"/>
@@ -450,11 +510,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_chronostratigraphic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_composite_profile"/>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_compositional_diagram"/>
@@ -462,27 +522,31 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_compositional_map"/>
-        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_contour_map"/>
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_correlation_diagram"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_cross_section"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+        <Class abbreviatedIRI="obo:IAO_0000308"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_density_profile"/>
-        <Class IRI="#UFRGS:GeoImage_log_curve"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_diagrammatic_cross_section"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_diagrammatic_map"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_diagrammatic_profile"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_diffractogram"/>
@@ -490,11 +554,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_digital_rock"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_dot_distribution_map"/>
-        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+        <Class abbreviatedIRI="obo:IAO_0000101"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_drill_cutting_photograph"/>
@@ -505,8 +565,16 @@
         <Class IRI="#UFRGS:GeoImage_geochemical_curve"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_event_graph"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_events_chart"/>
         <Class IRI="#UFRGS:GeoImage_geological_chart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_evolutionary_model"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_facies_map"/>
@@ -514,7 +582,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_fence_diagram"/>
-        <Class IRI="#UFRGS:GeoImage_correlation_diagram"/>
+        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_flow_map"/>
@@ -526,7 +594,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
-        <Class IRI="#UFRGS:GeoImage_log_curve"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geochemical_chart"/>
@@ -534,11 +602,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geochemical_curve"/>
-        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_geochemical_plot"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_chart"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
+        <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
@@ -546,7 +622,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_map"/>
-        <Class IRI="#UFRGS:GeoImage_choropleth_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geological_process_sketch"/>
@@ -554,43 +630,63 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
-        <Class abbreviatedIRI="obo:IAO_0000101"/>
+        <Class IRI="#UFRGS:GeoImage_cross_section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_geotectonic_map"/>
-        <Class IRI="#UFRGS:GeoImage_geological_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_gravimetric_cross_section"/>
         <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_gravity_anomaly_map"/>
+        <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_hand_sample_image"/>
         <Class abbreviatedIRI="obo:IAO_0000185"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_imaging_log"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_hydrocarbon_production_graph"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_image_cross_section"/>
+        <Class abbreviatedIRI="obo:IAO_0000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_image_log"/>
+        <Class IRI="#UFRGS:GeoImage_special_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_image_map"/>
+        <Class abbreviatedIRI="obo:IAO_0000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_image_profile"/>
+        <Class abbreviatedIRI="obo:IAO_0000101"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_interpreted_seismic"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class IRI="#UFRGS:GeoImage_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isochron_map"/>
-        <Class IRI="#UFRGS:GeoImage_isoline_map"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_isoline_map"/>
-        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_isoattribute_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isolith_map"/>
-        <Class IRI="#UFRGS:GeoImage_isoline_map"/>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_isoattribute_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isopach_map"/>
-        <Class IRI="#UFRGS:GeoImage_isoline_map"/>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_isoattribute_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_isotopic_curve"/>
@@ -601,8 +697,12 @@
         <Class abbreviatedIRI="obo:IAO_0000185"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_lithogeochemical_profile"/>
+        <Class IRI="#UFRGS:GeoImage_special_profile"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithologic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
@@ -613,12 +713,12 @@
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_log_curve"/>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_magnetic_anomaly_map"/>
+        <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_map"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class abbreviatedIRI="obo:IAO_0000308"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_microfossil_photograph"/>
@@ -626,7 +726,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_neutron_profile"/>
-        <Class IRI="#UFRGS:GeoImage_log_curve"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_nuclear_magnetic_resonance_log"/>
+        <Class IRI="#UFRGS:GeoImage_special_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
@@ -634,7 +738,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_paleo_map"/>
-        <Class IRI="#UFRGS:GeoImage_geological_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_paleobathymetric_map"/>
@@ -665,6 +769,10 @@
         <Class IRI="#UFRGS:GeoImage_paleo_map"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_photoelectric_factor"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_photographic_interpretation"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
@@ -674,23 +782,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_profile"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class abbreviatedIRI="obo:IAO_0000308"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
-        <Class IRI="#UFRGS:GeoImage_profile"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
-        <Class IRI="#UFRGS:GeoImage_profile"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_radar_chart"/>
         <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_ratio_map"/>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_reference_map"/>
@@ -702,11 +806,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_resistivity_image_log"/>
-        <Class IRI="#UFRGS:GeoImage_imaging_log"/>
+        <Class IRI="#UFRGS:GeoImage_image_log"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
-        <Class IRI="#UFRGS:GeoImage_log_curve"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
@@ -721,8 +825,16 @@
         <Class abbreviatedIRI="obo:IAO_0000101"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_seismic_attribute_map"/>
+        <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_seismic_cube"/>
+        <Class abbreviatedIRI="obo:IAO_0000101"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_seismic_section"/>
@@ -738,7 +850,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_sonic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_log_curve"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_special_profile"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_spectral_gamma_ray_log"/>
+        <Class IRI="#UFRGS:GeoImage_special_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_spidergram"/>
@@ -746,7 +866,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
-        <Class IRI="#UFRGS:GeoImage_log_curve"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_stamp"/>
+        <Class IRI="#UFRGS:GeoImage_microfossil_photograph"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stereogram"/>
@@ -754,23 +878,31 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stereographic_projection"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_isoattribute_map"/>
+        <Class IRI="#UFRGS:GeoImage_contour_map"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_profile"/>
-        <Class IRI="#UFRGS:GeoImage_qualitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_structural_map"/>
-        <Class IRI="#UFRGS:GeoImage_dasymetric_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_structure_contour_map"/>
         <Class IRI="#UFRGS:GeoImage_contour_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_synthetic_seismogram"/>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_temperature_map"/>
@@ -798,7 +930,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
-        <Class abbreviatedIRI="obo:IAO_0000309"/>
+        <Class IRI="#UFRGS:GeoImage_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_van_krevelen_diagram"/>
@@ -809,16 +941,24 @@
         <Class abbreviatedIRI="obo:IAO_0000038"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_vertical_seismic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
         <Class abbreviatedIRI="obo:IAO_0000185"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_well_correlation"/>
-        <Class IRI="#UFRGS:GeoImage_correlation_diagram"/>
+        <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
-        <Class IRI="#UFRGS:GeoImage_quantitative_profile"/>
+        <Class IRI="#UFRGS:GeoImage_profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
@@ -864,7 +1004,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000057</AbbreviatedIRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gráfico de contornos</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gráfico de contorno</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -874,7 +1014,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000079</AbbreviatedIRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gráfico de densidades</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gráfico de densidade</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1021,51 +1161,6 @@ This category excludes infrared, ultrason, electronic scan and other kinds of wa
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_3d_block_diagram</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bloco diagrama</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
-        <IRI>#UFRGS:GeoImage_3d_geological_model</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is more of a geological conceptual model, which is 3d and isn&apos;t a grid. However, this is not a block diagram as well.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
-        <IRI>#UFRGS:GeoImage_3d_geological_model</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_3d_geological_model</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3d geological model</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_3d_geological_model</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">modelo geológico 3d</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>#UFRGS:GeoImage_3d_grid</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3d grid model</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>#UFRGS:GeoImage_3d_grid</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">modelo de grid 3d</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
-        <IRI>#UFRGS:GeoImage_3d_grid</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_3d_grid</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3d grid</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_3d_grid</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grid 3d</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -1233,6 +1328,16 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gráfico de barra</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_basic_profile</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">basic profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_basic_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil básico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_bathymetric_map</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A contour map of the bottom of a body of water (such as the seabed) with depths indicated by outlines (isobaths) drawn at regular intervals.</Literal>
@@ -1295,7 +1400,7 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_bouguer_anomaly_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bourguer anomaly map</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bouguer anomaly map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1331,6 +1436,21 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_box_plot</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gráfico de caixa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_burial_graph</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_burial_graph</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">burial graph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_burial_graph</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gráfico de soterramento</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -1384,28 +1504,35 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map.</Literal>
+        <IRI>#UFRGS:GeoImage_checkshot_survey</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A type of borehole seismic data designed to measure the seismic traveltime from the surface to a known depth. P-wave velocity of the formations encountered in a wellbore can be measured directly by lowering a geophone to each formation of interest, sending out a source of energy from the surface of the Earth, and recording the resultant signal. The data can then be correlated to surface seismic data by correcting the sonic log and generating a synthetic seismogram to confirm or modify seismic interpretations. It differs from a vertical seismic profile in the number and density of receiver depths recorded; geophone positions may be widely and irregularly located in the wellbore, whereas a vertical seismic profile usually has numerous geophones positioned at closely and regularly spaced intervals in the wellbore.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um mapa temático no qual as áreas são sombreadas ou padronizadas na proporção da medida da variável estatística exibida no mapa.</Literal>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_checkshot_survey</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">checkshot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Choropleth_map</Literal>
+        <IRI>#UFRGS:GeoImage_checkshot_survey</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Schlumberger Oilfield Glossary
+
+https://www.glossary.oilfield.slb.com/en/Terms/c/check-shot_survey.aspx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_checkshot_survey</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">choropleth map</Literal>
+        <IRI>#UFRGS:GeoImage_checkshot_survey</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">checkshot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_choropleth_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa coroplético</Literal>
+        <IRI>#UFRGS:GeoImage_checkshot_survey</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">checkshot survey</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -1581,21 +1708,6 @@ https://www.lexico.com/en/definition/chromatogram</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
-        <IRI>#UFRGS:GeoImage_correlation_diagram</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_correlation_diagram</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">correlation diagram</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_correlation_diagram</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diagrama de correlação</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
         <IRI>#UFRGS:GeoImage_cross_section</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
     </AnnotationAssertion>
@@ -1608,31 +1720,6 @@ https://www.lexico.com/en/definition/chromatogram</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_cross_section</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção transversal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A map which uses areal symbols to spatially classify volumetric data.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um mapa que usa símbolos de área para classificar espacialmente dados volumétricos.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Dasymetric_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dasymetric map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_dasymetric_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa dasimétrico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -1658,6 +1745,72 @@ https://www.lexico.com/en/definition/chromatogram</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_density_profile</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil de densidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_cross_section</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020
+
+Esta classe não deve possuir nenhum subtipo modelado explicitamente, mas com o suporte de um reasoner deve ser possível inferir os subtipos de &apos;seção transversal&apos; que são diagramas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_cross_section</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_cross_section</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diagrammatic cross section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_cross_section</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção transversal diagramática</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020
+
+Esta classe não deve possuir nenhum subtipo modelado explicitamente, mas com o suporte de um reasoner deve ser possível inferir os subtipos de &apos;mapa&apos; que são diagramas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diagrammatic map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa diagramático</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020
+
+Esta classe não deve possuir nenhum subtipo modelado explicitamente, mas com o suporte de um reasoner deve ser possível inferir os subtipos de &apos;perfil&apos; que são diagramas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_profile</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_profile</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diagrammatic profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_diagrammatic_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil diagramático</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -1701,31 +1854,6 @@ https://www.lexico.com/en/definition/chromatogram</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A map that uses a dot symbol to show the presence of a feature or a phenomenon. Dot maps rely on a visual scatter to show spatial pattern.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um mapa que usa um símbolo de ponto para mostrar a presença de um elemento ou fenômeno. Os mapas de pontos contam com uma dispersão visual para mostrar o padrão espacial.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Dot_distribution_map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dot distribution map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_dot_distribution_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de distribuição de pontos</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_drill_cutting_photograph</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A photo of some drill cutting sample.</Literal>
     </AnnotationAssertion>
@@ -1765,6 +1893,26 @@ https://www.lexico.com/en/definition/chromatogram</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">elementar curve</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_event_graph</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gráfico que dispõe eventos geológicos de acordo com o tempo de ocorrência.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_event_graph</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_event_graph</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">event graph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_event_graph</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gráfico de eventos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
         <IRI>#UFRGS:GeoImage_events_chart</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Precisamos de uma definição.
@@ -1785,6 +1933,21 @@ Este tipo de carta é muito utilizada pois toda proposta de locação precisa de
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_events_chart</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">events chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_evolutionary_model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_evolutionary_model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">evolutionary model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_evolutionary_model</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">modelo evolutivo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -1961,6 +2124,21 @@ Convencionamos que manteremos o termo perfil geoquímico para carta geoquímica 
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geochemical curve</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_geochemical_plot</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geochemical_plot</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geochemical plot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geochemical_plot</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gráfico geoquímico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_geological_chart</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A chart that shows geological features.</Literal>
@@ -1984,6 +2162,27 @@ Convencionamos que manteremos o termo perfil geoquímico para carta geoquímica 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_geological_chart</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geological chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_geological_correlation</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020
+Em troca de emails, Eujana mencionou que Correlação Geológica seria um nome mais apropriado, ao invés de Diagrama de Correlação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_geological_correlation</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geological_correlation</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">correlação geológica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geological_correlation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geological correlation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -2087,6 +2286,21 @@ Convencionamos que manteremos o termo perfil geoquímico para carta geoquímica 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_geophysical_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geophysical_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geophysical map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_geophysical_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa geofísico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
         <IRI>#UFRGS:GeoImage_geotectonic_map</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
     </AnnotationAssertion>
@@ -2121,6 +2335,21 @@ Convencionamos que manteremos o termo perfil geoquímico para carta geoquímica 
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção gravimétrica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_gravity_anomaly_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_gravity_anomaly_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gravity anomaly map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_gravity_anomaly_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de anomalia gravimétrica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_hand_sample_image</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An image of a hand sample.</Literal>
@@ -2141,29 +2370,113 @@ Convencionamos que manteremos o termo perfil geoquímico para carta geoquímica 
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hand sample image</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A continuous image taken along of a wellbore using resisitvity,  ultrasonic or other physical record.</Literal>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_hydrocarbon_production_graph</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma imagem contínua tirada ao longo de um de poço usando resistividade, ultrassom ou outro registro físico.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hyne, N.J. Nontechnical guide to petroleum geology, exploration, drilling and production (2nd edition).  PennWell, 2001.</Literal>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
+        <IRI>#UFRGS:GeoImage_hydrocarbon_production_graph</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">imaging log</Literal>
+        <IRI>#UFRGS:GeoImage_hydrocarbon_production_graph</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gráfico de produção de hidrocarbonetos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_imaging_log</IRI>
+        <IRI>#UFRGS:GeoImage_hydrocarbon_production_graph</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hydrocarbon production graph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_image_cross_section</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020
+
+Esta classe não deve possuir nenhum subtipo modelado explicitamente, mas com o suporte de um reasoner deve ser possível inferir os subtipos de &apos;seção transversal&apos; que são imagens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
+        <IRI>#UFRGS:GeoImage_image_cross_section</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_image_cross_section</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">image cross section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_image_cross_section</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção transversal de imagem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_image_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_image_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">image log</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_image_log</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">log de imagem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_image_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020
+
+Esta classe não deve possuir nenhum subtipo modelado explicitamente, mas com o suporte de um reasoner deve ser possível inferir os subtipos de &apos;mapal&apos; que são imagens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_image_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_image_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">image map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_image_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de imagem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_image_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">09/04/2020
+
+Em conversa com as pessoas da Exploração, acharam que ficou confuso o termo &apos;perfil de imagem&apos;, pois pode ser confundido com &apos;log de imagem&apos;.
+A sugestão foi mudar o label para &apos;perfil como imagem&apos;. Por hora, isto não será refletido para imagem e seção.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_image_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020
+
+Esta classe não deve possuir nenhum subtipo modelado explicitamente, mas com o suporte de um reasoner deve ser possível inferir os subtipos de &apos;perfill&apos; que são imagens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_image_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_image_profile</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">image profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_image_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil como imagem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -2221,21 +2534,6 @@ https://www.petropedia.com/definition/2126/isochron-map</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_isochron_map</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de isócronas</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
-        <IRI>#UFRGS:GeoImage_isoline_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_isoline_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isoline map</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_isoline_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de isolinhas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -2342,6 +2640,16 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lateral core photograph</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_lithogeochemical_profile</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lithogeochemical profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_lithogeochemical_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil litogeoquímico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A profile that represents the downhole rock or material types that aren&apos;t necessarily layered in a specific order.</Literal>
@@ -2349,7 +2657,7 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_lithologic_profile</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma seção transversal que representa as rochas ou os tipos de material em um poço que não são necessariamente colocados em camadas ou em uma ordem específica.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um perfil que representa as rochas ou os tipos de material em um poço que não são necessariamente colocados em camadas ou em uma ordem específica.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
@@ -2418,18 +2726,18 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
-        <IRI>#UFRGS:GeoImage_log_curve</IRI>
+        <IRI>#UFRGS:GeoImage_magnetic_anomaly_map</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_log_curve</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">log curve</Literal>
+        <IRI>#UFRGS:GeoImage_magnetic_anomaly_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">magnetic anomaly map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_log_curve</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">log em curva</Literal>
+        <IRI>#UFRGS:GeoImage_magnetic_anomaly_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de anomalia magnética</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -2455,11 +2763,6 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_map</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>#UFRGS:GeoImage_microfossil_photograph</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">estampa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
@@ -2503,6 +2806,38 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_nuclear_magnetic_resonance_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nuclear magnetic resonance (NMR) logging is a type of well logging that uses the NMR response of a formation to directly determine its porosity and permeability, providing a continuous record along the length of the borehole.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_nuclear_magnetic_resonance_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">nmr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_nuclear_magnetic_resonance_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Wikipedia
+
+https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_logging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_nuclear_magnetic_resonance_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_nuclear_magnetic_resonance_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">nuclear magnetic resonance log</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_nuclear_magnetic_resonance_log</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil de ressonância magnética nuclear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_outcrop_photograph</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma fotografia que mostra um afloramento.</Literal>
     </AnnotationAssertion>
@@ -2524,12 +2859,12 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_paleo_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa paleo</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">paleo map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_paleo_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">paleo map</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">paleomapa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
@@ -2638,6 +2973,45 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_photoelectric_factor</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A log of photoelectric absorption properties. The log measures the photoelectric absorption factor, Pe, which is defined as (Z/10) 3.6 where Z is the average atomic number of the formation. Pe is unitless, but since it is proportional to the photoelectric cross section per electron, it is sometimes quoted in barns/electron. Since fluids have very low atomic numbers, they have very little influence, so that Pe is a measure of the rock matrix properties. Sandstones have low Pe, while dolomites and limestones have high Pe. Clays, heavy minerals and iron-bearing minerals have high Pe. Thus, the log is very useful for determining mineralogy.
+
+In interpretation, PEF is normally converted to the simpler volumetric cross section, U in barns/cm3, by taking the product of PEF and density. The log is recorded as part of the density measurement. The depth of investigation is of the order of one inch, which is normally in the flushed zone. PEF can be affected by heavy minerals such as barite in the mudcake or mud filtrate. PEF logs were introduced in the late 1970s.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_photoelectric_factor</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">photoelectric factor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_photoelectric_factor</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Schlumberger Oilfield Glossary
+
+https://www.glossary.oilfield.slb.com/en/Terms/p/pef.aspx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_photoelectric_factor</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
+        <IRI>#UFRGS:GeoImage_photoelectric_factor</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_photoelectric_factor</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fator fotoelétrico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_photoelectric_factor</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pef</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_photographic_interpretation</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fotointerpretação é o ato de examinar fotografias com o objetivo de identificar objetos e julgar sua significância.</Literal>
     </AnnotationAssertion>
@@ -2738,46 +3112,6 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A graphical representation of some characteristic evaluated and recorded  at regular depths  in a well or vertical site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma representação gráfica de alguma característica avaliada e registrada em profundidades regulares em um poço ou local vertical</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil qualitativo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_qualitative_profile</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">qualitative profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_quantitative_profile</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A graphical representation of a continuous recording of some analogic value at regular depths</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_quantitative_profile</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma representação gráfica de uma gravação contínua de algum valor analógico em profundidades regulares</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_quantitative_profile</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil quantitativo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_quantitative_profile</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">quantitative profile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_radar_chart</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A radar chart is a graphical method of displaying multivariate data in the form of a two-dimensional chart of three or more quantitative variables represented on axes starting from the same point. The relative position and angle of the axes is typically uninformative, but various heuristics, such as algorithms that plot data as the maximal total area, can be applied to sort the variables (axes) into relative positions that reveal distinct correlations, trade-offs, and a multitude of other comparative measures.</Literal>
     </AnnotationAssertion>
@@ -2830,6 +3164,11 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_radar_chart</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">radar chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_ratio_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de razão</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -2994,6 +3333,36 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sattelite image</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_seismic_attribute_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_seismic_attribute_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de atributo sísmico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_seismic_attribute_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seismic attribute map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_seismic_cube</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_seismic_cube</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cubo sísmico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_seismic_cube</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seismic cube</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_seismic_profile</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">O registro sísmico em perfil que é obtido quando os hidrofones são posicionados abaixo de um poço para detectar ondas sísmicas originárias de tiros sucessivos disparados de uma fonte de superfície com deslocamento crescente. Ele fornece muita informação sobre as características geofísicas dos refletores e sobre as estruturas geológicas nas proximidades de um poço existente.</Literal>
@@ -3129,6 +3498,48 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sonic profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_special_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil especial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_special_profile</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">special profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_spectral_gamma_ray_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Spectral logging is the technique of measuring the spectrum, or number and energy, of gamma rays emitted via natural radioactivity of the rock formation. There are three main sources of natural radioactivity on Earth: potassium (40K), thorium (principally 232Th and 230Th), and uranium (principally 238U and 235U). These radioactive isotopes each emit gamma rays that have a characteristic energy level measured in MeV. The quantity and energy of these gamma rays can be measured by a scintillometer. A log of the spectroscopic response to natural gamma ray radiation is usually presented as a total gamma ray log that plots the weight fraction of potassium (%), thorium (ppm) and uranium (ppm). The primary standards for the weight fractions are geological formations with known quantities of the three isotopes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_spectral_gamma_ray_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Wikipedia
+
+https://en.wikipedia.org/wiki/Gamma_ray_logging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_spectral_gamma_ray_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
+        <IRI>#UFRGS:GeoImage_spectral_gamma_ray_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_spectral_gamma_ray_log</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil de raio gama espectral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_spectral_gamma_ray_log</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">spectral gamma ray log</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
         <IRI>#UFRGS:GeoImage_spidergram</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É um gráfico bem específico em geoquímica e não é a mesma coisa que um gráfico aranha (radar), porém não consegui encontrar uma boa definição.</Literal>
@@ -3172,6 +3583,21 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_spontaneous_potential_profile</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">spontaneous potential profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_stamp</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_stamp</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">estampa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_stamp</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stamp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3266,6 +3692,28 @@ Intuitivamente, então, a projeção estereográfica é uma maneira de retratar 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stratigraphic cross section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_isoattribute_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020
+
+Esta classe foi criada para poder agrupar os mapas de isópacas, isócronas e isólitas, que são distintos, porém de difícil separação visual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_isoattribute_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_isoattribute_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de isoatributos estratigráficos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_isoattribute_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stratigraphic isoattribute map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3366,6 +3814,35 @@ Intuitivamente, então, a projeção estereográfica é uma maneira de retratar 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_structure_contour_map</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structure contour map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_synthetic_seismogram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Registro artificial de eventos sísmicos simulados, construído a partir de dados de um perfil de velocidades pela convolução da função de refletividade com uma forma de onda que inclui os efeitos da geração de energia, da propagação de ondas, da filtragem pela terra e pelo sistema de gravação.
+
+De forma mais abrangente, este registro sísmico artificial pode ser construído para uma estrutura estratificada (modelo geológico de maior ou menor complexidade) na qual o perfil de velocidades individuais de cada formação e as correspondentes densidades e espessuras sejam conhecidos. É utilizado para interpretações geológicas e em modelos geofísicos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_synthetic_seismogram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dicionário do Petróleo
+
+http://dicionariodopetroleo.com.br/dictionary/sismograma-sintetico/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_synthetic_seismogram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_synthetic_seismogram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sismograma sintético</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_synthetic_seismogram</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">synthetic seismogram</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3562,7 +4039,7 @@ Séries temporais frequentemente são plotadas como gráficos de linhas. Séries
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção topográfica</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil topográfico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
@@ -3575,9 +4052,15 @@ Séries temporais frequentemente são plotadas como gráficos de linhas. Séries
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Topographic_profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020
+O termo Seção Topográfica foi preferido pois, segundo os profissionais da Exploração, é o mais utilizado. Perfil Topográfico se tornou termo alternativo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_topographic_profile</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil topográfico</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção topográfica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3648,6 +4131,43 @@ https://wiki.aapg.org/Van_Krevelen_diagram</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_vertical_seismic_profile</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A class of borehole seismic measurements used for correlation with surface seismic data, for obtaining images of higher resolution than surface seismic images and for looking ahead of the drill bit; also called a VSP. Purely defined, VSP refers to measurements made in a vertical wellbore using geophones inside the wellbore and a source at the surface near the well. In the more general context, VSPs vary in the well configuration, the number and location of sources and geophones, and how they are deployed. Most VSPs use a surface seismic source, which is commonly a vibrator on land and an air gun in offshore or marine environments. VSPs include the zero-offset VSP, offset VSP, walkaway VSP, walk-above VSP, salt-proximity VSP, shear-wave VSP, and drill-noise or seismic-while-drilling VSP. A VSP is a much more detailed survey than a check-shot survey because the geophones are more closely spaced, typically on the order of 25 m [82 ft], whereas a check-shot survey might include measurements of intervals hundreds of meters apart. Also, a VSP uses the reflected energy contained in the recorded trace at each receiver position as well as the first direct path from source to receiver. The check-shot survey uses only the direct path traveltime. In addition to tying well data to seismic data, the vertical seismic profile also enables converting seismic data to zero-phase data and distinguishing primary reflections from multiples.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_vertical_seismic_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil sísmico vertical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_vertical_seismic_profile</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vertical seismic profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS:GeoImage_vertical_seismic_profile</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Schlumberger Oilfield Glossary
+
+https://www.glossary.oilfield.slb.com/Terms/v/vertical_seismic_profile.aspx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_vertical_seismic_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_vertical_seismic_profile</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vsp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_vertical_seismic_profile</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vsp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_well_core_photograph</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma fotografia que mostra um testemunho.</Literal>
     </AnnotationAssertion>
@@ -3687,19 +4207,55 @@ https://wiki.aapg.org/Van_Krevelen_diagram</Literal>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um registro gráfico das características físicas medidas ou computadas da seção de rocha encontradas em um poço, plotadas como uma função contínua de profundidade. Várias medidas são geralmente feitas simultaneamente, e as curvas resultantes são exibidas lado a lado na escala de profundidade comum.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">log de poço</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Glossary of Geology. Klaus K.E Neundorf, James P. Mehl Jr., Julia A. Jackson</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31/03/2020
+O termo em português passou a ser Perfil Elétrico, pois segundo a exploração é o termo usual. Log de poço passou a ser termo alternativo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">log de poço</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil elétrico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_wireline_well_log</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">wireline well log</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:UFRGS:GeoImage_3d_geological_model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3d grid model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS:UFRGS:GeoImage_3d_geological_model</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">modelo de grid 3d</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:UFRGS:GeoImage_3d_geological_model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:UFRGS:GeoImage_3d_geological_model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3d geological model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:UFRGS:GeoImage_3d_geological_model</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">modelo geológico 3d</Literal>
     </AnnotationAssertion>
 </Ontology>
 
