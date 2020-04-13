@@ -191,10 +191,10 @@
         <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_physical_property_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_cartogram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_cartogram"/>
+        <Class IRI="#UFRGS:GeoImage_physical_property_cross_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_profile"/>
@@ -204,9 +204,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_temperature_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_paleobathymetric_map"/>
@@ -248,10 +245,10 @@
         <Class IRI="#UFRGS:GeoImage_geochemical_chart"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stereographic_projection"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_stereographic_projection"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_isopach_map"/>
@@ -308,10 +305,10 @@
         <Class IRI="#UFRGS:GeoImage_synthetic_seismogram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
+        <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
+        <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_paleogeographic_map"/>
@@ -341,10 +338,13 @@
         <Class IRI="#UFRGS:GeoImage_resistivity_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_biostratigraphic_cross_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_seismic_attribute_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_evolutionary_model"/>
@@ -475,6 +475,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_biostratigraphic_chart"/>
         <Class IRI="#UFRGS:GeoImage_geological_chart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_biostratigraphic_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
@@ -879,10 +883,6 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stereographic_projection"/>
         <Class abbreviatedIRI="obo:IAO_0000038"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_isoattribute_map"/>
@@ -1381,6 +1381,21 @@ Este tipo de representação utiliza barras tanto verticais quanto horizontais p
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_biostratigraphic_chart</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sumário bioestratigráfico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_biostratigraphic_cross_section</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_biostratigraphic_cross_section</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">biostratigraphic cross section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_biostratigraphic_cross_section</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção bioestratigráfica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3667,31 +3682,6 @@ Intuitivamente, então, a projeção estereográfica é uma maneira de retratar 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stereographic projection</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A cross section that represents interpreted formations, often groups of lithologies, which are distinctly layered in nature, are consistent between wells in their order from the surface downward, and never repeat within a borehole.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma seção transversal que representa formações interpretadas, geralmente grupos de litologias, cuja natureza é de camadas distintas, é consistente entre os poços em sua ordem da superfície para baixo e nunca se repete dentro de um poço.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RockWare</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção estratigráfica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stratigraphic cross section</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
