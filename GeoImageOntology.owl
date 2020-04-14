@@ -44,10 +44,10 @@
         <Class IRI="#UFRGS:GeoImage_acoustic_image_log"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_sem_image"/>
+        <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_sem_image"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
@@ -56,13 +56,13 @@
         <Class IRI="#UFRGS:GeoImage_isochron_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_image_profile"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_biostratigraphic_chart"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_basic_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_image_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
@@ -107,10 +107,10 @@
         <Class IRI="#UFRGS:GeoImage_isotopic_curve"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_diagrammatic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_paleoceanographic_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_paleoceanographic_map"/>
+        <Class IRI="#UFRGS:GeoImage_diagrammatic_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_topographic_map"/>
@@ -137,10 +137,10 @@
         <Class IRI="#UFRGS:GeoImage_stratigraphic_isoattribute_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_chronostratigraphic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_spectral_gamma_ray_log"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_spectral_gamma_ray_log"/>
+        <Class IRI="#UFRGS:GeoImage_chronostratigraphic_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_geological_chart"/>
@@ -170,10 +170,10 @@
         <Class IRI="#UFRGS:GeoImage_burial_graph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_geochemical_plot"/>
+        <Class IRI="#UFRGS:GeoImage_microfossil_photograph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_microfossil_photograph"/>
+        <Class IRI="#UFRGS:GeoImage_geochemical_plot"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_paleoecological_map"/>
@@ -200,13 +200,16 @@
         <Class IRI="#UFRGS:GeoImage_interpreted_seismic"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_well_trajectory"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_temperature_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_paleobathymetric_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_paleobathymetric_map"/>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_diagrammatic_cross_section"/>
@@ -221,10 +224,10 @@
         <Class IRI="#UFRGS:GeoImage_density_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_ratio_map"/>
+        <Class IRI="#UFRGS:GeoImage_facies_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_facies_map"/>
+        <Class IRI="#UFRGS:GeoImage_ratio_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_reference_map"/>
@@ -245,10 +248,10 @@
         <Class IRI="#UFRGS:GeoImage_geochemical_chart"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
+        <Class IRI="#UFRGS:GeoImage_stereographic_projection"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stereographic_projection"/>
+        <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_isopach_map"/>
@@ -260,10 +263,13 @@
         <Class IRI="#UFRGS:GeoImage_structure_contour_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_seismic_section"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_seismic_section"/>
+        <Class IRI="#UFRGS:GeoImage_well_perforation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
@@ -311,10 +317,10 @@
         <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_paleogeographic_map"/>
+        <Class IRI="#UFRGS:GeoImage_event_graph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_event_graph"/>
+        <Class IRI="#UFRGS:GeoImage_paleogeographic_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_seismic_cube"/>
@@ -326,6 +332,9 @@
         <Class IRI="#UFRGS:GeoImage_paleomagnetic_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_2d_well_trajectory"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_geochemical_curve"/>
     </Declaration>
     <Declaration>
@@ -333,6 +342,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_3d_well_trajectory"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_resistivity_cross_section"/>
@@ -377,6 +389,9 @@
         <Class IRI="#UFRGS:GeoImage_vertical_seismic_profile"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_well_planning"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_composite_profile"/>
     </Declaration>
     <Declaration>
@@ -404,19 +419,19 @@
         <Class IRI="#UFRGS:GeoImage_sonic_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_isolith_map"/>
+        <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
+        <Class IRI="#UFRGS:GeoImage_isolith_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_diffractogram"/>
+        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
+        <Class IRI="#UFRGS:GeoImage_diffractogram"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_nuclear_magnetic_resonance_log"/>
@@ -431,6 +446,9 @@
         <Class IRI="#UFRGS:GeoImage_geological_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_tool_configuration"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_sandbox_photograph"/>
     </Declaration>
     <Declaration>
@@ -440,8 +458,16 @@
         <Class IRI="#UFRGS:GeoImage_well_correlation"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_2d_well_trajectory"/>
+        <Class IRI="#UFRGS:GeoImage_well_trajectory"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
         <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_3d_well_trajectory"/>
+        <Class IRI="#UFRGS:GeoImage_well_trajectory"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
@@ -932,6 +958,10 @@
         <Class abbreviatedIRI="obo:IAO_0000101"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_tool_configuration"/>
+        <Class IRI="#UFRGS:GeoImage_well_perforation"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_topographic_map"/>
         <Class IRI="#UFRGS:GeoImage_contour_map"/>
     </SubClassOf>
@@ -958,6 +988,18 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_well_correlation"/>
         <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_well_perforation"/>
+        <Class abbreviatedIRI="obo:IAO_0000309"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_well_planning"/>
+        <Class IRI="#UFRGS:GeoImage_well_perforation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_well_trajectory"/>
+        <Class IRI="#UFRGS:GeoImage_well_perforation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
@@ -1135,6 +1177,21 @@ This category excludes infrared, ultrason, electronic scan and other kinds of wa
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gráfico de linha</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_2d_well_trajectory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_2d_well_trajectory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2d well trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_2d_well_trajectory</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">trajetória de poço 2d</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_3d_block_diagram</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A representation of an imaginary rectangular block of the earth&apos;s crust (representing geological and topographic features) in what appears to be a three-dimensional perspective, showing a surface area at the top and including one or more (usually two) vertical cross sections.</Literal>
@@ -1168,6 +1225,21 @@ This category excludes infrared, ultrason, electronic scan and other kinds of wa
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_3d_block_diagram</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bloco diagrama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_3d_well_trajectory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_3d_well_trajectory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3d well trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_3d_well_trajectory</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">trajetória de poço 3d</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -4019,6 +4091,21 @@ Séries temporais frequentemente são plotadas como gráficos de linhas. Séries
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tomogram</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_tool_configuration</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_tool_configuration</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">configuração de ferramenta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_tool_configuration</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tool configuration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_topographic_map</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A map characterized by large-scale detail and quantitative representation of relief using contour lines.</Literal>
@@ -4212,6 +4299,58 @@ https://www.glossary.oilfield.slb.com/Terms/v/vertical_seismic_profile.aspx</Lit
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_well_correlation</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">well correlation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <IRI>#UFRGS:GeoImage_well_perforation</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">14/04/2020
+
+A hierarquia de poço foi criada para atender a anotação realizada na Exploração da Petrobrás. Esta hierarquia deverá ser realocada e melhor analizada quando uma ontologia para objetos da engenharia for desenvolvida.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_well_perforation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_well_perforation</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pefuração de poço</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_well_perforation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">well perforation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_well_planning</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_well_planning</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">projeto de poço</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_well_planning</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">well planing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_well_trajectory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_well_trajectory</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">trajetória de poço</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_well_trajectory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">well trajectory</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
