@@ -182,9 +182,6 @@
         <Class IRI="#UFRGS:GeoImage_structural_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_chromatogram"/>
     </Declaration>
     <Declaration>
@@ -204,6 +201,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_temperature_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_paleobathymetric_map"/>
@@ -365,6 +365,9 @@
         <Class IRI="#UFRGS:GeoImage_magnetic_anomaly_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_bar_chart"/>
     </Declaration>
     <Declaration>
@@ -458,7 +461,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
-        <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
+        <Class IRI="#UFRGS:GeoImage_seismic_attribute_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_bar_chart"/>
@@ -713,10 +716,6 @@
         <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoImage_lithostratigraphic_cross_section"/>
-        <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_magnetic_anomaly_map"/>
         <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
     </SubClassOf>
@@ -783,6 +782,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_physical_property_cross_section"/>
         <Class IRI="#UFRGS:GeoImage_cross_section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
+        <Class IRI="#UFRGS:GeoImage_reference_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_profile"/>
@@ -883,6 +886,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stereographic_projection"/>
         <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_geological_cross_section"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_isoattribute_map"/>
@@ -2720,26 +2727,6 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção litológica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a cross section that represents the combinations of lithologic properties and stratigraphic relations.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">uma seção transversal que representa as combinações de propriedades litológicas e relações estratigráficas.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lithostratigraphic cross section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoImage_lithostratigraphic_cross_section</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção litoestratigráfica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
         <IRI>#UFRGS:GeoImage_magnetic_anomaly_map</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
@@ -3074,6 +3061,26 @@ https://www.glossary.oilfield.slb.com/en/Terms/p/pef.aspx</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_physical_property_cross_section</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção de propriedade física</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A map that shows the location of a point on the surface of the Earth, expressed in terms of geodesic latitude and longitude.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um mapa que mostra a localização de um ponto na superfície da Terra, expresso em termos de latitude e longitude geodésica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de localização de pontos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_point_location_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">point location map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3682,6 +3689,26 @@ Intuitivamente, então, a projeção estereográfica é uma maneira de retratar 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stereographic projection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a cross section that represents the combinations of lithologic properties and stratigraphic relations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">uma seção transversal que representa as combinações de propriedades litológicas e relações estratigráficas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">seção estratigráfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_stratigraphic_cross_section</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stratigraphic cross section</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
