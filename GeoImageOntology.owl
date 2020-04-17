@@ -44,25 +44,25 @@
         <Class IRI="#UFRGS:GeoImage_acoustic_image_log"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
+        <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_sem_image"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
+        <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_isochron_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_biostratigraphic_chart"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_basic_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_image_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_biostratigraphic_chart"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
@@ -74,10 +74,10 @@
         <Class IRI="#UFRGS:GeoImage_time_series"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lithogeochemical_profile"/>
+        <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
+        <Class IRI="#UFRGS:GeoImage_lithogeochemical_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
@@ -107,22 +107,22 @@
         <Class IRI="#UFRGS:GeoImage_isotopic_curve"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_paleoceanographic_map"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_diagrammatic_profile"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_paleoceanographic_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_topographic_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_geological_process_sketch"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_special_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_geological_process_sketch"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_lithologic_profile"/>
@@ -170,10 +170,10 @@
         <Class IRI="#UFRGS:GeoImage_burial_graph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_microfossil_photograph"/>
+        <Class IRI="#UFRGS:GeoImage_geochemical_plot"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_geochemical_plot"/>
+        <Class IRI="#UFRGS:GeoImage_microfossil_photograph"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_paleoecological_map"/>
@@ -188,10 +188,10 @@
         <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_cartogram"/>
+        <Class IRI="#UFRGS:GeoImage_physical_property_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_physical_property_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_cartogram"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_profile"/>
@@ -206,10 +206,10 @@
         <Class IRI="#UFRGS:GeoImage_temperature_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_paleobathymetric_map"/>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_paleobathymetric_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_diagrammatic_cross_section"/>
@@ -218,16 +218,16 @@
         <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_diagrammatic_map"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_density_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_facies_map"/>
+        <Class IRI="#UFRGS:GeoImage_diagrammatic_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_ratio_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_facies_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_reference_map"/>
@@ -254,10 +254,10 @@
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_isopach_map"/>
+        <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
+        <Class IRI="#UFRGS:GeoImage_isopach_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_structure_contour_map"/>
@@ -269,16 +269,16 @@
         <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_well_perforation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_aerial_photograph"/>
+        <Class IRI="#UFRGS:GeoImage_well_perforation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_photographic_interpretation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_aerial_photograph"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
@@ -317,10 +317,10 @@
         <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_event_graph"/>
+        <Class IRI="#UFRGS:GeoImage_paleogeographic_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_paleogeographic_map"/>
+        <Class IRI="#UFRGS:GeoImage_event_graph"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_seismic_cube"/>
@@ -344,19 +344,19 @@
         <Class IRI="#UFRGS:GeoImage_3d_block_diagram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_3d_well_trajectory"/>
+        <Class IRI="#UFRGS:GeoImage_resistivity_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_resistivity_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_3d_well_trajectory"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_biostratigraphic_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_seismic_attribute_map"/>
+        <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lithological_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_seismic_attribute_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_evolutionary_model"/>
@@ -374,10 +374,10 @@
         <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_magnetic_anomaly_map"/>
+        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
+        <Class IRI="#UFRGS:GeoImage_magnetic_anomaly_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_bar_chart"/>
@@ -389,16 +389,16 @@
         <Class IRI="#UFRGS:GeoImage_vertical_seismic_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_well_planning"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_composite_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_gravity_anomaly_map"/>
+        <Class IRI="#UFRGS:GeoImage_well_planning"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_digital_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_gravity_anomaly_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
@@ -428,10 +428,10 @@
         <Class IRI="#UFRGS:GeoImage_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
+        <Class IRI="#UFRGS:GeoImage_diffractogram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_diffractogram"/>
+        <Class IRI="#UFRGS:GeoImage_rose_diagram"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_nuclear_magnetic_resonance_log"/>
@@ -443,10 +443,10 @@
         <Class IRI="#UFRGS:GeoImage_thematic_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_geological_map"/>
+        <Class IRI="#UFRGS:GeoImage_tool_configuration"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_tool_configuration"/>
+        <Class IRI="#UFRGS:GeoImage_geological_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_sandbox_photograph"/>
@@ -3260,9 +3260,19 @@ https://www.glossary.oilfield.slb.com/en/Terms/p/pef.aspx</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">radar chart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS:GeoImage_ratio_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_ratio_map</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de razão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_ratio_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ratio map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
