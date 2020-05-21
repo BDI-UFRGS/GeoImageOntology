@@ -269,10 +269,10 @@
         <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
+        <Class IRI="#UFRGS:GeoImage_well_perforation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_well_perforation"/>
+        <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_photographic_interpretation"/>
@@ -4352,7 +4352,7 @@ A hierarquia de poço foi criada para atender a anotação realizada na Explora�
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_well_perforation</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pefuração de poço</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfuração de poço</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
