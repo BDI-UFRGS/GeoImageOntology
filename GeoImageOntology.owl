@@ -2858,14 +2858,16 @@ Esta classe não deve possuir nenhum subtipo modelado explicitamente, mas com o 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_isochron_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um mapa de isócronas é um mapa que mostra áreas relacionadas às isócronas entre dois pontos. O mapa possui algumas pontos conectados que mostram algo que ocorreu. É mais comumente utilizado em hidrologia e planejamento de transporte de petróleo. Além disso, é também considerado um mapa de contorno de valores similares de pontos de viagem entre os eventos de reflexão sísmica selecionados.f É utilizado para prover a informações sobre a espessura do dado sísmico. É um mapa temporalmente estruturado utilizado para gear maps de isópacas e mapas de elevação.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mapa de contorno que exibe a variação no tempo entre dois eventos sísmicos ou reflexões. Também pode representar um conjunto de amostras de rochas ou minerais que foram formadas ao mesmo tempo.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_isochron_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Petropedia.
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.petropedia.com/definition/2126/isochron-map
 
-https://www.petropedia.com/definition/2126/isochron-map</Literal>
+https://www.glossary.oilfield.slb.com/Terms/i/isochron_map.aspx 
+
+http://catalogingmap.blogspot.com/2014/04/isochron-map.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
@@ -3807,7 +3809,7 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_sandbox_photograph</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fotografia de um modelo experimental de caixa de areia.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fotografia de um modelo experimental de que utiliza diferentes materiais análogos para reproduzir o comportamento das rochas na natureza, em escala reduzida de tempo e espaço.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
@@ -3927,7 +3929,7 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">O registro sísmico em seção transversal que é obtido quando os hidrofones são posicionados abaixo de um poço para detectar ondas sísmicas originárias de tiros sucessivos disparados de uma fonte de superfície com deslocamento crescente. Ele fornece muita informação sobre as características geofísicas dos refletores e sobre as estruturas geológicas nas proximidades de um poço existente.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Imagem que consiste na exibição de dados sísmicos ao longo de uma linha, como um perfil sísmico 2D ou um perfil extraído de um volume de dados sísmicos 3D. Apresenta vários traços com localização ao longo do eixo X e tempo de viagem bidirecional ou profundidade ao longo do eixo Y.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3947,7 +3949,9 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_seismic_section</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dictionary of Earth Sciences, Michael Allaby</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dictionary of Earth Sciences, Michael Allaby
+
+https://www.glossary.oilfield.slb.com/en/Terms/s/seismic_section.aspx</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4395,9 +4399,7 @@ Esta classe foi criada para poder agrupar os mapas de isópacas, isócronas e is
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_synthetic_seismogram</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Registro artificial de eventos sísmicos simulados, construído a partir de dados de um perfil de velocidades pela convolução da função de refletividade com uma forma de onda que inclui os efeitos da geração de energia, da propagação de ondas, da filtragem pela terra e pelo sistema de gravação.
-
-De forma mais abrangente, este registro sísmico artificial pode ser construído para uma estrutura estratificada (modelo geológico de maior ou menor complexidade) na qual o perfil de velocidades individuais de cada formação e as correspondentes densidades e espessuras sejam conhecidos. É utilizado para interpretações geológicas e em modelos geofísicos.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Registro artificial de eventos sísmicos simulados, construído a partir de dados de um perfil de velocidades pela convolução da função de refletividade com uma forma de onda que inclui os efeitos da geração de energia, da propagação de ondas, da filtragem pela terra e pelo sistema de gravação.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
@@ -4410,6 +4412,11 @@ http://dicionariodopetroleo.com.br/dictionary/sismograma-sintetico/</Literal>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
         <IRI>#UFRGS:GeoImage_synthetic_seismogram</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFRGS:GeoImage_synthetic_seismogram</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">De forma mais abrangente, este registro sísmico artificial pode ser construído para uma estrutura estratificada (modelo geológico de maior ou menor complexidade) na qual o perfil de velocidades individuais de cada formação e as correspondentes densidades e espessuras sejam conhecidos. É utilizado para interpretações geológicas e em modelos geofísicos.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4556,7 +4563,7 @@ Séries temporais frequentemente são plotadas como gráficos de linhas. Séries
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_tomogram</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a imagem resultante de um processo de tomografia. Tomografia é o imageamento seccionado de um objeto através do uso de qualquer tipo de onda penetrante, como raio-x.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a imagem resultante de um processo de tomografia. Tomografia é o imageamento seccionado de um objeto através do uso de qualquer tipo de onda penetrante, como raio-x ou sísmica.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
@@ -4786,8 +4793,7 @@ https://www.glossary.oilfield.slb.com/Terms/v/vertical_seismic_profile.aspx</Lit
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_well_correlation</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a demonstração de correspondência em caráter e em posição estratigráfica entre áreas separadas geograficamente (ISSC, 1994), ou seja, unidades estratigráficas em duas ou mais áreas separadas são demonstradas ou determinadas como sendo lateralmente semelhantes em caráter ou mutuamente correspondentes na posição estratigráfica, com base na idade geológica (tempo de formação), características litológicas, conteúdo fossilífero ou qualquer outra propriedade. 
-A correlação estratigráfica é realizada entre poços de uma mesma área ou de áreas diferentes, necessita de um datum e de marcadores nos poços.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a demonstração de correspondência em caráter e em posição estratigráfica entre áreas separadas geograficcamente (ISSC, 1994), ou seja, unidades estratigráficas em duas ou mais áreas separadas são demonstradas ou determinadas como sendo lateralmente semelhantes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
