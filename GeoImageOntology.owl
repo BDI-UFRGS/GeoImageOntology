@@ -1419,9 +1419,7 @@ A bar graph shows comparisons among discrete categories. One axis of the chart s
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_bar_chart</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">O gráfico de barras é um gráfico com barras retangulares e comprimento proporcional aos valores que ele representa. As barras podem ser desenhadas verticalmente ou horizontalmente. O gráfico de barras vertical as vezes é chamado de gráfico de colunas.
-
-Este tipo de representação utiliza barras tanto verticais quanto horizontais para ilustrar comparações (sendo este primeiro mais conhecido como gráfico de colunas). Um eixo do gráfico mostra especificamente o que está sendo comparado enquanto o outro eixo representa valores discretos. Alguns gráficos de barra apresentam barras agrupadas em grupos (gráficos de barras agrupadas) e outros mostram as barras divididas em sub-partes para mostrar efeito acumulativo (gráficos de barras empilhadas).</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">O gráfico de barras é um gráfico com barras retangulares e comprimento proporcional aos valores que ele representa. As barras podem ser desenhadas verticalmente ou horizontalmente. O gráfico de barras vertical as vezes é chamado de gráfico de colunas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
@@ -2701,7 +2699,7 @@ Em troca de emails, Eujana mencionou que Correlação Geológica seria um nome m
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_hydrocarbon_production_graph</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Curva de previsão da produção de hidrocarbonetos do campo dada em barris de óleo equivalente (boe).</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Curva de produção de hidrocarbonetos do campo dada em barris de óleo equivalente (boe).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
@@ -2865,7 +2863,7 @@ Esta classe não deve possuir nenhum subtipo modelado explicitamente, mas com o 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
         <IRI>#UFRGS:GeoImage_isochron_map</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pedropedia.
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Petropedia.
 
 https://www.petropedia.com/definition/2126/isochron-map</Literal>
     </AnnotationAssertion>
@@ -3172,6 +3170,11 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_neutron_profile</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perfil neutron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_nuclear_magnetic_resonance_log</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Log de ressonância magnética nuclear (NMR) é um tipo de log de poço que usa resposta de NMR de uma formação para determinar diretamente sua porosidade e permeabilidade, fornecendo um registro contínuo ao longo da extensão do poço.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3597,7 +3600,7 @@ https://www.glossary.oilfield.slb.com/en/Terms/p/pef.aspx</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_radar_chart</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um gráfico de radar é um método gráfico de apresentar dados multivariáveis na forma de um gráfico bidimensional de três ou mais variáveis quantitativas representadas em eixos que partem do mesmo ponto. A posição relativa e o ângulo dos eixos normalmente é pouco informativo, mas diversas heurísticas, como por exemplo algoritmos que plotam dados como a área máxima total, podem ser aplicadas para definir variáveis (eixos) em posições relativos que revelam correlações distintas.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um gráfico de radar é um método gráfico de apresentar dados multivariáveis na forma de um gráfico bidimensional de três ou mais variáveis quantitativas representadas em eixos que partem do mesmo ponto.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
@@ -3804,12 +3807,7 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_sandbox_photograph</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tratam-se de modelos experimentais que utilizam diferentes materiais análogos (areia de quartzo seca, argila, mica, microesferas de vidro, silicone de altíssima viscosidade, entre outros) para reproduzir  o comportamento das rochas na natureza (rúptil e dúctil), em escala reduzida de tempo e espaço. São reproduzidas e analisadas a geometria e a evolução de estruturas geradas na crosta terrestre, fornecendo suporte à interpretação sísmica de estruturas complexas e validando modelos geológicos conceituais utilizados pelo E&amp;P.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#UFRGS:GeoImage_sandbox_photograph</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Petrobras</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fotografia de um modelo experimental de caixa de areia.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
@@ -3854,7 +3852,7 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_seismic_attribute_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É uma quantidade extraída ou derivada de dados sísmicos que podem ser analisados ​​para aprimorar informações mais sutis em uma imagem sísmica tradicional, levando a uma melhor interpretação geológica ou geofísica dos dados.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Apresenta informações extraídas ou derivadaaaaas de dados sísmicos que podem ser analisados para aprimorar informações mais sutis em uma imagem sísmica tradicional, levando a uma melhor interpretação geológica ou geofísica dos dados.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
@@ -4055,6 +4053,11 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_special_profile</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">special profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS:GeoImage_spectral_gamma_ray_log</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Log espectral é a técnica de medir o espectro de raios gamas emitidos via radioatividade natural da formação rochosa. A quntidade e energia desses raios gamas pode ser medida por um cintilômetro. Logs de espectroscopia é geralmente apresentado como log total de raios gamas pela fraaaçãao do peso de potássio, tório e urânio.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -4292,12 +4295,12 @@ Esta classe foi criada para poder agrupar os mapas de isópacas, isócronas e is
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A profile that represents interpreted formations, often groups of lithologies, which are distinctly layered in nature, are consistent between wells in their order from the surface downward, and never repeat within a borehole.</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A profile that represents interpreted formations, often groups of lithologies, which are distinctly layered in nature, are consistent between wells in their order from the surface downward.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_stratigraphic_profile</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um perfil que representa formações interpretadas, geralmente grupos de litologias, cuja natureza é de camadas distintas, é consistente entre os poços em sua ordem da superfície para baixo e nunca se repete dentro de um poço.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um perfil que representa formações interpretadas, geralmente grupos de litologias, cuja natureza é de camadas distintas, é consistente entre os poços em sua ordem da superfície para baixo.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
@@ -4392,7 +4395,7 @@ Esta classe foi criada para poder agrupar os mapas de isópacas, isócronas e is
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_synthetic_seismogram</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Registro artificial de eventos sísmicos simulados, construído a partir de dados de um perfil de velocidades pela convolução da função de refletividade com uma forma de onda que inclui os efeitos da geração de energia, da propagação de ondas, da filtragem pela terra e pelo sistema de gravação.
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Registro artificial de eventos sísmicos simulados, construído a partir de dados de um perfil de velocidades pela convolução da função de refletividade com uma forma de onda que inclui os efeitos da geração de energia, da propagação de ondas, da filtragem pela terra e pelo sistema de gravação.
 
 De forma mais abrangente, este registro sísmico artificial pode ser construído para uma estrutura estratificada (modelo geológico de maior ou menor complexidade) na qual o perfil de velocidades individuais de cada formação e as correspondentes densidades e espessuras sejam conhecidos. É utilizado para interpretações geológicas e em modelos geofísicos.</Literal>
     </AnnotationAssertion>
@@ -4553,7 +4556,7 @@ Séries temporais frequentemente são plotadas como gráficos de linhas. Séries
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_tomogram</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a imagem resultante de um processo de tomografia. Tomografia é o imageamento seccionado de um objeto através do uso de qualquer tipo de onda penetrante, como raio-x ou sísmica.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a imagem resultante de um processo de tomografia. Tomografia é o imageamento seccionado de um objeto através do uso de qualquer tipo de onda penetrante, como raio-x.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
