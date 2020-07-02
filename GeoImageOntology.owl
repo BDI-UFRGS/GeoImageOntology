@@ -1711,7 +1711,7 @@ https://www.glossary.oilfield.slb.com/en/Terms/c/check-shot_survey.aspx</Literal
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_chromatogram</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um registro visual (assim como uma série de faixas coloridas, ou um gráfico) qque mostra o resultado da separação dos componentes de uma mistura por cromatografia.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Um registro visual (assim como uma série de faixas coloridas, ou um gráfico) que mostra o resultado da separação dos componentes de uma mistura por cromatografia.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
@@ -3076,7 +3076,7 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_magnetic_anomaly_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a representação da anomalia magnética qiue é uma variação local no campo magnético da Terra resultante de variações na química ou no magnetismo das rochas. O mapeamento da variação sobre uma área é importante para detectar estruturas desconhecidas ou dificeis de mapear por conta de cobertura (ex. cobertura sedimentar sobreposta).</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a representação da anomalia magnética que é uma variação local no campo magnético da Terra resultante de variações na química ou no magnetismo das rochas. O mapeamento da variação sobre uma área é importante para detectar estruturas desconhecidas ou dificeis de mapear por conta de cobertura (ex. cobertura sedimentar sobreposta).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
@@ -3176,12 +3176,12 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_nuclear_magnetic_resonance_log</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Log de ressonância magnética nuclear (NMR) é um tipo de log de poço que usa resposta de NMR de uma formação para determinar diretamente sua porosidade e permeabilidade, fornecendo um registro contínuo ao longo da extensão do poço.</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nuclear magnetic resonance (NMR) logging is a type of well logging that uses the NMR response of a formation to directly determine its porosity and permeability, providing a continuous record along the length of the borehole.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_nuclear_magnetic_resonance_log</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nuclear magnetic resonance (NMR) logging is a type of well logging that uses the NMR response of a formation to directly determine its porosity and permeability, providing a continuous record along the length of the borehole.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Perfil de ressonância magnética nuclear (NMR) é um tipo de log de poço que usa resposta de NMR de uma formação para determinar diretamente sua porosidade e permeabilidade, fornecendo um registro contínuo ao longo da extensão do poço.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
@@ -4203,16 +4203,14 @@ https://en.wikipedia.org/wiki/Gamma_ray_logging</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In geometry, the stereographic projection is a particular mapping (function) that projects a sphere onto a plane. The projection is defined on the entire sphere, except at one point: the projection point. Where it is defined, the mapping is smooth and bijective. It is conformal, meaning that it preserves angles at which curves meet. It is neither isometric nor area-preserving: that is, it preserves neither distances nor the areas of figures.
-
-Intuitively, then, the stereographic projection is a way of picturing the sphere as the plane, with some inevitable compromises. Because the sphere and the plane appear in many areas of mathematics and its applications, so does the stereographic projection; it finds use in diverse fields including complex analysis, cartography, geology, and photography.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A projeção estereográfica é uma maneira de retratar a esfera como um plano. Nela são plotadas representações da atitude de estruturas geológicas planares e lineares.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_stereographic_projection</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Na geometria, a projeção estereográfica é um mapeamento (função) específico que projeta uma esfera em um plano. A projeção é definida em toda a esfera, exceto em um ponto: o ponto de projeção. Onde é definido, o mapeamento é suave e bijetivo. É conforme, o que significa que preserva ângulos nos quais as curvas se encontram. Não é isométrico nem preserva a área: ou seja, não preserva nem distâncias nem áreas de figuras.
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In geometry, the stereographic projection is a particular mapping (function) that projects a sphere onto a plane. The projection is defined on the entire sphere, except at one point: the projection point. Where it is defined, the mapping is smooth and bijective. It is conformal, meaning that it preserves angles at which curves meet. It is neither isometric nor area-preserving: that is, it preserves neither distances nor the areas of figures.
 
-Intuitivamente, então, a projeção estereográfica é uma maneira de retratar a esfera como o plano, com alguns compromissos inevitáveis. Como a esfera e o plano aparecem em muitas áreas da matemática e suas aplicações, o mesmo ocorre com a projeção estereográfica; encontra uso em diversos campos, incluindo análises complexas, cartografia, geologia e fotografia.</Literal>
+Intuitively, then, the stereographic projection is a way of picturing the sphere as the plane, with some inevitable compromises. Because the sphere and the plane appear in many areas of mathematics and its applications, so does the stereographic projection; it finds use in diverse fields including complex analysis, cartography, geology, and photography.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
