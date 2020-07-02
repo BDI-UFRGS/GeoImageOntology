@@ -3854,7 +3854,7 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_seismic_attribute_map</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Apresenta informações extraídas ou derivadaaaaas de dados sísmicos que podem ser analisados para aprimorar informações mais sutis em uma imagem sísmica tradicional, levando a uma melhor interpretação geológica ou geofísica dos dados.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Apresenta informações extraídas ou derivadas de dados sísmicos que podem ser analisados para aprimorar informações mais sutis em uma imagem sísmica tradicional, levando a uma melhor interpretação geológica ou geofísica dos dados.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
