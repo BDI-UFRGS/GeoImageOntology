@@ -4791,7 +4791,7 @@ https://www.glossary.oilfield.slb.com/Terms/v/vertical_seismic_profile.aspx</Lit
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_well_correlation</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a demonstração de correspondência em caráter e em posição estratigráfica entre áreas separadas geograficcamente (ISSC, 1994), ou seja, unidades estratigráficas em duas ou mais áreas separadas são demonstradas ou determinadas como sendo lateralmente semelhantes.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a demonstração de correspondência em caráter e em posição estratigráfica entre áreas separadas geograficamente (ISSC, 1994), ou seja, unidades estratigráficas em duas ou mais áreas separadas são demonstradas ou determinadas como sendo lateralmente semelhantes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
