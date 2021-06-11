@@ -5,7 +5,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology">
+     ontologyIRI="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology"
+     versionIRI="http://www.inf.ufrgs.br/bdi/ontologies/11-06-21/GeoImageOntology">
     <Prefix name="" IRI="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
@@ -18,8 +19,7 @@
     <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
     <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
     <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
-    <Import>http://purl.obolibrary.org/obo/iao/dev/iao-edit.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cassiana Michelin</Literal>
