@@ -44,19 +44,19 @@
         <Class IRI="#UFRGS:GeoImage_acoustic_image_log"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
+        <Class IRI="#UFRGS:GeoImage_sem_image"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_sem_image"/>
+        <Class IRI="#UFRGS:GeoImage_proportional_symbol_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_topographic_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_isochron_map"/>
+        <Class IRI="#UFRGS:GeoImage_petrophysical_model_3d_view"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_petrophysical_model_3d_view"/>
+        <Class IRI="#UFRGS:GeoImage_isochron_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_basic_profile"/>
@@ -71,22 +71,25 @@
         <Class IRI="#UFRGS:GeoImage_well_core_photograph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stereogram"/>
+        <Class IRI="#UFRGS:GeoImage_porosity_model_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_time_series"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
+        <Class IRI="#UFRGS:GeoImage_stereogram"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_lithogeochemical_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
+        <Class IRI="#UFRGS:GeoImage_lateral_core_photograph"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_cross_section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_satellite_image"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_stamp"/>
@@ -102,6 +105,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_structural_model_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_ternary_diagram"/>
@@ -122,13 +128,13 @@
         <Class IRI="#UFRGS:GeoImage_topographic_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_geological_process_sketch"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_special_profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFRGS:GeoImage_amplitute_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_lithologic_profile"/>
@@ -182,6 +188,9 @@
         <Class IRI="#UFRGS:GeoImage_microfossil_photograph"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_facies_model_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_paleoecological_map"/>
     </Declaration>
     <Declaration>
@@ -194,10 +203,10 @@
         <Class IRI="#UFRGS:GeoImage_resistivity_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_physical_property_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_cartogram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_cartogram"/>
+        <Class IRI="#UFRGS:GeoImage_physical_property_cross_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_stratigraphic_profile"/>
@@ -206,19 +215,22 @@
         <Class IRI="#UFRGS:GeoImage_interpreted_seismic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_well_trajectory"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFRGS:GeoImage_temperature_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_well_trajectory"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_paleobathymetric_map"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_stratigraphic_cross_section"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_permeability_model_3d_view"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_grid_geological_model_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_diagrammatic_cross_section"/>
@@ -227,10 +239,10 @@
         <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_density_profile"/>
+        <Class IRI="#UFRGS:GeoImage_diagrammatic_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_diagrammatic_map"/>
+        <Class IRI="#UFRGS:GeoImage_density_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_ratio_map"/>
@@ -266,19 +278,19 @@
         <Class IRI="#UFRGS:GeoImage_wireline_well_log"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
+        <Class IRI="#UFRGS:GeoImage_isopach_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_isopach_map"/>
+        <Class IRI="#UFRGS:GeoImage_gamma_ray_profile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_structure_contour_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_seismic_section"/>
+        <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_geophysical_cross_section"/>
+        <Class IRI="#UFRGS:GeoImage_seismic_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_well_perforation"/>
@@ -287,10 +299,13 @@
         <Class IRI="#UFRGS:GeoImage_caliper_profile"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_aerial_photograph"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_photographic_interpretation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_aerial_photograph"/>
+        <Class IRI="#UFRGS:GeoImage_petrophysical_model_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_seismic_profile"/>
@@ -306,6 +321,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_hand_sample_photograph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoImage_saturation_model_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_tomogram"/>
@@ -326,10 +344,10 @@
         <Class IRI="#UFRGS:GeoImage_synthetic_seismogram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
+        <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_spontaneous_potential_profile"/>
+        <Class IRI="#UFRGS:GeoImage_outcrop_photograph"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_paleogeographic_map"/>
@@ -395,10 +413,10 @@
         <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
+        <Class IRI="#UFRGS:GeoImage_magnetic_anomaly_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_magnetic_anomaly_map"/>
+        <Class IRI="#UFRGS:GeoImage_point_location_map"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_bar_chart"/>
@@ -416,10 +434,10 @@
         <Class IRI="#UFRGS:GeoImage_well_planning"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_digital_rock"/>
+        <Class IRI="#UFRGS:GeoImage_gravity_anomaly_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_gravity_anomaly_map"/>
+        <Class IRI="#UFRGS:GeoImage_digital_rock"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_bouguer_anomaly_map"/>
@@ -437,13 +455,16 @@
         <Class IRI="#UFRGS:GeoImage_sketch"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_permeability_model_map"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_sonic_profile"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
+        <Class IRI="#UFRGS:GeoImage_isolith_map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoImage_isolith_map"/>
+        <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoImage_profile"/>
@@ -646,6 +667,10 @@
         <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_facies_model_map"/>
+        <Class IRI="#UFRGS:GeoImage_grid_geological_model_map"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_fence_diagram"/>
         <Class IRI="#UFRGS:GeoImage_geological_correlation"/>
     </SubClassOf>
@@ -716,6 +741,17 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_grid_geological_model"/>
         <Class abbreviatedIRI="obo:IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_grid_geological_model_map"/>
+        <Class IRI="#UFRGS:GeoImage_thematic_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_grid_geological_model_map"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class IRI="#UFRGS:GeoImage_grid_geological_model"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_hand_sample_photograph"/>
@@ -838,8 +874,16 @@
         <Class IRI="#UFRGS:GeoImage_petrophysical_model_3d_view"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_permeability_model_map"/>
+        <Class IRI="#UFRGS:GeoImage_grid_geological_model_map"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_petrophysical_model_3d_view"/>
         <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_petrophysical_model_map"/>
+        <Class IRI="#UFRGS:GeoImage_grid_geological_model_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_photoelectric_factor"/>
@@ -860,6 +904,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_porosity_model_3d_view"/>
         <Class IRI="#UFRGS:GeoImage_petrophysical_model_3d_view"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_porosity_model_map"/>
+        <Class IRI="#UFRGS:GeoImage_grid_geological_model_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_profile"/>
@@ -908,6 +956,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_saturation_model_3d_view"/>
         <Class IRI="#UFRGS:GeoImage_petrophysical_model_3d_view"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_saturation_model_map"/>
+        <Class IRI="#UFRGS:GeoImage_grid_geological_model_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_seismic_attribute_map"/>
@@ -984,6 +1036,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_structural_model_3d_view"/>
         <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_structural_model_map"/>
+        <Class IRI="#UFRGS:GeoImage_grid_geological_model_map"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_structure_contour_map"/>
@@ -2295,6 +2351,16 @@ Mindat.org glossary, project of the Hudson Institute of Mineralogy.</Literal>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">visão 3d de modelo de fácies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_facies_model_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">facies model map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_facies_model_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de modelo de fácies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS:GeoImage_fence_diagram</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A graphical display of three-dimensional data and interpretations in two-dimensional perspective view. Geologic cross sections can be displayed in a network to form a fence diagram. Stratigraphic changes can be displayed clearly in fence diagrams.</Literal>
@@ -2756,6 +2822,21 @@ Em troca de emails, Eujana mencionou que Correlação Geológica seria um nome m
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_grid_geological_model</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grid geological model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFRGS:GeoImage_grid_geological_model_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Classe de mapas que são visualização em planta de um modelo geológico de grid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_grid_geological_model_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grid geological model map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_grid_geological_model_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de modelo geológico de grid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3518,6 +3599,16 @@ https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_logging</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_permeability_model_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de modelo de permeabilidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_permeability_model_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">permeability model map</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_petrophysical_model_3d_view</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">petrophysical model 3d view</Literal>
     </AnnotationAssertion>
@@ -3525,6 +3616,16 @@ https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_logging</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_petrophysical_model_3d_view</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">visão 3d de modelo petrofísico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_petrophysical_model_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de modelo petrofísico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_petrophysical_model_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">petrophysical model map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3654,6 +3755,16 @@ https://www.glossary.oilfield.slb.com/en/Terms/p/pef.aspx</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_porosity_model_3d_view</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">visão 3d de modelo de porosidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_porosity_model_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de modelo de porosidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_porosity_model_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">porosity model map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3971,6 +4082,16 @@ https://www.spec2000.net/07-resimagelog.htm</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_saturation_model_3d_view</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">visão 3d de modelo de saturação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_saturation_model_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de modelo de saturação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_saturation_model_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">saturation model map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -4484,6 +4605,16 @@ Esta classe foi criada para poder agrupar os mapas de isópacas, isócronas e is
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_structural_model_3d_view</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">visão 3d de modelo estrutural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_structural_model_map</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de modelo estrutural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_structural_model_map</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structural model map</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -5091,7 +5222,7 @@ Representação de propriedades geológicas em 3 dimensões. Pode ser construíd
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:UFRGS:GeoImage_3d_geological_model</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3d view of grid geological model</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grid geological model 3d view</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
