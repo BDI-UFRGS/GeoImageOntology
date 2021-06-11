@@ -374,6 +374,9 @@
         <Class IRI="#UFRGS:GeoImage_drill_cutting_photograph"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoImage_grid_geological_model"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
     </Declaration>
     <Declaration>
@@ -687,6 +690,10 @@
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_gravity_anomaly_map"/>
         <Class IRI="#UFRGS:GeoImage_geophysical_map"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoImage_grid_geological_model"/>
+        <Class abbreviatedIRI="obo:IAO_0000030"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoImage_hand_sample_photograph"/>
@@ -2675,6 +2682,21 @@ Em troca de emails, Eujana mencionou que Correlação Geológica seria um nome m
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoImage_gravity_anomaly_map</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapa de anomalia gravimétrica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFRGS:GeoImage_grid_geological_model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Este termo foi inserido após avaliação de Lucas Valadares e Luan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFRGS:GeoImage_grid_geological_model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Este é um modelo de grid, que representa alguma entidade geológica e que pode ter diversas visualizações associadas, como uma visão em perspectiva 3d, visão em planta (mapa) ou visão em seção.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoImage_grid_geological_model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grid geological model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
