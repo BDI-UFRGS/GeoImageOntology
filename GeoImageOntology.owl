@@ -1023,6 +1023,13 @@
         <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
         <Class abbreviatedIRI="obo:IAO_0000309"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:UFRGS:GeoImage_3d_geological_model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class IRI="#UFRGS:GeoImage_grid_geological_model"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFRGS:GeoImage_Photomicrograph"/>
         <Class IRI="#UFRGS:GeoImage_satellite_image"/>
@@ -4954,11 +4961,6 @@ O termo em português passou a ser Perfil Elétrico, pois segundo a exploração
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">wireline well log</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#UFRGS:UFRGS:GeoImage_3d_geological_model</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Representação de propriedades geológicas em 3 dimensões. Pode ser construído com dados reais ou de forma esquemática baseado em conceitos geológicos.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <IRI>#UFRGS:UFRGS:GeoImage_3d_geological_model</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3d grid model</Literal>
@@ -4979,14 +4981,20 @@ O termo em português passou a ser Perfil Elétrico, pois segundo a exploração
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Garcia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UFRGS:UFRGS:GeoImage_3d_geological_model</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3d geological model</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Definição anterior: 
+Representação de propriedades geológicas em 3 dimensões. Pode ser construído com dados reais ou de forma esquemática baseado em conceitos geológicos.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:UFRGS:GeoImage_3d_geological_model</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">modelo geológico 3d</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3d visualization of grid geological model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:UFRGS:GeoImage_3d_geological_model</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">visualização 3d de modelo geológico de grid</Literal>
     </AnnotationAssertion>
 </Ontology>
 
