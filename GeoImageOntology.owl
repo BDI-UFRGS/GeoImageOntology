@@ -20,6 +20,7 @@
     <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
     <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
     <Import>http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl</Import>
+    <Import>http://www.inf.ufrgs.br/bdi/ontologies/ChartOntology/0.1</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
         <Literal xml:lang="en">Bruno Firnkes</Literal>
@@ -3296,6 +3297,11 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <IRI>#UFRGS_GeoImage_lithologic_profile</IRI>
+        <Literal xml:lang="en">lithologic column</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS_GeoImage_lithologic_profile</IRI>
         <Literal xml:lang="pt">perfil colunar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -3306,7 +3312,7 @@ http://dicionariodopetroleo.com.br/dictionary/amostra-lateral/</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS_GeoImage_lithologic_profile</IRI>
-        <Literal xml:lang="en">lithologic profile</Literal>
+        <Literal xml:lang="en">lithologic log</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5154,7 +5160,7 @@ https://wiki.aapg.org/Van_Krevelen_diagram</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#UFRGS_GeoImage_variwide_chart</IRI>
-        <Literal xml:lang="en">A variwide chart is a column chart where each column has a separate width to represent the third dimension.</Literal>
+        <Literal xml:lang="en">A variwide chart is a bar chart where each bar has a separate width to represent the third dimension.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>

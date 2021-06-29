@@ -1,0 +1,549 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.inf.ufrgs.br/bdi/ontologies/ChartOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.inf.ufrgs.br/bdi/ontologies/ChartOntology"
+     versionIRI="http://www.inf.ufrgs.br/bdi/ontologies/ChartOntology/0.1">
+    <Prefix name="" IRI="http://www.inf.ufrgs.br/bdi/ontologies/GeoImageOntology"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Import>http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal xml:lang="en">Bruno Firnkes</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal xml:lang="en">Cassiana Michelin</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal xml:lang="en">Eduardo S. L. Gastal</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal xml:lang="en">Luan Fonseca Garcia</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Lucas Valadares Vieira</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal xml:lang="en">Mara Abel</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#UFRGS_Chart_bar_chart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_Chart_box_plot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_Chart_pie_chart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_Chart_polar_chart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_Chart_radar_chart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_Chart_rose_diagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_Chart_stereographic_projection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_Chart_ternary_diagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_Chart_variogram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_Chart_variwide_chart"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdf:type"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#UFRGS_Chart_bar_chart"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_Chart_box_plot"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_Chart_pie_chart"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_Chart_polar_chart"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_Chart_radar_chart"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_Chart_rose_diagram"/>
+        <Class IRI="#UFRGS_Chart_polar_chart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_Chart_stereographic_projection"/>
+        <Class IRI="#UFRGS_Chart_polar_chart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_Chart_ternary_diagram"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_Chart_variogram"/>
+        <Class abbreviatedIRI="obo:IAO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_Chart_variwide_chart"/>
+        <Class IRI="#UFRGS_Chart_bar_chart"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000037</AbbreviatedIRI>
+        <Literal xml:lang="pt">Um gráfico de pontos é uma representação gráfica onde cada observação é representada por um único ponto posicionado em coordenadas definidas por valores da observação em certas dimensões.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000037</AbbreviatedIRI>
+        <Literal xml:lang="pt">gráfico de pontos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000038</AbbreviatedIRI>
+        <Literal xml:lang="pt">Um diagrama que apresenta uma ou mais tuplas de informação através do mapeamento de tais tuplas em um espaço bidimensional de maneira arbitrária.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000038</AbbreviatedIRI>
+        <Literal xml:lang="pt">gráfico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000057</AbbreviatedIRI>
+        <Literal xml:lang="pt">Um gráfico de contorno mostra uma visão bidimensional, na qual os pontos que têm o mesmo valor de resposta estão ligados para produzir linhas de contorno.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000057</AbbreviatedIRI>
+        <Literal xml:lang="pt">https://support.minitab.com/pt-br/minitab/18/help-and-how-to/modeling-statistics/using-fitted-models/how-to/contour-plot/before-you-start/overview/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000057</AbbreviatedIRI>
+        <Literal xml:lang="pt">gráfico de contorno</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000079</AbbreviatedIRI>
+        <Literal xml:lang="pt">Um gráfico de densidades é uma representação gráfica onde a cor de cada pixel é definida em função do número de observações (data points) próximas à posição do pixel.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000079</AbbreviatedIRI>
+        <Literal xml:lang="pt">gráfico de densidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000179</AbbreviatedIRI>
+        <Literal xml:lang="pt">Um histograma é a representação gráfica em colunas ou em barras (retângulos) de um conjunto de dados previamente tabulado e dividido em classes uniformes ou não uniformes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000179</AbbreviatedIRI>
+        <Literal xml:lang="pt">WEB: https://pt.wikipedia.org/wiki/Histograma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000179</AbbreviatedIRI>
+        <Literal xml:lang="pt">histograma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000180</AbbreviatedIRI>
+        <Literal xml:lang="pt">Um heatmap é uma representação gráfica onde os valores de um certo campo escalar são mapeados para cores em uma figura bidimensional.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000180</AbbreviatedIRI>
+        <Literal xml:lang="pt">heatmap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000181</AbbreviatedIRI>
+        <Literal xml:lang="pt">Um diagrama de Venn mostra todas possíveis relações lógicas entre uma coleção finita de conjuntos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000181</AbbreviatedIRI>
+        <Literal xml:lang="pt">diagrama de Venn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000183</AbbreviatedIRI>
+        <Literal xml:lang="pt">Um dendrograma é um diagrama gráfico no formato de árvore frequentemente utilizado para ilustrar a organização de grupos (clusters) produzidos por um algoritmo de agrupamento (clustering).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000183</AbbreviatedIRI>
+        <Literal xml:lang="pt">dendrograma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000184</AbbreviatedIRI>
+        <Literal xml:lang="pt">Um gráfico de dispersão (scatter plot) utiliza coordenadas Cartesianas para exibir valores de um conjunto de dados. Os dados são exibidos como uma coleção de pontos, cada um com o valor de uma variável determinando a posição no eixo horizontal e o valor da outra variável determinando a posição no eixo vertical (em caso de duas variáveis).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000184</AbbreviatedIRI>
+        <Literal xml:lang="pt">WEB: https://pt.wikipedia.org/wiki/Gr%C3%A1fico_de_dispers%C3%A3o</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000184</AbbreviatedIRI>
+        <Literal xml:lang="pt">gráfico de dispersão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000306</AbbreviatedIRI>
+        <Literal xml:lang="pt">tabela</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000309</AbbreviatedIRI>
+        <Literal xml:lang="pt">Uma figura que expressa uma ou mais proposições.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000309</AbbreviatedIRI>
+        <Literal xml:lang="pt">diagrama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000573</AbbreviatedIRI>
+        <Literal xml:lang="pt">Um gráfico de linha é um gráfico criado através da conexão de vários pontos utilizando segmentos de linhas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:IAO_0000573</AbbreviatedIRI>
+        <Literal xml:lang="en">line plot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000573</AbbreviatedIRI>
+        <Literal xml:lang="pt">gráfico de linha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_bar_chart</IRI>
+        <Literal xml:lang="en">A bar chart or bar graph is a chart or graph that presents categorical data with rectangular bars with heights or lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally. A vertical bar chart is sometimes called a column chart.
+
+A bar graph shows comparisons among discrete categories. One axis of the chart shows the specific categories being compared, and the other axis represents a measured value. Some bar graphs present bars clustered in groups of more than one, showing the values of more than one measured variable.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_bar_chart</IRI>
+        <Literal xml:lang="pt">O gráfico de barras é um gráfico com barras retangulares e comprimento proporcional aos valores que ele representa. As barras podem ser desenhadas verticalmente ou horizontalmente. O gráfico de barras vertical as vezes é chamado de gráfico de colunas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS_Chart_bar_chart</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Bar_chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS_Chart_bar_chart</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_bar_chart</IRI>
+        <Literal xml:lang="en">bar chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_bar_chart</IRI>
+        <Literal xml:lang="pt">gráfico de barra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_box_plot</IRI>
+        <Literal xml:lang="pt">Em estatística descritiva, diagrama de caixa, diagrama de extremos e quartis, boxplot ou box plot é uma ferramenta gráfica para representar a variação de dados observados de uma variável numérica por meio de quartis . O boxplot tem uma reta (whisker ou fio de bigode) que estende–se verticalmente ou horizontalmente a partir da caixa, indicando a variabilidade fora do quartil superior e do quartil inferior. Os valores atípicos ou outliers (valores discrepantes) podem ser plotados como pontos individuais. O boxplot não é paramétrico, apresentando a variação em amostras de uma população estatística sem fazer qualquer suposição da distribuição estatística subjacente. Os espaços entre as diferentes partes da caixa indicam o grau de dispersão, a obliquidade nos dados e os outliers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_box_plot</IRI>
+        <Literal xml:lang="en">In descriptive statistics, a box plot or boxplot is a method for graphically depicting groups of numerical data through their quartiles. Box plots may also have lines extending from the boxes (whiskers) indicating variability outside the upper and lower quartiles, hence the terms box-and-whisker plot and box-and-whisker diagram. Outliers may be plotted as individual points. Box plots are non-parametric: they display variation in samples of a statistical population without making any assumptions of the underlying statistical distribution (though Tukey&apos;s boxplot assumes symmetry for the whiskers and normality for their length). The spacings between the different parts of the box indicate the degree of dispersion (spread) and skewness in the data, and show outliers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS_Chart_box_plot</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Box_plot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS_Chart_box_plot</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_box_plot</IRI>
+        <Literal xml:lang="en">box plot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_box_plot</IRI>
+        <Literal xml:lang="pt">gráfico de caixa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_pie_chart</IRI>
+        <Literal xml:lang="en">A pie chart (or a circle chart) is a circular statistical graphic, which is divided into slices to illustrate numerical proportion. In a pie chart, the arc length of each slice (and consequently its central angle and area), is proportional to the quantity it represents.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS_Chart_pie_chart</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Pie_chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS_Chart_pie_chart</IRI>
+        <Literal xml:lang="en">Lucas Valadares</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_pie_chart</IRI>
+        <Literal xml:lang="pt">gráfico de pizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_pie_chart</IRI>
+        <Literal xml:lang="en">pie chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_polar_chart</IRI>
+        <Literal xml:lang="en">polar chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_radar_chart</IRI>
+        <Literal xml:lang="en">A radar chart is a graphical method of displaying multivariate data in the form of a two-dimensional chart of three or more quantitative variables represented on axes starting from the same point. The relative position and angle of the axes is typically uninformative, but various heuristics, such as algorithms that plot data as the maximal total area, can be applied to sort the variables (axes) into relative positions that reveal distinct correlations, trade-offs, and a multitude of other comparative measures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_radar_chart</IRI>
+        <Literal xml:lang="pt">Um gráfico de radar é um método gráfico de apresentar dados multivariáveis na forma de um gráfico bidimensional de três ou mais variáveis quantitativas representadas em eixos que partem do mesmo ponto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS_Chart_radar_chart</IRI>
+        <Literal xml:lang="pt">gráfico aranha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS_Chart_radar_chart</IRI>
+        <Literal xml:lang="pt">gráfico de teia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS_Chart_radar_chart</IRI>
+        <Literal xml:lang="en">spider chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS_Chart_radar_chart</IRI>
+        <Literal xml:lang="en">spider web chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS_Chart_radar_chart</IRI>
+        <Literal xml:lang="en">web chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS_Chart_radar_chart</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Radar_chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS_Chart_radar_chart</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_radar_chart</IRI>
+        <Literal xml:lang="pt">gráfico de radar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_radar_chart</IRI>
+        <Literal xml:lang="en">radar chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_rose_diagram</IRI>
+        <Literal xml:lang="en">A rose diagram is a circular histogram plot which displays directional data and the frequency of each class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_rose_diagram</IRI>
+        <Literal xml:lang="pt">Um diagrama de roseta é um histograma circular que exibe dados direcionais e a frequência de cada classe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS_Chart_rose_diagram</IRI>
+        <Literal xml:lang="en">Dictionary of Earth Sciences, Michael Allaby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_rose_diagram</IRI>
+        <Literal xml:lang="pt">diagrama de roseta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_rose_diagram</IRI>
+        <Literal xml:lang="en">rose diagram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_stereographic_projection</IRI>
+        <Literal xml:lang="pt">A projeção estereográfica é uma maneira de retratar a esfera como um plano. Nela são plotadas representações da atitude de estruturas geológicas planares e lineares.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_stereographic_projection</IRI>
+        <Literal xml:lang="en">In geometry, the stereographic projection is a particular mapping (function) that projects a sphere onto a plane. The projection is defined on the entire sphere, except at one point: the projection point. Where it is defined, the mapping is smooth and bijective. It is conformal, meaning that it preserves angles at which curves meet. It is neither isometric nor area-preserving: that is, it preserves neither distances nor the areas of figures.
+
+Intuitively, then, the stereographic projection is a way of picturing the sphere as the plane, with some inevitable compromises. Because the sphere and the plane appear in many areas of mathematics and its applications, so does the stereographic projection; it finds use in diverse fields including complex analysis, cartography, geology, and photography.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS_Chart_stereographic_projection</IRI>
+        <Literal xml:lang="pt">estereograma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#UFRGS_Chart_stereographic_projection</IRI>
+        <Literal xml:lang="en">stereogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS_Chart_stereographic_projection</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Stereographic_projection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS_Chart_stereographic_projection</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_stereographic_projection</IRI>
+        <Literal xml:lang="pt">projeção estereográfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_stereographic_projection</IRI>
+        <Literal xml:lang="en">stereographic projection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_ternary_diagram</IRI>
+        <Literal xml:lang="en">A plot on three variables which sum to a constant. It graphically depicts the ratios of the three variables as positions in an equilateral triangle. The values of the three variables a, b, and c must sum to some constant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_ternary_diagram</IRI>
+        <Literal xml:lang="pt">Um gráfico em três variáveis ​​que somam uma constante. Representa graficamente as proporções das três variáveis ​​como posições em um triângulo equilátero. Os valores das três variáveis ​​a, b e c devem somar alguma constante</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS_Chart_ternary_diagram</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Ternary_plot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_ternary_diagram</IRI>
+        <Literal xml:lang="pt">diagrama ternário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_ternary_diagram</IRI>
+        <Literal xml:lang="en">ternary diagram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_variogram</IRI>
+        <Literal xml:lang="pt">O variograma é uma função que mede a variação do valor de uma variável em relação às restantes da mesma amostragem. Embora seja, de fato, uma derivação da medição de dispersão estatística variância é comumente utilizado em estatística espacial devido a contextualizar esta medição com a dimensão espacial considerando, geralmente mas não obrigatoriamente, a distância entre amostras e/ou a orientação delas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_variogram</IRI>
+        <Literal xml:lang="en">The variogram is a function that measures the variation in the value of one variable in relation to the rest of the same sample. Although it is, in fact, a derivation of the measurement of statistical dispersion variance, it is commonly used in spatial statistics due to contextualizing this measurement with the spatial dimension considering, generally but not necessarily, the distance between samples and / or their orientation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS_Chart_variogram</IRI>
+        <Literal xml:lang="pt">https://pt.wikipedia.org/wiki/Variograma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS_Chart_variogram</IRI>
+        <Literal xml:lang="en">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_variogram</IRI>
+        <Literal xml:lang="en">variogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_variogram</IRI>
+        <Literal xml:lang="pt">variograma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#UFRGS_Chart_variwide_chart</IRI>
+        <Literal xml:lang="en">A variwide chart is a bar chart where each bar has a separate width to represent the third dimension.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#UFRGS_Chart_variwide_chart</IRI>
+        <Literal xml:lang="en">https://www.highcharts.com/docs/chart-and-series-types/variwide-chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <IRI>#UFRGS_Chart_variwide_chart</IRI>
+        <Literal xml:lang="en">Lucas Valadares</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_Chart_variwide_chart</IRI>
+        <Literal xml:lang="en">variwide chart</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
