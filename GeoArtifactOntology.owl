@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.inf.ufrgs.br/bdi/ontologies/GeoArtifactOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.inf.ufrgs.br/bdi/ontologies/GeoArtifactOntology"
+     versionIRI="http://www.inf.ufrgs.br/bdi/ontologies/GeoArtifactOntology/1.0">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl</Import>
+    <Import>https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology</Import>
+    <Declaration>
+        <Class IRI="#UFRGS_GeoArtifact_cuttings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_GeoArtifact_geocellular_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_GeoArtifact_geological_artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_GeoArtifact_geological_digital_artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_GeoArtifact_hand_sample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_GeoArtifact_seismic_cube"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_GeoArtifact_sidewall_core"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_GeoArtifact_thin_section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_GeoArtifact_tomography_volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS_GeoArtifact_well_core"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_cuttings"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_cuttings"/>
+        <Class IRI="#UFRGS_GeoArtifact_geological_artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_geocellular_model"/>
+        <Class IRI="#UFRGS_GeoArtifact_geological_digital_artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_geological_artifact"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_geological_digital_artifact"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_hand_sample"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_hand_sample"/>
+        <Class IRI="#UFRGS_GeoArtifact_geological_artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_seismic_cube"/>
+        <Class IRI="#UFRGS_GeoArtifact_geological_digital_artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_sidewall_core"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_sidewall_core"/>
+        <Class IRI="#UFRGS_GeoArtifact_geological_artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_thin_section"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_thin_section"/>
+        <Class IRI="#UFRGS_GeoArtifact_geological_artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_tomography_volume"/>
+        <Class IRI="#UFRGS_GeoArtifact_geological_digital_artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_well_core"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS_GeoArtifact_well_core"/>
+        <Class IRI="#UFRGS_GeoArtifact_geological_artifact"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS_GeoArtifact_cuttings</IRI>
+        <Literal xml:lang="en">Small pieces of rock that break away due to the action of the bit teeth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS_GeoArtifact_cuttings</IRI>
+        <Literal xml:lang="en">https://glossary.oilfield.slb.com/en/terms/c/cuttings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_cuttings</IRI>
+        <Literal xml:lang="pt">amostra de calha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_cuttings</IRI>
+        <Literal xml:lang="en">cuttings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS_GeoArtifact_geocellular_model</IRI>
+        <Literal xml:lang="en">grid geological model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFRGS_GeoArtifact_geocellular_model</IRI>
+        <Literal xml:lang="pt">Um modelo geocelular é uma representação, em células, de uma entidade geológica. Em cada célula são associados valores de porosidade, permeabilidade e tipo de rocha representativos das rochas 
+
+Os modelos geocelulares são desenvolvidos em softwares como Petrel e RMS.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_geocellular_model</IRI>
+        <Literal xml:lang="en">geocellular model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_geocellular_model</IRI>
+        <Literal xml:lang="pt">modelo geocelular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_geological_artifact</IRI>
+        <Literal xml:lang="en">geological artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFRGS_GeoArtifact_geological_digital_artifact</IRI>
+        <Literal xml:lang="pt">Artefato digital, construído através de alguma metodologia, que representa algum aspecto de uma entidade geológica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_geological_digital_artifact</IRI>
+        <Literal xml:lang="en">geological digital artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_hand_sample</IRI>
+        <Literal xml:lang="pt">amostra de mão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_hand_sample</IRI>
+        <Literal xml:lang="en">hand sample</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS_GeoArtifact_seismic_cube</IRI>
+        <Literal xml:lang="pt">Dados sísmicos que possibilitam a visualização tridimensional do reservatório. Estritamente, o 3-D é um grid de linhas sísmicas 2-D interpolado que permite a criação um cubo sísmico. O cubo pode ser cortado verticalmente para criar linhas 2D ou horizontalmente para criar visualizações de tempo do sinal de deslocamento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS_GeoArtifact_seismic_cube</IRI>
+        <Literal xml:lang="pt">Petrobras</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#UFRGS_GeoArtifact_seismic_cube</IRI>
+        <Literal xml:lang="pt">Luan Garcia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_seismic_cube</IRI>
+        <Literal xml:lang="pt">cubo sísmico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_seismic_cube</IRI>
+        <Literal xml:lang="en">seismic cube</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS_GeoArtifact_sidewall_core</IRI>
+        <Literal xml:lang="en">A core taken from the side of the borehole, usually by a wireline tool. Sidewall cores may be taken using percussion or mechanical drilling.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS_GeoArtifact_sidewall_core</IRI>
+        <Literal xml:lang="en">https://glossary.oilfield.slb.com/en/terms/s/sidewall_core</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_sidewall_core</IRI>
+        <Literal xml:lang="pt">amostra lateral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_sidewall_core</IRI>
+        <Literal xml:lang="en">sidewall core</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_thin_section</IRI>
+        <Literal xml:lang="pt">lâmina petrográfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_thin_section</IRI>
+        <Literal xml:lang="en">thin section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#UFRGS_GeoArtifact_tomography_volume</IRI>
+        <Literal xml:lang="en">A technique for imaging a core by scanning it with a highly focused source of X-rays and recording the attenuated X-rays on the other side. The source and detector are rotated and moved along the core. The measurements are combined mathematically to give a full core image.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS_GeoArtifact_tomography_volume</IRI>
+        <Literal xml:lang="en">ct scan volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>#UFRGS_GeoArtifact_tomography_volume</IRI>
+        <Literal xml:lang="en">https://glossary.oilfield.slb.com/en/terms/c/computed_tomography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFRGS_GeoArtifact_tomography_volume</IRI>
+        <Literal xml:lang="pt">O volume tomográfico é o resultado da aquisição tomográfica e processamento dos resultados.
+
+Esse volume costuma ser armazenado em formats DICOM e/ou HDF5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_tomography_volume</IRI>
+        <Literal xml:lang="en">tomography volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS_GeoArtifact_well_core</IRI>
+        <Literal xml:lang="en">whole core</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_well_core</IRI>
+        <Literal xml:lang="pt">testemunho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS_GeoArtifact_well_core</IRI>
+        <Literal xml:lang="en">well core</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
